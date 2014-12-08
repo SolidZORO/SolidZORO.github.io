@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="zh"><head><title>angularJS雙向綁定的應用場景 - SolidZORO</title><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="renderer" content="webkit"><meta name="description" content=""><link rel="stylesheet" href="../themes/ryu/assets/css/style.css"><script src="../themes/ryu/assets/js/app.js"></script></head><body class="katana"><div class="saya-header"><div class="saya"><div class="logo"><a href="../index.html" title="SolidZORO" alt="SolidZORO">首頁</a></div><div class="nav"><ul><li><a href="#">關於</a></li><li><a href="#">專案</a></li></ul></div></div></div><div class="saya-container"><div class="saya"><div class="item"><h1 class="title">angularJS雙向綁定的應用場景</h1><div class="date">2014-09-22 13:46:27</div><div class="typo"><p>用angularJS（下文簡稱ng）的時間加起來沒超過一天，但的的確確能感覺這是一個值得一試的框架。之前只是想學一下這個新奇的東西，但是在嘗試過後，決定用ng從寫公司CMS的後臺（原爲backboneJS）。</p>
+
+<p>案例1：雙向綁定帶來了極大的便利
+剛看ng的時候，我實在搞不懂這個雙向綁定到底是什麼，感覺只是在一個地方輸入文字，其他地方跟着變化而已。想不到什麼應用場景，但是在移植後臺編輯器這塊的時候讓我頗爲驚喜。</p>
+
+<p>需求是這樣的：
+後臺編輯器有3個，可以來回切換，分別是</p>
+
+<ul>
+<li>ace（代碼高亮，debug的時候用）</li>
+<li>tinymce（可視化，給不懂HTML的用戶使用）</li>
+<li>text（純文本，手機上用）。</li>
+</ul>
+
+<p>在用backbone開發的時候，切換3個編輯器非常頭疼，或者說，從2個編輯器變到3個的時候非常頭疼，因爲backbnone沒有雙向綁定，我們可以做的事情就是先找一個textarea出來，作爲緩衝層。</p>
+
+<p>什麼時候用戶點擊了切換按鈕，再用賦值的方式把緩衝層的代碼copy到切換的編輯器中，如果用戶切換了別的編輯器，那就再重複做這個事件。巨麻煩巨坑，以至於爲了理清這些編輯器的切換邏輯我們就花了兩天。</p>
+
+<p>本以爲用ng移植這個編輯器也會變得很複雜，結果前幾天用ng重寫的時候，非常順，幾行代碼就完成了，把編輯器都綁一個ng-model，初始化的時候只顯示一個，別的先隱藏，點擊切換的時候其實只是在做隱藏和顯示的切換，這就是一切了！</p>
+
+<p>巨簡單，巨省心，完全不用做什麼額外的工作就全都好了，結合ui-bootstrap的切換tab組件，5分鐘完成妥妥的，真讓我不敢相信，太tmd神奇了。</p>
+
+<p>另外，現在ng的週邊組件還不多，但這並不影響用ng做商用開發，我覺得ng自帶的一些特性完全可以滿足「不是特別複雜」的後臺開發了。</p>
+
+<p>不過，對於網站前臺開發可能還需要再等等，1.3版本不支持IE8的確是個硬傷，如果是Mobile開發可以大膽使用，另外ng這種方式對SEO還是非常不利的，不曉得今後會有什麼對策出來解決這個問題。</p></div><div class="tags"><span>標籤：</span><a href="../tag/Javascript.html">Javascript</a><a href="../tag/ng.html">ng</a><a href="../tag/_代碼.html">_代碼</a><a href="../tag/backbonejs.html">backbonejs</a><a href="../tag/angularjs.html">angularjs</a></div><div class="comment"><div data-thread-key="2014-09-22 13:46:27" data-title="angularJS雙向綁定的應用場景" data-url="2014-09-22-134627" class="ds-thread"></div><script type="text/javascript">var duoshuoQuery = {short_name:"zoro"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();</script></div></div></div></div><div class="saya-footer"><div class="saya"><div class="copyright">© 2014&nbsp;<a href="http://solidzoro.com" target="_blank">SOLIDZORO</a>&nbsp;BY&nbsp;<a href="https://github.com/SolidZORO/HADOUKEN" target="_blank">HADOUKEN</a></div></div></div></body></html>

@@ -1,0 +1,26 @@
+extends ./layout/default.jade
+
+block title
+    title #{title} - tag - SolidZORO
+block style
+    link(rel='stylesheet', href='../themes/ryu/assets/css/style.css')
+block script
+    script(src='../themes/ryu/assets/js/app.js')
+
+block container
+    .saya-container
+        .saya
+            h1.title tag:
+                code #{title}
+            each tag in tags
+                .item
+                    a(href='../day/' + tag.url + '.html')
+                        h2.title #{tag.title}
+                    .date #{tag.date}
+
+                    .typo
+                        - if (tag.banner)
+                            .banner-thumb
+                                img(src='../' + tag.banner_thumbnail)
+                        |!{tag.content}
+
