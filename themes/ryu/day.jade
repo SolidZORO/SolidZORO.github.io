@@ -1,7 +1,7 @@
 extends ./layout/default
 
 block title
-    title #{entrie.title} - SolidZORO
+    title #{day.title} - SolidZORO
 block style
     link(rel='stylesheet', href='../themes/ryu/assets/css/style.css')
 block script
@@ -10,25 +10,26 @@ block script
 block container
     .saya-container
         .saya
-            .item
-                h1.title #{entrie.title}
-                .date #{entrie.date}
-                .typo
-                    - if (entrie.banner)
-                        .banner
-                            img(src='../' + entrie.banner)
-                    |!{entrie.content}
+            .detaile
+                .item
+                    h1.title #{day.title}
+                    .date #{day.data_zh}
+                    .typo
+                        - if (day.banner)
+                            .banner
+                                img(src='../' + day.banner)
+                        |!{day.content_html}
 
-                - if (entrie.tags)
-                    .tags
-                        span 標籤：
-                        each tag in entrie.tags
-                            a(href='../tag/'+ tag + '.html') #{tag}
-                .comment
+                    - if (day.tags)
+                        .tags
+                            span 標籤：
+                            each tag in day.tags
+                                a(href='../tag/'+ tag + '.html') #{tag}
+                .item.comment
                     .ds-thread(
-                            data-thread-key="#{entrie.date}"
-                            data-title="#{entrie.title}"
-                            data-url="#{entrie.url}"
+                            data-thread-key="#{day.date}"
+                            data-title="#{day.title}"
+                            data-url="http://solidzoro.com/day/#{day.url}.html"
                     )
                     script(type="text/javascript").
                         var duoshuoQuery = {short_name:"zoro"};

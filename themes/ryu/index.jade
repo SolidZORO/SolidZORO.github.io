@@ -10,14 +10,18 @@ block script
 block container
     .saya-container
         .saya
-            each entrie in entries
-                .item
-                    a(href='./day/' + entrie.url + '.html')
-                        h2.title #{entrie.title}
-                    .date #{entrie.date}
+            each day in all_day
+                .list
+                    .item
+                        h2.title
+                            a(href='./day/' + day.url + '.html') #{day.title}
+                        .date #{day.data_zh}
 
-                    .typo
-                        - if (entrie.banner)
-                            .banner-thumb
-                                img(src=entrie.banner_thumbnail)
-                        |!{entrie.content}
+                        .typo
+                            - if (day.banner_thumb)
+                                .banner-thumb
+                                    img(src=day.banner_thumb)
+                            - if (day.content_list_html)
+                                |!{day.content_list_html}
+                            - else
+                                |!{day.content_html}

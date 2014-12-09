@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creation Date</key>
+	<date>2014-12-06T19:37:21Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>Macintosh/MacBookPro11,3</string>
+		<key>Generation Date</key>
+		<date>2014-12-06T19:37:21Z</date>
+		<key>Host Name</key>
+		<string>Nobunaga</string>
+		<key>OS Agent</key>
+		<string>MacOS/10.10.1</string>
+		<key>Software Agent</key>
+		<string>Day One Mac/1.9.6</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>HADOUKEN的0.4版
+
+嗯，怎麼說呢，想到HADOUKEN的0.4版要做的功能就頭皮發麻。
+
+到底生成tag用什麼方法好呢？所有文章的tag我都去重提去了，難道要每個tag給遍歷一次所有文章嗎？或者等下我去看看hexo是怎麼做的。</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>廣東</string>
+		<key>Country</key>
+		<string>中華人民共和國</string>
+		<key>Latitude</key>
+		<real>22.530136487478007</real>
+		<key>Locality</key>
+		<string>深圳</string>
+		<key>Longitude</key>
+		<real>114.02441598663734</real>
+		<key>Place Name</key>
+		<string>上沙一路</string>
+	</dict>
+	<key>Starred</key>
+	<false/>
+	<key>Tags</key>
+	<array>
+		<string>dayone2html</string>
+		<string>HADOUKEN</string>
+		<string>_代碼</string>
+		<string>nodejs</string>
+		<string>dayone</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Chongqing</string>
+	<key>UUID</key>
+	<string>A89941A1E4144D858B281C910947D716</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>17</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>63</string>
+		<key>IconName</key>
+		<string>mcloudyn.png</string>
+		<key>Pressure MB</key>
+		<integer>1019</integer>
+		<key>Relative Humidity</key>
+		<integer>68</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2014-12-06T22:52:05Z</date>
+		<key>Sunset Date</key>
+		<date>2014-12-07T09:40:13Z</date>
+		<key>Wind Bearing</key>
+		<integer>30</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>17</integer>
+		<key>Wind Speed KPH</key>
+		<integer>11</integer>
+	</dict>
+</dict>
+</plist>
