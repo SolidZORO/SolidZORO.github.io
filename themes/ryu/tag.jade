@@ -2,10 +2,6 @@ extends ./layout/default.jade
 
 block title
     title #{title} - tag - SolidZORO
-block style
-    link(rel='stylesheet', href='../themes/ryu/assets/css/style.css')
-block script
-    script(src='../themes/ryu/assets/js/app.js')
 
 block container
     .saya-container
@@ -16,12 +12,12 @@ block container
                 each tag in tags
                     .item
                         h2.title
-                            a(href='../day/' + tag.url + '.html') #{tag.title}
+                            a(href= HOME_PATH + DIRNAME_DAY + '/' + tag.url + '.html') #{tag.title}
                         .date #{tag.date}
 
                         .typo
                             - if (tag.banner_thumb)
                                 .banner-thumb
-                                    img(src='../' + tag.banner_thumb)
+                                    img(src= HOME_PATH + tag.banner_thumb)
                             |!{tag.content_html}
 

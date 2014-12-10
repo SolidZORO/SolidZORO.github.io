@@ -2,19 +2,15 @@ extends ./layout/default.jade
 
 block title
     title SolidZORO
-block style
-    link(rel='stylesheet', href='./themes/ryu/assets/css/style.css')
-block script
-    script(src='./themes/ryu/assets/js/app.js')
 
 block container
     .saya-container
         .saya
-            each day in all_day
-                .list
+            .list
+                each day in all_day_index
                     .item
                         h2.title
-                            a(href='./day/' + day.url + '.html') #{day.title}
+                            a(href= HOME_PATH+ DIRNAME_DAY + '/' + day.url + '.html') #{day.title}
                         .date #{day.data_zh}
 
                         .typo
@@ -25,3 +21,4 @@ block container
                                 |!{day.content_list_html}
                             - else
                                 |!{day.content_html}
+            include ./include/pagination.jade

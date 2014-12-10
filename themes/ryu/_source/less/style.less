@@ -1,6 +1,7 @@
 // 全局變量
 @screen-sm-min: 559px;
 @border-radius-base: 5px;
+@border-radius-xs: 3px;
 @brand-primary: #2C97DE;
 
 // 引用normalize.css
@@ -20,7 +21,7 @@ body {
     background: #fff;
 
     @media (min-width: @screen-sm-min) {
-    background: #F5F7F7;
+    background: #F4F6F7;
     }
 
 }
@@ -53,6 +54,7 @@ ul, ol {
     }
 }
 
+
 a {
     color: @brand-primary;
     // color: #2C3A99;
@@ -65,6 +67,42 @@ a {
         transition: all .3s;
     }
 }
+
+
+.pagination {
+    display: table;
+    margin: 0 auto;
+
+    a {
+        padding: 8px 15px;
+        margin: 5px;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: @border-radius-xs;
+        font-family: Courier, monospace;
+    }
+
+    a.normal {
+        color: #ccc;
+
+        &:hover {
+            color: @brand-primary;
+            background: lighten(@brand-primary, 47%);
+        }
+
+        &:active {
+            box-shadow: inset 0px 0px 5px #eee;
+        }
+    }
+
+    a.current {
+        font-weight: bold;
+        box-shadow: inset 0px 0px 5px #eee;
+        background: #fdfdfd;
+    }
+
+}
+
 
 
 
@@ -159,6 +197,14 @@ a {
                 border-radius: @border-radius-base;
                 background: #fff;
                 border: 1px solid #EAEFEF;
+            }
+        }
+    }
+
+    .list {
+        .item {
+            .typo {
+                margin-bottom: 0;
             }
         }
     }

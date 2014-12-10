@@ -2,10 +2,6 @@ extends ./layout/default
 
 block title
     title #{day.title} - SolidZORO
-block style
-    link(rel='stylesheet', href='../themes/ryu/assets/css/style.css')
-block script
-    script(src='../themes/ryu/assets/js/app.js')
 
 block container
     .saya-container
@@ -17,14 +13,17 @@ block container
                     .typo
                         - if (day.banner)
                             .banner
-                                img(src='../' + day.banner)
+                                img(src= HOME_PATH + day.banner)
                         |!{day.content_html}
 
                     - if (day.tags)
                         .tags
                             span 標籤：
                             each tag in day.tags
-                                a(href='../tag/'+ tag + '.html') #{tag}
+                                a(href= HOME_PATH + DIRNAME_TAG + '/'+ tag + '.html') #{tag}
+
+
+
                 .item.comment
                     .ds-thread(
                             data-thread-key="#{day.date}"
