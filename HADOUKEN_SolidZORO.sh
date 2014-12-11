@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Sites/com_solidzoro_github
+cd ~/Sites/com_solidzoro
 node run.js
 
 git add -A
