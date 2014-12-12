@@ -1,4 +1,26 @@
-<!DOCTYPE html><!--     __  _____    ____  ____  __  ____ __ _______   __--><!--    / / / /   |  / __ \/ __ \/ / / / //_// ____/ | / /--><!--   / /_/ / /| | / / / / / / / / / / ,<  / __/ /  |/ /--><!--  / __  / ___ |/ /_/ / /_/ / /_/ / /| |/ /___/ /|  /--><!-- /_/ /_/_/  |_/_____/\____/\____/_/ |_/_____/_/ |_/--><html lang="zh"><head><meta charset="utf-8"><title>第1頁 - SolidZORO</title><meta name="description" content="黑魔法師。"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="renderer" content="webkit"><link rel="stylesheet" href="../themes/ryu/assets/css/style.css"><script src="../themes/ryu/assets/js/app.js"></script><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="apple-touch-icon-precomposed" href="../themes/ryu/assets/img/favicon/favicon_144.png" size="144x144"><link rel="shortcut icon" href="../themes/ryu/assets/img/favicon/favicon.ico"></head><body class="katana katana-list katana-page"><div class="saya-header"><div class="saya"><div class="logo"><a href="../index.html" title="SolidZORO" alt="SolidZORO">首頁</a></div><div class="nav"><ul><li><a href="../about.html">關於</a></li><li><a href="../projectc.html">專案</a></li></ul></div></div></div><div class="saya-container"><div class="saya"><div class="list"><div class="item"><h2 class="title"><a href=".././day/2014-12-06-193721.html">HADOUKEN的0.4版</a></h2><div class="date">2014年 12月 06日</div><div class="typo clearfix"><div class="banner-thumb"><a href=".././day/2014-12-06-193721.html"><img src=".././attachment/thumb/480/A89941A1E4144D858B281C910947D716.jpg"></a></div><p>嗯，怎麼說呢，想到HADOUKEN的0.4版要做的功能就頭皮發麻。</p>
+<!DOCTYPE html><!--     __  _____    ____  ____  __  ____ __ _______   __--><!--    / / / /   |  / __ \/ __ \/ / / / //_// ____/ | / /--><!--   / /_/ / /| | / / / / / / / / / / ,<  / __/ /  |/ /--><!--  / __  / ___ |/ /_/ / /_/ / /_/ / /| |/ /___/ /|  /--><!-- /_/ /_/_/  |_/_____/\____/\____/_/ |_/_____/_/ |_/--><html lang="zh"><head><meta charset="utf-8"><title>第1頁 - SolidZORO</title><meta name="description" content="黑魔法師。"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="renderer" content="webkit"><link rel="stylesheet" href="../themes/ryu/assets/css/style.css"><script src="../themes/ryu/assets/js/app.js"></script><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="apple-touch-icon-precomposed" href="../themes/ryu/assets/img/favicon/favicon_144.png" size="144x144"><link rel="shortcut icon" href="../themes/ryu/assets/img/favicon/favicon.ico"></head><body class="katana katana-list katana-page"><div class="saya-header"><div class="saya"><div class="logo"><a href="../index.html" title="SolidZORO" alt="SolidZORO">首頁</a></div><div class="nav"><ul><li><a href="../about.html">關於</a></li><li><a href="../projectc.html">專案</a></li></ul></div></div></div><div class="saya-container"><div class="saya"><div class="list"><div class="item"><h2 class="title"><a href=".././day/2014-12-12-052614.html">關於大數據的一點點思考</a></h2><div class="date">2014年 12月 12日</div><div class="typo clearfix"><p>最近在用一個公交App，這個App可以告訴什麼車還在跑，跑到什麼地方了，還有多久才到你這裏。</p>
+
+<p>這一切都是通過GPS定位或BUS站台NFC定位實現的，這意味著要為成百上千個BUS、BUS站台部署硬件裝置。</p>
+
+<p>那有沒有什麼方法在不部署硬件的前提下做這件事情呢？</p>
+
+<p><strong>排除一切客觀因素，我覺得應該是有的。</strong></p>
+
+<p>但是這件事情在國內可能只有幾個大公司能做，比如騰訊或360，也就是說App裝機量足夠大的公司都可以做（隱私問題先不討論）。</p>
+
+<p>實現方式是定時通過App回傳GPS信息到數據庫，數據庫可以根據數據分析出很多數據，比如。</p>
+
+<p>站台：顯示GPS上停留超過3～5秒的地點（精準一點可以找出速度下降後幾秒然恢復又到正常速度的數據）。
+線路：根據路徑算法結合大量的GPS走停信息可以算出。
+BUS現在在哪裡：分析GPS在移動，且符合走停規律的線路。</p>
+
+<p>一般做BUS的人大多都是去上班，都具有持續性，比如10個P（人）上了L（BUS Line線），始發站時S0，8個在S1站先下了，2個在S2站下了，那麼在S1站下車的P走過的路線重合且短於S2下車的P，那麼就可以確定L走的線路一定經過了S1（還能確定S1是個BUS站）盒S1。但是這條站的終點在哪？因為10個P都下車了，沒辦法統計下去了，沒關係，等第二天看看有沒有P做這個L（不確定是哪線），走過之前S0到S2的站，如果符合，就繼續追蹤下去。</p></div></div><div class="item"><h2 class="title"><a href=".././day/2014-12-12-050844.html">睡5個小時就好</a></h2><div class="date">2014年 12月 12日</div><div class="typo clearfix"><p>最近每天都睡5個小時，開始幾天感覺要崩潰了，但現在似乎有變得慢慢適應了。</p>
+
+<p>每天都是很準時的每天凌晨2點睡下，早上7點起來，到了公司馬上打一杯咖啡慢慢喝掉，一天下來感覺還是很精神的，大家都說冬天容易困，不曉得為什麼我的冬天很精神。</p>
+
+<p>科學上雖說最好睡上8小時，但是我覺得睡夠了就好。以前我83KG的時候是絕對做不到睡5小時的，那時晚上10點睡到第二天8點都要覺得困，最近吃得少了，體重驟降到75KG，感覺身體輕鬆了很多，健康了很多。</p>
+
+<p>當然啦，削減掉睡眠時間主要還是因為忙，而且現在感覺時間真的很是寶貴，沒有什麼理由像以前那樣「讓時間過快的流逝掉」。</p></div></div><div class="item"><h2 class="title"><a href=".././day/2014-12-06-193721.html">HADOUKEN的0.4版</a></h2><div class="date">2014年 12月 06日</div><div class="typo clearfix"><div class="banner-thumb"><a href=".././day/2014-12-06-193721.html"><img src=".././attachment/thumb/480/A89941A1E4144D858B281C910947D716.jpg"></a></div><p>嗯，怎麼說呢，想到HADOUKEN的0.4版要做的功能就頭皮發麻。</p>
 
 <p>到底生成tag用什麼方法好呢？所有文章的tag我都去重提去了，難道要每個tag給遍歷一次所有文章嗎？或者等下我去看看hexo是怎麼做的。</p></div></div><div class="item"><h2 class="title"><a href=".././day/2014-12-01-151832.html">麻煩給我一個用OSX的理由</a></h2><div class="date">2014年 12月 01日</div><div class="typo clearfix"><div class="banner-thumb"><a href=".././day/2014-12-01-151832.html"><img src=".././attachment/thumb/480/E500CB14236444E49DD3EA7C2FE43FE1.jpg"></a></div><p>我是一個工程師，日常的工作中，超過80%的時間被設計、代碼、服務器維護所佔據。從一開始接觸電腦到工作這些年，都在用著Windows，算下來足足有14年。</p>
 
@@ -99,27 +121,4 @@
 
 <p>最近幾個月，我選擇了按時下班，除了用耳塞塞住耳朵外，別的什麼都不帶，下意識的在下班之後離開可以上網的設備，包括手機。</p>
 
-<p><a href="../day/2014-09-22-134338.html" class="read_more">閱讀全文</a></p></div></div><div class="item"><h2 class="title"><a href=".././day/2014-08-24-133550.html">互聯網初創團隊都會遇到的那些問題 </a></h2><div class="date">2014年 08月 24日</div><div class="typo clearfix"><div class="banner-thumb"><a href=".././day/2014-08-24-133550.html"><img src=".././attachment/thumb/480/4D4E8BAEDB91404E83A62C4E9094FA70.jpg"></a></div><p>也許是因爲豌豆莢最近在深圳成立了分部，所以有了這次公開課，主講是丁吉昌先生，網上查了一下他是豌豆莢初創時期的人員，我對他暸解不多，但這似乎並不妨礙我寫這篇分享文，這篇文章主要想對號入座談談自己團隊這幾年遇到的一些問題，以及……給我這個github blog開荒（捂臉）。</p>
-
-<p>那麼，丁先生講了什麼呢？回顧一下：</p>
-
-<ul>
-<li>豌豆莢的公司文化</li>
-<li>數據驗證（注意，不是數據驅動）</li>
-<li>軟件開發迭代</li>
-<li>團隊協同工具</li>
-<li>一句話概括 產品／項目（原文大概是 Product/Project Brief）</li>
-<li>OKR</li>
-</ul>
-
-<p>（……抱歉，我的記憶總是不靠譜，肯定還有什麼被遺漏了，但沒有辦法，權當只有我記得的這些吧）</p>
-
-<p><a href="../day/2014-08-24-133550.html" class="read_more">閱讀全文</a></p></div></div><div class="item"><h2 class="title"><a href=".././day/2014-08-10-172114.html">值得推薦的中文Podcasts</a></h2><div class="date">2014年 08月 10日</div><div class="typo clearfix"><p>聽Podcasts已經快一年，從友得聊開始廳，然後切到壞蛋調頻，再到野史三國、愛車一族、早睡日記等等等等，大大小小的Podcast已經聽過不下100個，這邊就總結一下各類值得聽一聽的Podcast。當然啦，由於是個人推薦，難免帶有一些個人情感因數在裏面，所以講得不客觀的地方還請大家多包含。</p>
-
-<h2>必聽Podcast</h2>
-
-<h3>壞蛋調頻 ★★★★★+</h3>
-
-<p>我覺得壞蛋是在中文Podcast圈裏做得最好的一個Podcast，由王碩和五三五五兩個人主持，聽阿海說王碩來頭不小，閱歷豐富，現職環球時報主編，另外還做過某雜誌的美食評審。五三五五是復旦大學畢業，似乎是藝術系的，對音樂和喜劇方面頗有指造，是王碩的絕佳搭檔，出於兩人對音樂、美食的理解以及對世界各國的見解，話題十分豐富多樣，時不時還請一些在各行各業超重量級的嘉賓過來一起聊聊專業知識，聽了真是巨張知識。所以還是非常有必要聽一聽的，而且呢，王碩的聲音很好聽，講話style很有范，女生們應該會比男生更喜歡。強烈推薦！</p>
-
-<p><a href="../day/2014-08-10-172114.html" class="read_more">閱讀全文</a></p></div></div></div><div class="pagination"><a href="../p/1.html" class="current"><strong>1</strong></a><a href="../p/2.html" class="normal"><span>2</span></a></div></div></div><div class="saya-footer"><div class="saya"><div class="copyright">© 2014&nbsp;<a href="http://solidzoro.com" target="_blank">SolidZORO</a>&nbsp;BY&nbsp;<a href="https://github.com/SolidZORO/HADOUKEN" target="_blank">HADOUKEN</a></div></div></div></body></html>
+<p><a href="../day/2014-09-22-134338.html" class="read_more">閱讀全文</a></p></div></div></div><div class="pagination"><a href="../p/1.html" class="current"><strong>1</strong></a><a href="../p/2.html" class="normal"><span>2</span></a></div></div></div><div class="saya-footer"><div class="saya"><div class="copyright">© 2014&nbsp;<a href="http://solidzoro.com" target="_blank">SolidZORO</a>&nbsp;BY&nbsp;<a href="https://github.com/SolidZORO/HADOUKEN" target="_blank">HADOUKEN</a></div></div></div></body></html>
