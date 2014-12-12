@@ -1,0 +1,19 @@
+<!DOCTYPE html><!--     __  _____    ____  ____  __  ____ __ _______   __--><!--    / / / /   |  / __ \/ __ \/ / / / //_// ____/ | / /--><!--   / /_/ / /| | / / / / / / / / / / ,<  / __/ /  |/ /--><!--  / __  / ___ |/ /_/ / /_/ / /_/ / /| |/ /___/ /|  /--><!-- /_/ /_/_/  |_/_____/\____/\____/_/ |_/_____/_/ |_/--><html lang="zh"><head><meta charset="utf-8"><title>大數據 - Tag - SolidZORO</title><meta name="description" content="黑魔法師。"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="renderer" content="webkit"><link rel="stylesheet" href="../themes/ryu/assets/css/style.css"><script src="../themes/ryu/assets/js/app.js"></script><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="apple-touch-icon-precomposed" href="../themes/ryu/assets/img/favicon/favicon_144.png" size="144x144"><link rel="shortcut icon" href="../themes/ryu/assets/img/favicon/favicon.ico"></head><body class="katana katana-list katana-tag"><div class="saya-header"><div class="saya"><div class="logo"><a href="../index.html" title="SolidZORO" alt="SolidZORO">首頁</a></div><div class="nav"><ul><li><a href="../about.html">關於</a></li><li><a href="../projectc.html">專案</a></li></ul></div></div></div><div class="saya-container"><div class="saya"><h1 class="title"><small>TAG:&nbsp;&nbsp;<strong>大數據</strong></small></h1><div class="list"><div class="item"><h2 class="title"><a href=".././day/2014-12-12-052614.html">關於大數據的一點點思考</a></h2><div class="date">2014年 12月 12日</div><div class="typo clearfix"><p>最近在用一個公交App，這個App可以告訴什麼車還在跑，跑到什麼地方了，還有多久才到你這裏。</p>
+
+<p>這一切都是通過GPS定位或BUS站台NFC定位實現的，這意味著要為成百上千個BUS、BUS站台部署硬件裝置。</p>
+
+<p>那有沒有什麼方法在不部署硬件的前提下做這件事情呢？</p>
+
+<p><strong>排除一切客觀因素，我覺得應該是有的。</strong></p>
+
+<p>但是這件事情在國內可能只有幾個大公司能做，比如騰訊或360，也就是說App裝機量足夠大的公司都可以做（隱私問題先不討論）。</p>
+
+<!-- more -->
+
+<p>實現方式是定時通過App回傳GPS信息到數據庫，數據庫可以根據數據分析出很多數據，比如。</p>
+
+<p>站台：顯示GPS上停留超過3～5秒的地點（精準一點可以找出速度下降後幾秒然恢復又到正常速度的數據）。
+線路：根據路徑算法結合大量的GPS走停信息可以算出。
+BUS現在在哪裡：分析GPS在移動，且符合走停規律的線路。</p>
+
+<p>一般做BUS的人大多都是去上班，都具有持續性，比如10個P（人）上了L（BUS Line線），始發站時S0，8個在S1站先下了，2個在S2站下了，那麼在S1站下車的P走過的路線重合且短於S2下車的P，那麼就可以確定L走的線路一定經過了S1（還能確定S1是個BUS站）盒S1。但是這條站的終點在哪？因為10個P都下車了，沒辦法統計下去了，沒關係，等第二天看看有沒有P做這個L（不確定是哪線），走過之前S0到S2的站，如果符合，就繼續追蹤下去。</p></div></div></div></div></div><div class="saya-footer"><div class="saya"><div class="copyright">© 2014&nbsp;<a href="http://solidzoro.com" target="_blank">SolidZORO</a>&nbsp;BY&nbsp;<a href="https://github.com/SolidZORO/HADOUKEN" target="_blank">HADOUKEN</a></div></div></div></body></html>
