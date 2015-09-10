@@ -67,7 +67,7 @@ gulp.task('less', function () {
 
 gulp.task('jade', function () {
     gulp.src([
-        './_src/jade/**/*.jade',
+        './_src/jade/*.jade',
         '!./_src/jade/layout/*.jade',
         '!./_src/jade/include/*.jade'
 
