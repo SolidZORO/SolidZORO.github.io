@@ -1,4 +1,4 @@
-/*! ver. 1503161583512 - SolidZORO <solidzoro@live.com> */
+/*! ver. 1503164263089 - SolidZORO <solidzoro@live.com> */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -875,7 +875,7 @@ pre {
     padding: .5em 0;
     font-size: 11px;
     line-height: 1;
-    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace;
     color: #bebec5;
     text-indent: 1em; }
   pre code {
