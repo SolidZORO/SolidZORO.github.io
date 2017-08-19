@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>聊聊 CSS 预处理器，LESS、Sass、Stylus 及 postCSS - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content="聊聊 CSS 预处理器，LESS、Sass、Stylus 及 postCSS, dev"/>
+    <meta name="description" content="其实没有一个 CSS 预处理器是完美的，都得按场景来择优。"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <script src="/statics/vendor/bundle_f57bb6495d059f25183f.js"></script>
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/statics/styles/view.css">
+    
+    
+
+</head>
+
+<body class="body layout-body layout-body--talk-about-css-preprocessor">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="layout-container">
+    
+    <div class="container">
+        <div class="post-item">
+
+            <div class="post-item__header">
+                <h1>聊聊 CSS 预处理器，LESS、Sass、Stylus 及 postCSS</h1>
+
+                
+                
+                    <div class="date">
+                        <sup>2015-09-12</sup>
+                    </div>
+                
+            </div>
+
+            <div class="post-item__container">
+                <div class="typo">
+                    <p><img src="http://otv0i859b.bkt.clouddn.com/dev/css/media/14991489387922.jpg" alt=""></p>
+<h2>先说结论</h2>
+<p>其实没有一个 CSS 预处理器是完美的，都得按场景来择优。</p>
+<p>如果非要推荐一个给新手，那我推荐 <a href="http://lesscss.org/"><strong>LESS</strong></a>。 LESS 是这几个里面最均衡最易上手的，其丰富的 <a href="http://www.zhihu.com/question/20651624">语法糖</a> 也足够你吃上一段时间了。</p>
+<p>另外，那些对 LESS、Sass、Stylus 没有概念的同学可以先先看这篇，<a href="http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-a-preprocessor-shootout--net-24320">Sass vs. LESS vs. Stylus: Preprocessor Shootout</a>。</p>
+<h2>CSS 预处理器出现之前的黑历史</h2>
+<p>我 02 年开始接触前端，算下来 10 多年年，从 IE 6 “两只猪”的兼容问题到现在 CSS3 的普及，可以说是看着 CSS 这门语言长大的。</p>
+<p>以前没有 CSS 预处理器，所有选择器嵌套只能靠手写，在没有作用域的情况下很容易污染全局（类似于 js 里的全局变量），但更大的问题是不好维护，所以那个时候的 CSS 代码在大多都是一次性的。</p>
+<p>Qzone 前端团队在当时算国内技术较为高级的，他们也吐槽 CSS 的不便说：</p>
+<blockquote>
+<p>我们很少写 CSS 全局模块，哪里有需要，就写哪里，从来不敢放全局。几百个业务 CSS 的情况下，debug 起来简直就是灾难。</p>
+</blockquote>
+<p>'12 年的时候前端在国内慢慢正规划起来， Bootstrap（以下简称 BS） 这个框架就是在那个时候活起来的，BS 用起来很方便，于是我就想按着 BS 的思路自己也试着实现一套。当时还不知道 CSS 预处理这种东西，看 BS 的 CSS 源码巨复杂，各种混淆以及让人摸不着头脑的浮点数 <code>line-height</code>，当时我是真的震惊了！这种高度重复的代码是人写出来的？我吵！要么维护？</p>
+<p>然后那年的夏天，一有空就泡在泳池，一下水就看着天花板，满脑子是都是这个“实现自己 BS”问题。结果想了大半个月，粗糙方案很多，完美的那个却一直没想到满意的。直至后来偶然间把 BS 的源码 download 回来看后，才认识了 CSS 预处理这种东西，然后知道了 LESS，真是相见恨晚。</p>
+<p>Talk is cheap，来，上代码：</p>
+<h3>“现代”样式复用（LESS 语法）</h3>
+<pre class="language-scss"><code class="language-scss"><span class="token comment" spellcheck="true">/*定义一个列表样式*/</span>
+.<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">/*文章里调用list*/</span>
+<span class="token selector">.article </span><span class="token punctuation">{</span>
+    .<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">/*产品里调用list*/</span>
+<span class="token selector">.product </span><span class="token punctuation">{</span>
+    .<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>CSS 预处理器里我用得最多的其实是服用，可以看到，上面列子很轻易的就在“文章”和“产品”里调用了 <code>.list()</code>。</p>
+<p>当然，如今看似简单的几行代码在 <code>纯 CSS 年代</code>，维护起来简直就是噩梦。想要“文章”和“产品”都拥有 <code>.list</code> 的样式就必须分别给他们各模块写上。当 <code>.list</code> 样式要修改了，那“文章”和“产品”就得跟着改。</p>
+<p>###“旧式”样式复用</p>
+<p>其实那个年代也是不乏聪明人的，hack 手法普遍吊。既然 CSS 那么弱，我就从 class 入手吧，比如：</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>
+    pd25
+    mgb10
+    bordernone
+    text-right
+    list
+    article
+<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    halo
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>乖乖！ <code>pd25</code> 是什么？哈哈，当然是 <code>padding: 25px</code> 啦，那 <code>mgb10</code>呢，额⋯⋯ 就是 <code>margin-bottom: 10px</code>？别笑，当时就是这样处理的，直到现在 bootstrap 身上还有类似身影，只不过规范得更加合理了。</p>
+<p>所以，当这么多问题摆在面前需要去解决的时候，CSS预处理器自然应运而生。</p>
+<h2>Sass 还是 LESS？</h2>
+<p>Sass 诞生于 Ruby 社区，众所周知 Ruby 写代码很爽，但是跑得很慢。Sass 的编译器最开始只有 Ruby 版。所以每次保存后， Ruby 版 Sass 编译器要等几秒才能编译完成，体验及其糟糕！</p>
+<p>但好在我使用 Sass 的时候， LESS 早已出来。</p>
+<p>LESS 的速度目测是 Sass 的 10 倍！！无论 LESS 源码多大，基本都能在 1 秒内完成编译。总之我在切浏览器按下刷新的时候 CSS 早已是最新状态。这点让我感觉非常非常爽！而 LESS 与 Sass 语法的差异最大的不同就是变量符号，从 <code>$</code> 变成了 <code>@</code> ，批量替换一下就可以了，</p>
+<p>总之，直到现在我都还是 Sass 一生黑，碰都不敢碰。</p>
+<blockquote>
+<p>PS：其实现在 Sass 已经有 nodejs 版本的编译器了，速度与 LESS 基本持平，而且因为 Sass 比 LESS 强大许多，加之bootstrap 4 又要从 LESS 换回 Sass，估计今后两年又是 Sass 的天下。</p>
+</blockquote>
+<h2>Stylus 呢？</h2>
+<p>看了几分钟手册，没明白在写什么，就放弃掉了，不过还是有很多 nodejs 的死忠会去用它，它有各种 API 啊，.set 方法啊，之类很偏程序的东西，新手还是别把自己绕进去了。</p>
+<h2>最后说说 postCSS</h2>
+<p>postCSS 算是最近才出来的东西，非常新，自由度绝对是最大的。比如想要自动前缀功能，就引用下 <code>autoprefixer</code> 插件就好。</p>
+<p>其实 postCSS 本质和 gulp（或grunt、etc⋯⋯） 的机制很像，而且本来就是依赖 gulp 的。很多 postCSS 的插件作者本身就是 gulp 插件的原作者。</p>
+<p>说到底，postCSS 更像是把 gulp 等批处理 CSS 方面的部分做了一次梳理而已。而且 postCSS 学习成本肯定是在 LESS 和 Sass 之上，且国内可能都找不到支持它的团队。</p>
+<p>所以⋯⋯ 过两年再看吧，希望它不是下一门还没来得及学就过时了的前端技术：）</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                
+                    <div class="category">
+                        <a href="/category/dev.html">#dev</a>
+                        
+                            /
+                            <a href="/category/dev-css.html">
+                                css
+                            </a>
+                        
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="/statics/scripts/view.js"></script>
+
+    
+
+</body>
+</html>

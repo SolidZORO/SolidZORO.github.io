@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>初始化 MySQL / MariaDB (for macOS) - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content="初始化 MySQL / MariaDB (for macOS), dev"/>
+    <meta name="description" content="今天用 brew 执行了一下 update，结果发现 mariaDB 从 5.5 升级成了 5.6，导致启动的时候出现很多 warning。"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <script src="/statics/vendor/bundle_f57bb6495d059f25183f.js"></script>
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/statics/styles/view.css">
+    
+    
+
+</head>
+
+<body class="body layout-body layout-body--init-mysql-mariadb-for-macos">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="layout-container">
+    
+    <div class="container">
+        <div class="post-item">
+
+            <div class="post-item__header">
+                <h1>初始化 MySQL / MariaDB (for macOS)</h1>
+
+                
+                
+                    <div class="date">
+                        <sup>2016-07-04</sup>
+                    </div>
+                
+            </div>
+
+            <div class="post-item__container">
+                <div class="typo">
+                    <p>今天用 brew 执行了一下 update，结果发现 mariaDB 从 5.5 升级成了 5.6，导致启动的时候出现很多 warning。</p>
+<p>网上说是 table mysql 没有很好的做向下兼容导致了一些问题。</p>
+<p>还好我 mysql 本地开发环境的用户权限并不多，只有默认的 root 和 后来新建的 admin，所以决定把 table mysql 的所有文件清除掉，然后重建，那么开始吧。</p>
+<p>1.首先删掉 <code>my.cnf</code> 里 <code>datadir</code> 指定目录下 的 <code>mysql</code> 目录。</p>
+<p>备份 <code>datadir</code> 所有<strong>非目录</strong>文件，特别注意备份好 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等，因为后面需要用到覆盖恢复。</p>
+<p>删除 <code>datadir</code> 所有<strong>非目录</strong>文件。</p>
+<p>2.初始化 <code>mysql_install_db</code>。</p>
+<p>3.启动 mysql 服务 <code>mysql.server start</code>。</p>
+<p>4.然后设定新密码 <code>mysqladmin' -u root password '新密码'</code>，当然，也可以用工具设定
+<code>mysql_secure_installation</code>。</p>
+<p>5.把 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等文件放回 <code>datadir</code>（覆盖）。</p>
+<p>6.最后重启一下 mysql 服务 <code>mysql.server restart</code>。</p>
+<p>重启之后终端这样的：</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># mysql.server restart</span>
+Shutting down MySQL
+<span class="token punctuation">..</span> SUCCESS<span class="token operator">!</span>
+
+Starting MySQL
+
+.170207 10:53:36 mysqld_safe Logging to <span class="token string">'/Users/SolidZORO/Files/databases/logs/error.log'</span><span class="token keyword">.</span>
+
+170207 10:53:36 mysqld_safe Starting mysqld daemon with databases from /Users/SolidZORO/Files/databases/data
+ SUCCESS<span class="token operator">!</span>
+</code></pre>
+<p>由此可见 <code>error.log</code> 文件还是有东西写入，不过不再有 Warning，都是一些 Note 了。</p>
+<p>问题就此解决。</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                
+                    <div class="category">
+                        <a href="/category/dev.html">#dev</a>
+                        
+                            /
+                            <a href="/category/dev-sql.html">
+                                sql
+                            </a>
+                        
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="/statics/scripts/view.js"></script>
+
+    
+
+</body>
+</html>

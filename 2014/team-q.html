@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>互联网初创团队都会遇到的那些问题 - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content="互联网初创团队都会遇到的那些问题, mukai"/>
+    <meta name="description" content="也许是因为豌豆荚最近在深圳成立了分部，所以有了这次公开课，主讲是丁吉昌先生，网上查了一下他是豌豆荚初创时期的人员，我对他暸解不多，但这似乎并不妨碍我写这篇分享文，这篇文章主要想对号入座谈谈自己团队这几年遇到的一些问题，以及……给我这个 github blog 开荒（捂脸）。"/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <script src="/statics/vendor/bundle_f57bb6495d059f25183f.js"></script>
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/statics/styles/view.css">
+    
+    
+
+</head>
+
+<body class="body layout-body layout-body--team-q">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="layout-container">
+    
+    <div class="container">
+        <div class="post-item">
+
+            <div class="post-item__header">
+                <h1>互联网初创团队都会遇到的那些问题</h1>
+
+                
+                
+                    <div class="date">
+                        <sup>2014-08-24</sup>
+                    </div>
+                
+            </div>
+
+            <div class="post-item__container">
+                <div class="typo">
+                    <p>也许是因为豌豆荚最近在深圳成立了分部，所以有了这次公开课，主讲是丁吉昌先生，网上查了一下他是豌豆荚初创时期的人员，我对他暸解不多，但这似乎并不妨碍我写这篇分享文，这篇文章主要想对号入座谈谈自己团队这几年遇到的一些问题，以及……给我这个 github blog 开荒（捂脸）。</p>
+<p>那么，丁先生讲了什么呢？回顾一下：</p>
+<ul>
+<li>豌豆荚的公司文化</li>
+<li>数据验证（注意，不是数据驱动）</li>
+<li>软件开发迭代</li>
+<li>团队协同工具</li>
+<li>一句话概括 产品／项目（原文大概是 Product/Project Brief）</li>
+<li>OKR</li>
+</ul>
+<p>（……抱歉，我的记忆总是不靠谱，肯定还有什么被遗漏了，但没有办法，权当只有我记得的这些吧）</p>
+<h2>数据验证</h2>
+<p>OK，我觉得最开始有必要说说“数据验证”，丁先生说，数据很重要，但要质疑，一定要多问自己为什么，K 线图的大起大降一定是有原因的，只要找到原因就能找到规律，就能看见更多的事态。</p>
+<p>他分享的这个 idea 对我启发较大，原来除了我这种对数据“完全质疑”的人之外，还有对数据“半质疑”的人。</p>
+<p>我之前之所以对数据的不信任是因为，产品开发的程度不够，不停的快速迭代产品过程中，肯定会有很多搅成一团摸不着北的数据K线，这个时候是不能够过于依赖数据，不可以让数据驱动开发的。</p>
+<p>后来，我开始想要看数据，因为产品逐渐稳定。前段时间还因新浪微博推广造成用户瞬间涌入，拖挂了网站，我对其中缘由非常感兴趣，想弄明白为什么。分析服务器日志过于麻烦，唯有数据分析这条路是靠谱的。</p>
+<p>另外要说的是，近来由于微信、微博以及之后少数派即将要开放的安卓客户端出现，数据的统计变得稍显复杂，需要在不同的地方放置不同的统计代码，才能把细颗粒化交叉分析做好。当然，这也是大多数拥有多平台网站在数据统计上会遇到的问题。</p>
+<h2>团队里的协同工具</h2>
+<p>丁先生说豌豆荚里用这些工具：</p>
+<ul>
+<li>asana</li>
+<li>Gmail</li>
+<li>Google Calander</li>
+<li>Google Doc</li>
+<li>Google Hangouts</li>
+</ul>
+<p>考虑到豌豆荚是一家“从路由器开始就全面部署 VPN”的公司，所以他们用一系列 Google 的服务协作很理所当然，一般公司做不到这样（fenng推荐过方法，但实际上实现起来会有障碍，且不多说），所以我只想聊聊 asana 这类简单的 Todo List 解决方案。</p>
+<p>2 年前我们和豌豆荚一样，尝试了市面上能用到的 Todo List 方案，其中包括 bootcamp、asana、teambition、甚至连 Google calander 都考虑过当 Todo List 来用。最后确定用 asana，不过没有坚持，用了一个月后便放弃了（当时功能还很简陋，远没有今天那么完善）。</p>
+<p>为什么放弃？几个原因：</p>
+<ul>
+<li>没有电脑桌面端（OSX、Windows），打开 Web 界面成本太高。</li>
+<li>初创团队人少琐事多，几乎没有时间在做事前写一个 Todo。</li>
+<li>缺少监管机制，没有 die line 视图，起不到压迫感，没有明确惩罚制度，Todo 写上去只会一拖再拖。</li>
+</ul>
+<p>综合至少包含以上因素的种种原因我们放弃了协作平台。</p>
+<p>直到去年夏天，因为 tower.im 的出现，我们决定再次试用协作平台。的确，和之前一样，刚开始的时候效果很明显，但是慢慢的效果就开始变淡，除了涉及到与非本地团队的那个节点还稍显火热之外，其他基本都以沦陷为静音模式。</p>
+<p>所以我对这类 协同工具再得出了几条结论：</p>
+<ul>
+<li>同办公室，少于 20 人的团队用协同工具效果不明显，难坚持。</li>
+<li>协同工具一定要 PC 端，而且能像 QQ 一样能制定快捷键呼出。</li>
+</ul>
+<p>所以，后来我们的技术团队开始用 OneNote 作为技术团队内部的 Todo List 工具，感觉体验非常好，快捷键打开，截图顺手贴，非常方便，另外 OneNote 其实不是专门的 Todo List 工具，Todo List 功能只是他的一个做得很好的小功能而已 xD</p>
+<h2>软件开发迭代</h2>
+<p>公司越大，人越多，在代码控制上越麻烦，这是“人月”不能逾越的障碍，是有钱都解决不了的问题。让所有工程师编写出“风格一致”的代码是所有研发领导人员的梦想，梦想即不大可能或很难实现的事情，所以就会变成：要想工程师写好代码，必须花钱请一个测试人员，以便时刻确保代码能跑起来。然后再请一个项目经理盯着这些测试人员，然后再……</p>
+<p>但是你会想，为什么不从源头把问题解决了？鼓励工程师自律呢？OK，豌豆荚全公司的测试只有 2 人，而工程师多达 200 多人，这显然是豌豆荚刻意的决策，然后一改之前的迭代周期方式，通过一个更好的方案，让工程师适应这种方案，在痛苦几个月后，进入一个良性循环。</p>
+<p>这种更好的方式大体是：</p>
+<ul>
+<li>每个版本的迭代时间从之前的4周更改为 8 周（也就是 2 个月）。</li>
+<li>最开始的4周（一个月）开发新功能。</li>
+<li>中间 2 周（半个月）停下来，不要再开发新功能，改为修BUG。</li>
+<li>后面 2 周（半个月）修复那些已经变得很少的 BUG 并测试（这时可以稍微继续接着开发新功能）。</li>
+<li>DO IT，发布（就这样一直循环）。</li>
+</ul>
+<p>互联网公司（特别是一些小公司）较之于软件公司，最明显的一点是没有专业开发流程，而且因为快节奏迭代而忽略了A/B测试。少数派开发团队也面临过以上问题，一度没有明确的 die line 和 milestone，开发起来就会变得没有压力，因此迭代的时候会出现缓慢和混乱。</p>
+<p>解决方案有 2 点：</p>
+<ul>
+<li>制定细颗粒的 die line</li>
+<li>预留大块时间只做 BUG 修复</li>
+</ul>
+<h2>一句话概括 产品／项目</h2>
+<p>你能用一句话说清楚现在你在做的项目吗？这个一句话也叫“电梯时间”，也就是在两个人同处电梯的那一分钟如果不能把项目说明白，就不要做了。</p>
+<p>“电梯时间”是我在&lt;a href=&quot;http://the0step.com/business-model-canvas/&quot; target=&quot;_blank&quot; &gt;商业模式画布&lt;/a&gt;里没有听到的内容，但是我觉得这应该内置在商业模式画布上才对。</p>
+<p>少数派做过的项目中，大多数失败项目都是典型的用一两句话解释不清的项目，“电梯时间”算是一个警戒，互联网项目立项初期，真的不能做太复杂的事情，如果功能不能直达用户痛点，删掉你的 APP 只需1秒。</p>
+<h2>OKR</h2>
+<p>相对于少数派运营经理对OKR这个词汇理解错误而言，我深感羞愧，因为今天是我第一次听到 OKR 这个词汇，不过很显然，光看字面意义大家肯定搞不懂这是个什么东西。</p>
+<p>OKR（Objectives and Key Results ）字面意义即“目标和主要成果”。按我自己今天理解到的大概是这样一句话：“方向自己规划好，与公司目标不能差太多，这是 Objectives。然后剩下的具体目标要根据自己的能力定一个量，能做 100 万不要写 80 万，鼓励写 120 万或是更多，这是 Key Results。”</p>
+<p>OKR 有一个很有意思的地方在于它和绩效（如 KPI）没有直接关联，通常我们如果要做审计 KPI，一定会报一个非常保守的数值，有能力做 100 万的人可能最多写个 80 万，这样可以确保过 KPI 不成问题，如果报 80 万，自己做出了 100 万，还能算是自己超出业绩，会有奖励。慢慢的大家都会玩虚的，公司业绩会因此 low 下去。OKR 因为不和绩效做关联，在完成 KPI 后能做多少是多少，尽可能挑战自己的极限往这个数值上靠，有点挑战极限的感觉。</p>
+<p>对于这个的 OKR 好处我是没有感知的，因为我没经历过 KPI，不能体那些不满 KPI 的人痛点在哪里，所以不做评判，也做不了评判……弄明白 OKR 的理念就差不多了。顺带提一句，OKR 是 Intel 发明的，后来被人带到 Google 执行下来。So，种种迹象表明豌豆荚是 Google 的真·粉……</p>
+<h2>另外</h2>
+<p>丁先生提到一点“让员工保持大块连续的时间做软件开发”。我非常赞同这个观点，这应该是工程师出身的管理者都会重视的问题，作为工程师，编写代码的时候不断有人给你提 BUG 或者开会是件及其痛苦的事情，很多时候 BUG 沟通完了，自己也不知道要做什么了，这和人的短时记忆只有 20 秒有关，刚好沟通 BUG 的时间很多时候会大于 20 秒。</p>
+<p>再另外：
+ps1，3W 咖啡会场冷气给得很足。
+ps2，3W 咖啡的会场餐很好吃（可能是太饿了）。
+ps3，3W 咖啡的位置太偏了……虽然如此，以后有好会议还是得常去。</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                
+                    <div class="category">
+                        <a href="/category/mukai.html">#mukai</a>
+                        
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="/statics/scripts/view.js"></script>
+
+    
+
+</body>
+</html>
