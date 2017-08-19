@@ -1,4 +1,4 @@
-/*! ver. 1503164263089 - SolidZORO <solidzoro@live.com> */
+/*! ver. 1503166325558 - SolidZORO <solidzoro@live.com> */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -539,9 +539,11 @@ template {
     background-color: #222;
     border-radius: 3px;
     margin: 0 1px;
+    font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace;
     padding: 2px 5px; }
   .typo pre {
     background-color: #111;
+    font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace;
     padding: 15px;
     position: relative;
     border: none;
@@ -549,6 +551,7 @@ template {
     border-radius: 3px; }
     .typo pre code {
       padding: 0;
+      font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace;
       background-color: transparent;
       overflow-wrap: normal;
       white-space: inherit; }
@@ -865,7 +868,8 @@ pre[class*="language-"] {
   max-height: 610px; }
 
 pre {
-  position: relative; }
+  position: relative;
+  font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace; }
   pre:before {
     display: none;
     position: absolute;
@@ -879,6 +883,7 @@ pre {
     color: #bebec5;
     text-indent: 1em; }
   pre code {
+    font-family: Consolas, Courier, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", SimSun, monospace;
     overflow: auto;
     white-space: pre;
     display: block; }
