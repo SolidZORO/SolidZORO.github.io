@@ -1,4 +1,4 @@
-/*! ver. 1503166325558 - SolidZORO <solidzoro@live.com> */
+/*! ver. 1503238976027 - SolidZORO <solidzoro@live.com> */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -134,6 +134,9 @@ module.exports = bundle_f57bb6495d059f25183f;
 
 var path = __webpack_require__(5);
 
+var MARKDOWN_DIR = '/Users/SolidZORO/Sites/_github/SolidZORO.github.io/_markdown';
+var OUTPUT_DIR = '/Users/SolidZORO/Sites/_github/SolidZORO.github.io';
+
 module.exports = {
     SITENAME: 'SolidZORO',
     // BASEURL: 'http://solidzoro.com/',
@@ -143,12 +146,11 @@ module.exports = {
     // JS 发现 当前打开的 url 不是 BASEURL 会做 src 替换
     // 这样保证本地／调试的时候也能正常浏览到图片
     QINIU_DOMAIN: 'http://otv0i859b.bkt.clouddn.com',
-    LOCAL_DOMAIN: 'http://img.nt.xxx',
+    LOCAL_DOMAIN: 'http://nt.xxx/_markdown',
 
-    // MARKDOWN_DIR: path.resolve(__dirname, '../../docs'),
-    MARKDOWN_DIR: '/Users/SolidZORO/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/blog',
-    MARKDOWN_HASH_FILE: path.resolve(__dirname, '../../public/_hash.txt'),
-    OUTPUT_DIR: '/Users/SolidZORO/Sites/_github/SolidZORO.github.io/',
+    MARKDOWN_DIR: MARKDOWN_DIR,
+    OUTPUT_DIR: OUTPUT_DIR,
+    MARKDOWN_HASH_FILE: OUTPUT_DIR + '/_hash.txt',
 
     VIEWS_DIR: path.resolve(__dirname, '../../src/views')
 };
