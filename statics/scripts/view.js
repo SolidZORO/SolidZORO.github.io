@@ -1,4 +1,4 @@
-/*! ver. 1503238976027 - SolidZORO <solidzoro@live.com> */
+/*! ver. 1503243624196 - SolidZORO <solidzoro@live.com> */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -134,23 +134,25 @@ module.exports = bundle_f57bb6495d059f25183f;
 
 var path = __webpack_require__(5);
 
-var MARKDOWN_DIR = '/Users/SolidZORO/Sites/_github/SolidZORO.github.io/_markdown';
-var OUTPUT_DIR = '/Users/SolidZORO/Sites/_github/SolidZORO.github.io';
+var SOURCE_MARKDOWN_DIR = '/Users/SolidZORO/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/_blog';
+var OUTPUT_HTML_DIR = '/Users/SolidZORO/Sites/_github/SolidZORO.github.io';
 
 module.exports = {
     SITENAME: 'SolidZORO',
     // BASEURL: 'http://solidzoro.com/',
     BASEURL: '',
 
-    // 可以让 nginx 新建一个 img.nt.xxx 放置所有图片，
     // JS 发现 当前打开的 url 不是 BASEURL 会做 src 替换
     // 这样保证本地／调试的时候也能正常浏览到图片
     QINIU_DOMAIN: 'http://otv0i859b.bkt.clouddn.com',
-    LOCAL_DOMAIN: 'http://nt.xxx/_markdown',
 
-    MARKDOWN_DIR: MARKDOWN_DIR,
-    OUTPUT_DIR: OUTPUT_DIR,
-    MARKDOWN_HASH_FILE: OUTPUT_DIR + '/_hash.txt',
+    // 这里需要在 OUTPUT_HTML_DIR 做一个 ln -s 软链接比如：
+    // sudo ln -s "/Users/SolidZORO/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/_blog" "/Users/SolidZORO/Sites/_github/SolidZORO.github.io"
+    LOCAL_DOMAIN: 'http://nt.xxx/_blog',
+
+    SOURCE_MARKDOWN_DIR: SOURCE_MARKDOWN_DIR,
+    OUTPUT_HTML_DIR: OUTPUT_HTML_DIR,
+    MARKDOWN_HASH_FILE: OUTPUT_HTML_DIR + '/_hash.txt',
 
     VIEWS_DIR: path.resolve(__dirname, '../../src/views')
 };
