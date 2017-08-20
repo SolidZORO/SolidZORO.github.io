@@ -6,8 +6,10 @@ Thumbs.db
 .idea
 npm-debug.log
 *.map
-/*.log
+*.log
 .sass-cache
-/node_modules
-/node_modules/*
+node_modules
+node_modules/*
+_markdown/.idea
+_qshell/.qshell
 

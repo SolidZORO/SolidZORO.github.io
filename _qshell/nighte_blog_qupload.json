@@ -1,0 +1,9 @@
+{
+    "src_dir"            :   "../_markdown",
+    "bucket"             :   "com-solidzoro-www",
+    "overwrite"          :   true,
+    "check_hash"         :   true,
+    "rescan_local"       :   true,
+    "skip_fixed_strings" :   ".svn,.git",
+    "skip_suffixes"      :   ".DS_Store,.exe,.md,.xml,.iml"
+}
