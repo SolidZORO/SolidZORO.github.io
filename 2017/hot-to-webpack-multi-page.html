@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content=""/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <link rel="shortcut icon" href="http://localhost/_assets/favicons/favicon.ico">
+    <script src="/_statics/vendor/bundle_c07b38dacdad01c5cd0f.js"></script>
+
+    <link href="/_statics/styles/app_440ee87532c678889bd3.css?996c9667834890c40ded" rel="stylesheet"></head>
+
+<body class="body layout-body layout-body--item">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+            <div class="item">
+                <a href="/tag.html">tag</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="layout-container">
+        <div class="container">
+        <div class="entry-item">
+
+            <div class="entry-item__header">
+                <h1>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？</h1>
+
+                
+                                    <div class="date">
+                        <sup data-hash="2017-02-08">2017-02-08</sup>
+                    </div>
+                            </div>
+
+            <div class="entry-item__container">
+                <div class="typo">
+                    <h3>需求描述</h3>
+
+<pre><code>先看文件目录
+.
+├── entry.js // webpack 的 entry 入口文件
+├── article // 文章模块
+│   ├── article.js
+│   └── article.html
+└── product // 产品模块
+    ├── product.js
+    └── product.html
+</code></pre>
+
+<blockquote>
+  <p>Tips: <strong>这个项目没有用到 <code>react</code> 或 <code>vue</code> 等前端框架。</strong></p>
+</blockquote>
+
+<p>一共两个模块，文章 <code>article</code> 和 产品 <code>product</code>，对应的文件是：</p>
+
+<p><code>article.js</code> 文章
+里面有很多函数，如 <code>aFn()</code>，最后都会 <code>export default</code> 出去。</p>
+
+<p><code>product.js</code> 产品
+里面也有很多函数，如 <code>pFn()</code>，最后都会 <code>export default</code> 出去。</p>
+
+<p>预期访问 URL <code>/article</code> 执行 <code>article.js</code> 中的代码。 访问 <code>/product</code> 时执行 <code>product.js</code> 的代码。</p>
+
+<hr />
+
+<h3>一些我能想到的方案和问题</h3>
+
+<ul>
+<li>在 <code>entry.js</code> 中 import <code>p.js</code> 和 <code>a.js</code>，然后分别调用，业务代码都写在 <code>entry.js</code> 中。这个方法的缺点是 <code>entry.js</code> 会变很大，很面条。</li>
+<li>让 webpack 编译多个 js，在 <code>article.html</code> 中加载 <code>article.js</code>，在 <code>product.html</code> 中加载 <code>product.js</code>，这样最好，但是需要手动控制，而且 js 文件太多，请求次数太多，拖慢速度。</li>
+<li>用 if 判断 URL（或 DOM 中的 <code>className</code>），然后决定执行哪些 js 代码。</li>
+</ul>
+
+<p>想了很多方案，但没有明确答案到底那个好。其实想问的是 在使用 <code>ES6</code> + <code>webpack</code> 的情况下，怎么组织多页面应用（非 SPA）？</p>
+
+<p>文章发布于：https://segmentfault.com/q/1010000008284105</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                                    <div class="category">
+                        <a class="c" href="/category/tech.html">#tech</a>
+
+                                                    <span class="line">|</span>
+                                                            <a class="t" href="/tag/webpack.html">webpack</a>
+                                                            <a class="t" href="/tag/javascript.html">javascript</a>
+                                                    
+                    </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="http://localhost/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="/_statics/scripts/app_440ee87532c678889bd3.js?996c9667834890c40ded"></script></body>
+</html>

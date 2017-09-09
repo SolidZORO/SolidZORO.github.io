@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>PHP 调用 curl 的一个坑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content=""/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <link rel="shortcut icon" href="http://localhost/_assets/favicons/favicon.ico">
+    <script src="/_statics/vendor/bundle_c07b38dacdad01c5cd0f.js"></script>
+
+    <link href="/_statics/styles/app_440ee87532c678889bd3.css?996c9667834890c40ded" rel="stylesheet"></head>
+
+<body class="body layout-body layout-body--item">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+            <div class="item">
+                <a href="/tag.html">tag</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="layout-container">
+        <div class="container">
+        <div class="entry-item">
+
+            <div class="entry-item__header">
+                <h1>PHP 调用 curl 的一个坑</h1>
+
+                
+                                    <div class="date">
+                        <sup data-hash="2017-01-25">2017-01-25</sup>
+                    </div>
+                            </div>
+
+            <div class="entry-item__container">
+                <div class="typo">
+                    <p>今天在写 dayone2 输出 html 的时候，其中有一个 function 需要用 curl 访问自己。怎么说呢？就是在 d.com 中的执行 curl 去爬 d.com 的内容。</p>
+
+<p>这个需求看起来有点奇怪对吧？但是如果不这样做的话，我就无法得到 Laravel blade 渲染出来的 DOM。但，为什么要触发 blade 渲染呢？</p>
+
+<p>其实触发 blade 渲染有一个好处，就是能够 1:1 还原其 DOM，可以很方便的利用 blade 的内置方法。比如说 <code>render()</code> 这种分页功能，可以很大程度减少自己动手写分页的过程。</p>
+
+<p>不过坑点就在这里，d.com 并不能 curl d.com，一旦执行抓取自己就会陷入死循环，直到 timeout，出现 502 Bad Gateway。</p>
+
+<p>所以，最后还得换一个思路去生成静态 HTML。</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                                    <div class="category">
+                        <a class="c" href="/category/tech.html">#tech</a>
+
+                                                    <span class="line">|</span>
+                                                            <a class="t" href="/tag/bug.html">bug</a>
+                                                    
+                    </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="http://localhost/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="/_statics/scripts/app_440ee87532c678889bd3.js?996c9667834890c40ded"></script></body>
+</html>

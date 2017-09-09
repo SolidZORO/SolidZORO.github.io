@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>unix/linux/macOS 下的 $PATH 设定</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content=""/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <link rel="shortcut icon" href="http://localhost/_assets/favicons/favicon.ico">
+    <script src="/_statics/vendor/bundle_c07b38dacdad01c5cd0f.js"></script>
+
+    <link href="/_statics/styles/app_440ee87532c678889bd3.css?996c9667834890c40ded" rel="stylesheet"></head>
+
+<body class="body layout-body layout-body--item">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+            <div class="item">
+                <a href="/tag.html">tag</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="layout-container">
+        <div class="container">
+        <div class="entry-item">
+
+            <div class="entry-item__header">
+                <h1>unix/linux/macOS 下的 $PATH 设定</h1>
+
+                
+                                    <div class="date">
+                        <sup data-hash="2017-02-09">2017-02-09</sup>
+                    </div>
+                            </div>
+
+            <div class="entry-item__container">
+                <div class="typo">
+                    <p>今天在全局安装 <code>cnmp</code>（npm 中国镜像）的时候遇到了一个问题，就是装好后无法全局调用，输入 <code>cnpm</code> 的时候出现 <code>zsh: command not found: cnpm</code>，我猜想可能是 PATH 的问题。</p>
+
+<p>网上做了下功课，PATH 的读取顺序大概这样：</p>
+
+<pre><code class="language-bash">/etc/profile (所有用户／for all users)
+~/.bash_profile (当前用户／for actual user)
+~/.bash_login (当前用户／for actual user)
+~/.profile (当前用户for actual user)
+</code></pre>
+
+<p>理论上不建议修改系统的这些 PATH，要改就改自己使用的 bash 对应的配置文件。可以输入 <code>echo $SHELL</code> 查看自己用什么 bash。</p>
+
+<p>如果你没切换过 bash，那么肯定是默认的 <code>bash</code>（/bin/zsh），配置文件就是上面的 <code>~/.bash_profile</code>。如果你和我一样用了 <code>zsh</code>（/bin/zsh）那么置文件是 <code>~/.zshrc</code>。</p>
+
+<pre><code class="language-bash"># PATH  ----------------------------------------
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+</code></pre>
+
+<p>以 <code>bash</code> 为例（zsh 用户请自行脑补），输入 <code>vi ~/.bash_profile</code> 可以看到 <code>PATH=</code> 的那行，其格式为：<code>export PATH=~/bin1:~/bin2:~/bin3:**$PATH**</code></p>
+
+<p>可以看到每写一个 <code>path</code>（路径）都要用 <code>:</code> 隔开，只有最后一个 path 后面不需要加 <code>:</code>。</p>
+
+<p>特别需要留意的是最后那个 <code>**$PATH**</code>，这是什么呢？这是<strong>系统默认</strong>以及<strong>各种软件</strong>比如 Xcode 的追加 <code>path</code>，所以 <code>**$PATH**</code> 我们一定要把他放在最后，不然某些软件启动就会找不到路径了。</p>
+
+<p>修改完成后是不会马上生效的，只有输入了 <code>source ~/.bash_profile</code> 才会刷新，最后可以通过  <code>echo $PATH</code> 查看是否修改成功。</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                                    <div class="category">
+                        <a class="c" href="/category/tech.html">#tech</a>
+
+                                                    <span class="line">|</span>
+                                                            <a class="t" href="/tag/macOS.html">macOS</a>
+                                                    
+                    </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="http://localhost/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="/_statics/scripts/app_440ee87532c678889bd3.js?996c9667834890c40ded"></script></body>
+</html>

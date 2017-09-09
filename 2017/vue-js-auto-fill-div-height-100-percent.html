@@ -2,24 +2,21 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>vue.js 中自动填充 div 高度为 100% - SolidZORO</title>
+    <title>vue.js 中自动填充 div 高度为 100%</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="keyword" content="vue.js 中自动填充 div 高度为 100%, dev"/>
-    <meta name="description" content="这种问题在前端中属于典型案例，如（图）所示，main 的高度撑死了就只有 200px 且为灰色底，但浏览器 window.client 高度有 900px，这 tMd 就非常尴尬了。"/>
+    <meta name="keyword" content=""/>
+    <meta name="description" content=""/>
     <meta name="renderer" content="webkit">
     <meta name="apple-mobile-web-app-title" content="">
     <meta name="application-name" content="">
-    <script src="/statics/vendor/bundle_f57bb6495d059f25183f.js"></script>
-    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/statics/styles/view.css">
-    
-    
+    <link rel="shortcut icon" href="http://localhost/_assets/favicons/favicon.ico">
+    <script src="/_statics/vendor/bundle_c07b38dacdad01c5cd0f.js"></script>
 
-</head>
+    <link href="/_statics/styles/app_440ee87532c678889bd3.css?996c9667834890c40ded" rel="stylesheet"></head>
 
-<body class="body layout-body layout-body--vue-js-auto-fill-div-height-100-percent">
+<body class="body layout-body layout-body--item">
 
 <div class="layout-header">
     <div class="container">
@@ -39,29 +36,28 @@
             <div class="item">
                 <a href="/project.html">project</a>
             </div>
+            <div class="item">
+                <a href="/tag.html">tag</a>
+            </div>
         </div>
     </div>
 </div>
-
 </div>
 
 <div class="layout-container">
-    
-    <div class="container">
-        <div class="post-item">
+        <div class="container">
+        <div class="entry-item">
 
-            <div class="post-item__header">
+            <div class="entry-item__header">
                 <h1>vue.js 中自动填充 div 高度为 100%</h1>
 
                 
-                
-                    <div class="date">
+                                    <div class="date">
                         <sup data-hash="2017-08-22">2017-08-22</sup>
                     </div>
-                
-            </div>
+                            </div>
 
-            <div class="post-item__container">
+            <div class="entry-item__container">
                 <div class="typo">
                     <pre><code>window.client H:900px
  |
@@ -80,117 +76,127 @@
 |                          |
 +--------------------------+
 </code></pre>
-<p>这种问题在前端中属于典型案例，如（图）所示，main 的高度撑死了就只有 200px 且为灰色底，但浏览器 window.client 高度有 900px，这 tMd 就非常尴尬了。搞得 FPzone 那块地方是白色的，巨丑无比。所以必须想办法技计算出一个高度，赋给 main。</p>
-<h2>jQuery 时代的解决方案</h2>
-<p>这种事情在 jQuery 时代是个小事情，几行代码写个 setMaxHeigt() 搞定了：</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 伪代码</span>
-<span class="token keyword">const</span> mH <span class="token operator">=</span> <span class="token function">getMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> cH <span class="token operator">=</span> <span class="token function">getClientHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token keyword">if</span> <span class="token punctuation">(</span>mH <span class="token operator">&lt;</span> cH<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    mH<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> cH<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
+<p>这种问题在前端中属于典型案例，如（图）所示，main 的高度撑死了就只有 200px 且为灰色底，但浏览器 window.client 高度有 900px，这 tMd 就非常尴尬了。搞得 FPzone 那块地方是白色的，巨丑无比。所以必须想办法技计算出一个高度，赋给 main。</p>
+
+<h2>jQuery 时代的解决方案</h2>
+
+<p>这种事情在 jQuery 时代是个小事情，几行代码写个 setMaxHeigt() 搞定了：</p>
+
+<pre><code class="language-javascript">// 伪代码
+const mH = getMainHeight();
+const cH = getClientHeight();
+
+if (mH &lt; cH) {
+    mH.style.height = cH;
+}
 </code></pre>
+
 <h2>vue.js 时代的解决方案</h2>
+
 <p>但是到了 vue.js 时代，…… *&amp;……¥%#@ 好多东西说不清楚，听我慢慢道来（今天差点给跪了😖）</p>
+
 <ul>
 <li>一开始想着写个 computed 实时计算一下 mainHeight，但是失败了，因为进来第一次是 computed 出来了，但由于 vue.js 是 SPA，不全局刷新 dom，所以 router 到另外的模块就没反应了！这……</li>
 <li>既然 computed 只跑一次，那我 watch 还不行，watch 什么呢？当然是 $router，不过 watch $router 出来的 mainHeight 都是上一个页面的 heightValue，这……</li>
 <li>中途还试了很多方法，包括走回 jQuery 老路，但涉及 router 刷新问题，一样失败了，直到我想起 vue.js 有个生命周期表。</li>
 </ul>
+
 <p>try 半天，到最后其实还是弄出来，分别在 mounted() 和 updated() 放上这个 autoSetLayoutMainHeight()。</p>
+
 <p>特别要说的是 updated()，vue.js 相必大家常用的就两个，一个 created()，一个 mounted()，别的要么不知道怎么用，要么就是没有场景让你知道怎么用。我属于第二种。😢</p>
+
 <p>话不多说，贴代码：</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token punctuation">{</span>
-        layoutMainStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            height<span class="token punctuation">:</span> <span class="token string">'auto'</span><span class="token punctuation">,</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    <span class="token punctuation">}</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token function">updated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
-methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> layoutMainEl <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'layout__main'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-            <span class="token comment" spellcheck="true">// 初始化 mainHeight，避免出现 mainHeight 附上 clientHeight 的值就一直保持不变</span>
-            layoutMainEl<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> <span class="token string">'auto'</span><span class="token punctuation">;</span>
+<pre><code class="language-javascript">data() {
+    return {
+        layoutMainStyle: {
+            height: 'auto',
+        },
+    };
+},
+mounted() {
+    this.autoSetLayoutMainHeight();
+},
+updated() {
+    this.autoSetLayoutMainHeight();
+},
+methods: {
+    autoSetLayoutMainHeight() {
+        const layoutMainEl = document.getElementById('layout__main');
 
-            <span class="token comment" spellcheck="true">// 计算 mainHeight 新高度</span>
-            <span class="token keyword">const</span> clientHeight <span class="token operator">=</span> document<span class="token punctuation">.</span>body<span class="token punctuation">.</span>clientHeight<span class="token punctuation">;</span>
-            <span class="token keyword">const</span> layoutMainHeight <span class="token operator">=</span> layoutMainEl<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span>
+            // 初始化 mainHeight，避免出现 mainHeight 附上 clientHeight 的值就一直保持不变
+            layoutMainEl.style.height = 'auto';
 
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>layoutMainHeight <span class="token operator">&lt;</span> clientHeight<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                layoutMainEl<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>clientHeight<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px`</span></span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span>
+            // 计算 mainHeight 新高度
+            const clientHeight = document.body.clientHeight;
+            const layoutMainHeight = layoutMainEl.offsetHeight;
+
+            if (layoutMainHeight &lt; clientHeight) {
+                layoutMainEl.style.height = `${clientHeight}px`;
+            }
+    },
+},
 </code></pre>
+
 <h2>这里顺带贴一下 vue 生命周期解释</h2>
-<pre class="language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// 在数据初始化之前被调用（实例创建之后）</span>
-<span class="token function">beforeCreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
 
-<span class="token comment" spellcheck="true">// 在数据初始化之后被调用（页面进来时立即调用，created 是第一选择）</span>
-<span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+<pre><code class="language-javascript">// 在数据初始化之前被调用（实例创建之后）
+beforeCreate() {},
 
-<span class="token comment" spellcheck="true">// 在组件渲染之前被调用（数据渲染之前）</span>
-<span class="token comment" spellcheck="true">// 比如要色彩渲染可以在这里写</span>
-<span class="token function">beforeMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 在数据初始化之后被调用（页面进来时立即调用，created 是第一选择）
+created() {},
 
-<span class="token comment" spellcheck="true">// 整个实例被创建完成后被调用（生命周期用的最多的就是 mounted）</span>
-<span class="token comment" spellcheck="true">// 实例创建完成、数据初始化、渲染页面数据后，才被调用，这个时候就可以在 mounted 里写 Dom 操作了</span>
-<span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 在组件渲染之前被调用（数据渲染之前）
+// 比如要色彩渲染可以在这里写
+beforeMount() {},
 
-<span class="token comment" spellcheck="true">// 在数据改变时被调用</span>
-<span class="token comment" spellcheck="true">// 比如: total = 0 , 然后手动把num++; 就会执行此方法</span>
-<span class="token function">beforeUpdate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 整个实例被创建完成后被调用（生命周期用的最多的就是 mounted）
+// 实例创建完成、数据初始化、渲染页面数据后，才被调用，这个时候就可以在 mounted 里写 Dom 操作了
+mounted() {},
 
-<span class="token comment" spellcheck="true">// 数据被更新之后</span>
-<span class="token comment" spellcheck="true">// 比如：total 值改变之后</span>
-<span class="token function">updated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 在数据改变时被调用
+// 比如: total = 0 , 然后手动把num++; 就会执行此方法
+beforeUpdate() {},
 
-<span class="token comment" spellcheck="true">// keep-alive 组件激活时调用（路由切换时被调用）</span>
-<span class="token comment" spellcheck="true">// 注意要配合 keep-alive 使用才会被调用</span>
-<span class="token function">activated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 数据被更新之后
+// 比如：total 值改变之后
+updated() {},
 
-<span class="token comment" spellcheck="true">// keep-alive 组件停用时调用</span>
-<span class="token comment" spellcheck="true">// 也可以理解成在路由切换的时候会自动停用组件</span>
-<span class="token function">deactivated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// keep-alive 组件激活时调用（路由切换时被调用）
+// 注意要配合 keep-alive 使用才会被调用
+activated() {},
 
-<span class="token comment" spellcheck="true">// 实例销毁之前被调用</span>
-<span class="token comment" spellcheck="true">// 这个方法适用于把 new Vue({}) 赋值给一个变量时，如 var vm = new Vue({})，然后用vm.$destroy() 方法销毁这个实例</span>
-<span class="token function">beforeDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// keep-alive 组件停用时调用
+// 也可以理解成在路由切换的时候会自动停用组件
+deactivated() {},
 
-<span class="token comment" spellcheck="true">// 实例销毁之后被调用</span>
-<span class="token comment" spellcheck="true">// 一般情况下，在页面切换路由时，会自动销毁组件</span>
-<span class="token function">destroyed</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+// 实例销毁之前被调用
+// 这个方法适用于把 new Vue({}) 赋值给一个变量时，如 var vm = new Vue({})，然后用vm.$destroy() 方法销毁这个实例
+beforeDestroy() {},
+
+// 实例销毁之后被调用
+// 一般情况下，在页面切换路由时，会自动销毁组件
+destroyed() {},
 </code></pre>
 
                 </div>
                 <div class="eof">- EOF -</div>
 
                 
-                
-                    <div class="category">
-                        <a href="/category/dev.html">#dev</a>
-                        
-                            /
-                            <a href="/category/dev-js.html">
-                                js
-                            </a>
-                        
+                                    <div class="category">
+                        <a class="c" href="/category/tech.html">#tech</a>
+
+                                                    <span class="line">|</span>
+                                                            <a class="t" href="/tag/vue.html">vue</a>
+                                                    
                     </div>
                 
+
             </div>
 
         </div>
     </div>
-
 </div>
 
 <div class="layout-footer">
@@ -200,18 +206,13 @@ methods<span class="token punctuation">:</span> <span class="token punctuation">
             &copy; 2012-2017 Jason Fung
         </div>
         <div class="footer-bar__logo">
-            <a href="/">
+            <a href="http://localhost/">
                 <i class="fi fi-logo"></i>
             </a>
         </div>
     </div>
 </div>
-
 </div>
 
-<script src="/statics/scripts/view.js"></script>
-
-    
-
-</body>
+<script type="text/javascript" src="/_statics/scripts/app_440ee87532c678889bd3.js?996c9667834890c40ded"></script></body>
 </html>
