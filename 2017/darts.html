@@ -2,7 +2,7 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib - SolidZORO</title>
+    <title>飞镖 - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -49,55 +49,37 @@
         <div class="entry-item">
 
             <div class="entry-item__header">
-                <h1>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib</h1>
+                <h1>飞镖</h1>
 
                 
                                     <div class="date">
-                        <sup data-hash="2017-10-01">2017-10-01</sup>
+                        <sup data-hash="2017-09-15">2017-09-15</sup>
                     </div>
                             </div>
 
             <div class="entry-item__container">
                 <div class="typo">
-                    <p>前几天电脑升级到了 macOS High Sierra，然后想着 brew 也来一次 update 吧，没想到更新完后 PHP7 就出问题了，这…… 我岂不是连 blog 都部署不了了，赶紧修复。</p>
+                    <p>无意中下载到这个游戏，然后没看规则就开始投，我觉得奇怪了，每次都投得不错，为什么还总是输。于是开始到 wiki 上找 <a href="https://zh.wikipedia.org/wiki/%E9%A3%9B%E9%8F%A2">飞镖的规则</a>。</p>
 
-<h2>问题</h2>
+<blockquote>
+  <p>301规则
+  301规则和501规则类似。每位选手起始为301分，选手积分随投掷得分而递减，首先将分减为0的选手获胜，如十轮投掷完成后无选手将积分减为0，则积分最低者获胜。如果选手投中某镖后使积分减成无法结束游戏的分数(正常出积分＜0；双倍区积分≤1；三倍区积分≤2或者在双倍区/三倍区出条件下，投中非双倍区/三倍区使积分减为0)为"爆镖"，发生爆镖后，取消该轮得分，同时结束本轮投掷，轮到下位选手投镖。</p>
+</blockquote>
 
-<p>终端执行 <code>php</code> 后出现：</p>
+<p>上面是飞镖玩法中的其中一种，看完规则，颠覆了我对飞镖的传统认知，跟斯诺克一样，其实也是个脑力运动，而且并不是要射中心点，而是算分。</p>
 
-<pre><code class="language-bash">dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
-  Referenced from: /usr/local/php7/bin/php
-  Reason: image not found
-</code></pre>
+<p>飞镖的靶子我觉得设计也非常巧妙（懂人性），基本上都是 大分 夹 小分，小分 夹 大分，想大口吃的时候很容易吃空……</p>
 
-<h2>分析</h2>
+<p>玩这个游戏简直停不下来，好想下次看到真飞镖的时候亲自来两局。</p>
 
-<p>这看起是 libjpeg 的问题，于是到 <code>/usr/local/opt/jpeg/lib/</code> 看了下，发现除了有 libjpeg.8 之外，还有个 libjpeg.9，看起来是 brew 把 9 当成了默认 libjpeg，而我的 PHP7 是自己编译的，估计固定指向了 8。</p>
-
-<h2>解决</h2>
-
-<p>至此，问题已经很明朗了，所以，只需一个 ln 就能解决问题：</p>
-
-<p><code>ln -s -f /usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib /usr/local/opt/jpeg/lib/libjpeg.8.dylib</code></p>
-
-<p>加 -f  强制覆盖一下。</p>
-
-<p><code>php</code> 一下：</p>
-
-<pre><code>PHP 7.1.2 (cli) (built: May 18 2017 18:34:13) ( NTS )
-Copyright (c) 1997-2017 The PHP Group
-Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
-    with Zend OPcache v7.1.2, Copyright (c) 1999-2017, by Zend Technologies
-</code></pre>
-
-<p>Good Job，收工。</p>
+<p><img src="http://otv0i859b.bkt.clouddn.com/DayOnePhotos/0e8a0fab15e9af4f549e92622e7f2358.jpeg" alt="" /></p>
 
                 </div>
                 <div class="eof">- EOF -</div>
 
                 
                                     <div class="category">
-                        <a class="c" href="/category/tech.html">#tech</a>
+                        <a class="c" href="/category/game.html">#game</a>
 
                         
                     </div>
