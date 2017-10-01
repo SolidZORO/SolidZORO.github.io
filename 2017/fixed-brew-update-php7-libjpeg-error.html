@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keyword" content=""/>
+    <meta name="description" content=""/>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="">
+    <link rel="shortcut icon" href="http://otv0i859b.bkt.clouddn.com/_assets/favicons/favicon.ico">
+    <script src="http://otv0i859b.bkt.clouddn.com/_statics/vendor/bundle_c07b38dacdad01c5cd0f.js"></script>
+
+    <link href="http://otv0i859b.bkt.clouddn.com/_statics/styles/app_4d575a2fe25e823f8170.css?69b4ef24f23972cc218f" rel="stylesheet"></head>
+
+<body class="body layout-body layout-body--item">
+
+<div class="layout-header">
+    <div class="container">
+    <div class="header-bar clearfix">
+        <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+                <a href="/">
+                    <i class="fi fi-logo"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+                <a href="/about.html">about</a>
+            </div>
+            <div class="item">
+                <a href="/project.html">project</a>
+            </div>
+            <div class="item">
+                <a href="/tag.html">tag</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="layout-container">
+        <div class="container">
+        <div class="entry-item">
+
+            <div class="entry-item__header">
+                <h1>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib</h1>
+
+                
+                                    <div class="date">
+                        <sup data-hash="2017-10-01">2017-10-01</sup>
+                    </div>
+                            </div>
+
+            <div class="entry-item__container">
+                <div class="typo">
+                    <p>前几天电脑升级到了 macOS High Sierra，然后想着 brew 也来一次 update 吧，没想到更新完后 PHP7 就出问题了，这…… 我岂不是连 blog 都部署不了了，赶紧修复。</p>
+
+<h2>问题</h2>
+
+<p>终端执行 <code>php</code> 后出现：</p>
+
+<pre><code class="language-bash">dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/php7/bin/php
+  Reason: image not found
+</code></pre>
+
+<h2>分析</h2>
+
+<p>这看起是 libjpeg 的问题，于是到 <code>/usr/local/opt/jpeg/lib/</code> 看了下，发现除了有 libjpeg.8 之外，还有个 libjpeg.9，看起来是 brew 把 9 当成了默认 libjpeg，而我的 PHP7 是自己编译的，估计固定指向了 8。</p>
+
+<h2>解决</h2>
+
+<p>至此，问题已经很明朗了，所以，只需一个 ln 就能解决问题：</p>
+
+<p><code>ln -s -f /usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib /usr/local/opt/jpeg/lib/libjpeg.8.dylib</code></p>
+
+<p>加 -f  强制覆盖一下。</p>
+
+<p><code>php</code> 一下：</p>
+
+<pre><code>PHP 7.1.2 (cli) (built: May 18 2017 18:34:13) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.1.2, Copyright (c) 1999-2017, by Zend Technologies
+</code></pre>
+
+<p>Good Job，收工。</p>
+
+                </div>
+                <div class="eof">- EOF -</div>
+
+                
+                                    <div class="category">
+                        <a class="c" href="/category/mukai.html">#mukai</a>
+
+                        
+                    </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="layout-footer">
+    <div class="container">
+    <div class="footer-bar clearfix">
+        <div class="footer-bar__copyright">
+            &copy; 2012-2017 Jason Fung
+        </div>
+        <div class="footer-bar__logo">
+            <a href="http://localhost/">
+                <i class="fi fi-logo"></i>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="http://otv0i859b.bkt.clouddn.com/_statics/scripts/app_4d575a2fe25e823f8170.js?69b4ef24f23972cc218f"></script></body>
+</html>
