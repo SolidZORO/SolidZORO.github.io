@@ -13,4 +13,6 @@ node_modules/*
 _markdown/.idea
 _qshell/.qshell
 _hash.txt
+_statics/____scripts
+_statics/____styles
 _blog
