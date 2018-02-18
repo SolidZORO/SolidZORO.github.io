@@ -7,9 +7,9 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="keyword" content="npm node_modules 复用问题">
-    <meta name="description" content="。## 默认安装方式```├── Sites│   ├── PROJECT_A│       └── node_modules│   ├── PROJECT_B│       └── node_modules│   └── PROJECT_C│       └── node_modules│   └── PROJECT_D│       └── node_modules└── Other```看着那海量且重复的 node_modules，">
+    <meta name="description" content="。## 默认安装方式```├── Sites│   ├── PROJECT_A│       └── node_modules│   ├── PROJECT_B│       └── node_modules│   └── PROJECT_C│       └── node_modules│   └── PROJECT_D│       └── node_modules└── Other```看着那海量且重复的 node_modules，">
     <meta name="renderer" content="webkit">
-<link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
+<link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_690f3c2b7c897c061dd6.css?7343eb51067b55eacda9" rel="stylesheet"></head>
 
 <body class="body layout-body layout-body--item">
 
@@ -67,26 +67,26 @@
           <p>在 <code>babel</code>， <code>webpack</code> 已经成为必装 npm 包的今天，代码还没开始写就已经装了 200MB 的依赖，我真的感觉我电脑硬盘要 gg。所以很早就开始研究 npm 的共享问题。</p>
 <h2>默认安装方式</h2>
 <pre><code>├── Sites
-│   ├── PROJECT_A
-│       └── node_modules
-│   ├── PROJECT_B
-│       └── node_modules
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
-│       └── node_modules
+│   ├── PROJECT_A
+│       └── node_modules
+│   ├── PROJECT_B
+│       └── node_modules
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+│       └── node_modules
 └── Other
 </code></pre>
 <p>看着那海量且重复的 node_modules，真没什么好多说的。这当然是最稳妥的方案。不过我必须要做些优化。</p>
 <h2>共享方式 1</h2>
 <p>之前我开发项目，喜欢把 node_modules 安装在 <code>~/Sites</code> (下文称 <code>ROOT_DIR</code>) 下：</p>
 <pre><code>├── Sites
-│   ├── node_modules
-│   ├── PROJECT_A
-│   ├── PROJECT_B
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
+│   ├── node_modules
+│   ├── PROJECT_A
+│   ├── PROJECT_B
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
 └── Other
 </code></pre>
 <p>如果项目需要安装 npm 包，比如 eslint，我会 cd 到 <code>ROOT_DIR</code>，然后 <code>npm i -S eslint</code>，这样可以最大程度的实现 npm 包多项目共享。
@@ -135,6 +135,6 @@
   
 </div>
 <script src="/_statics/vendor/dll_927faedd898d4c4fc051.js"></script>
-<script type="text/javascript" src="/_statics/scripts/simple_e97c8c123a009bedcfd1.js?d976501adedce59bb60b"></script></body>
+<script type="text/javascript" src="/_statics/scripts/simple_690f3c2b7c897c061dd6.js?7343eb51067b55eacda9"></script></body>
 </html>
 
