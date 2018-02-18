@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？ - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？">
+    <meta name="description" content="### 需求描述```先看文件目录.├── entry.js // webpack 的 entry 入口文件├── article // 文章模块│   ├── article.js│   └── article.html└── product // 产品模块    ├── product.js    └── product.html```&gt; Tips: **这个项目没有用到 `react` 或 `vue` 等前端框架。">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,56 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-02-08 23:03:11">2017-02-08 23:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <h3>需求描述</h3>
+<pre><code>先看文件目录
+.
+├── entry.js // webpack 的 entry 入口文件
+├── article // 文章模块
+│   ├── article.js
+│   └── article.html
+└── product // 产品模块
+    ├── product.js
+    └── product.html
+</code></pre>
+<blockquote>
+<p>Tips: <strong>这个项目没有用到 <code>react</code> 或 <code>vue</code> 等前端框架。</strong></p>
+</blockquote>
+<p>一共两个模块，文章 <code>article</code> 和 产品 <code>product</code>，对应的文件是：</p>
+<p><code>article.js</code> 文章
+里面有很多函数，如 <code>aFn()</code>，最后都会 <code>export default</code> 出去。</p>
+<p><code>product.js</code> 产品
+里面也有很多函数，如 <code>pFn()</code>，最后都会 <code>export default</code> 出去。</p>
+<p>预期访问 URL <code>/article</code> 执行 <code>article.js</code> 中的代码。 访问 <code>/product</code> 时执行 <code>product.js</code> 的代码。</p>
+<hr>
+<h3>一些我能想到的方案和问题</h3>
+<ul>
+<li>在 <code>entry.js</code> 中 import <code>p.js</code> 和 <code>a.js</code>，然后分别调用，业务代码都写在 <code>entry.js</code> 中。这个方法的缺点是 <code>entry.js</code> 会变很大，很面条。</li>
+<li>让 webpack 编译多个 js，在 <code>article.html</code> 中加载 <code>article.js</code>，在 <code>product.html</code> 中加载 <code>product.js</code>，这样最好，但是需要手动控制，而且 js 文件太多，请求次数太多，拖慢速度。</li>
+<li>用 if 判断 URL（或 DOM 中的 <code>className</code>），然后决定执行哪些 js 代码。</li>
+</ul>
+<p>想了很多方案，但没有明确答案到底那个好。其实想问的是 在使用 <code>ES6</code> + <code>webpack</code> 的情况下，怎么组织多页面应用（非 SPA）？</p>
+<p>文章发布于：https://segmentfault.com/q/1010000008284105</p>
+<p><a href="created_at:2017-02-08T23:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 

@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>初始化 MySQL / MariaDB (for macOS) - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="初始化 MySQL / MariaDB (for macOS)">
+    <meta name="description" content="今天用 brew 执行了一下 update，结果发现 mariaDB 从 5.5 升级成了 5.6，导致启动的时候出现很多 warning。网上说是 table mysql 没有很好的做向下兼容导致了一些问题。还好我 mysql 本地开发环境的用户权限并不多，">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,53 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>初始化 MySQL / MariaDB (for macOS)</h1>
+        
+          <div class="date">
+            <sup data-hash="2016-07-04 23:03:11">2016-07-04 23:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <p>今天用 brew 执行了一下 update，结果发现 mariaDB 从 5.5 升级成了 5.6，导致启动的时候出现很多 warning。</p>
+<p>网上说是 table mysql 没有很好的做向下兼容导致了一些问题。</p>
+<p>还好我 mysql 本地开发环境的用户权限并不多，只有默认的 root 和 后来新建的 admin，所以决定把 table mysql 的所有文件清除掉，然后重建，那么开始吧。</p>
+<p>1.首先删掉 <code>my.cnf</code> 里 <code>datadir</code> 指定目录下 的 <code>mysql</code> 目录。</p>
+<p>备份 <code>datadir</code> 所有<strong>非目录</strong>文件，特别注意备份好 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等，因为后面需要用到覆盖恢复。</p>
+<p>删除 <code>datadir</code> 所有<strong>非目录</strong>文件。</p>
+<p>2.初始化 <code>mysql_install_db</code>。</p>
+<p>3.启动 mysql 服务 <code>mysql.server start</code>。</p>
+<p>4.然后设定新密码 <code>mysqladmin' -u root password '新密码'</code>，当然，也可以用工具设定
+<code>mysql_secure_installation</code>。</p>
+<p>5.把 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等文件放回 <code>datadir</code>（覆盖）。</p>
+<p>6.最后重启一下 mysql 服务 <code>mysql.server restart</code>。</p>
+<p>重启之后终端这样的：</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># mysql.server restart</span>
+Shutting down MySQL
+<span class="token punctuation">..</span> SUCCESS<span class="token operator">!</span>
+
+Starting MySQL
+
+.170207 10:53:36 mysqld_safe Logging to <span class="token string">'/Users/SolidZORO/Files/databases/logs/error.log'</span><span class="token keyword">.</span>
+
+170207 10:53:36 mysqld_safe Starting mysqld daemon with databases from /Users/SolidZORO/Files/databases/data
+ SUCCESS<span class="token operator">!</span>
+</code></pre>
+<p>由此可见 <code>error.log</code> 文件还是有东西写入，不过不再有 Warning，都是一些 Note 了。</p>
+<p>问题就此解决。</p>
+<p><a href="created_at:2016-07-04T23:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 

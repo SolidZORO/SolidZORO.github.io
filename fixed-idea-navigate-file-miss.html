@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>IDEA / PHPStorm navigate file 失效的解决办法 - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="IDEA / PHPStorm navigate file 失效的解决办法">
+    <meta name="description" content="IDEA / PHPStorm 中的 navigate file 算是我最常用的功能之一，和 sublimetext 的 ctrl+p 一模一样。不过在 macOS 升级到 High Sierra 之后就不好使了，很多文件找不到。试用很多办法，">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,33 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>IDEA / PHPStorm navigate file 失效的解决办法</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-10-25 23:03:11">2017-10-25 23:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <p>IDEA / PHPStorm 中的 navigate file 算是我最常用的功能之一，和 sublimetext 的 ctrl+p 一模一样。</p>
+<p>不过在 macOS 升级到 High Sierra 之后就不好使了，很多文件找不到。</p>
+<p>试用很多办法，如删掉 .idea 目录，重装 IDEA，都无法解决。</p>
+<p>最后发现其实是 macOS 强制关机，造成缓存丢失。</p>
+<p>那解决方法其实很简单，菜单中 File -&gt; Invalidate Caches / Restart，IDEA 重启后重新生成索引就好。</p>
+<p><img src="https://user-images.githubusercontent.com/661587/36348928-92dd0270-14b5-11e8-898d-b815f2ba6cf3.jpeg" alt="8e05b48a8e226e126e6cfb1ea8f152e9"></p>
+<p><a href="created_at:2017-10-25T23:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 

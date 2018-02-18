@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>挑选一个趁手的 blog 书写工具还真是难 - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keyword" content="挑选一个趁手的 blog 书写工具还真是难">
+    <meta name="description" content="用 [MWeb](http://zh.mweb.im/index.html) + [night](https://github.com/SolidZORO/nighte) 写 blog 有一个多星期了。老实说，用户体验真的非常不好，抛开 build，">
+    <meta name="renderer" content="webkit">
+<link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
+
+<body class="body layout-body layout-body--item">
+
+<div class="layout-header">
+  
+    <div class="container">
+  <div class="header-bar clearfix">
+    <div class="header-bar__list header-bar__list--menu">
+      <div class="item item--logo">
+        <a href="/">
+          <i class="fi fi-logo"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="header-bar__list header-bar__list--link">
+      <div class="item">
+        <a href="/about.html">about</a>
+      </div>
+      <div class="item">
+        <a href="/project.html">project</a>
+      </div>
+      <div class="item item--block item--book">
+        <a href="/book.html" alt="book" title="book"><i class="fi fi-book"></i></a>
+      </div>
+      <div class="item item--block item--movie">
+        <a href="/movie.html" alt="movie" title="movie"><i class="fi fi-movie"></i></a>
+      </div>
+      <div class="item item--block item--code">
+        <a href="/category/code.html" alt="tech" title="tech"><i class="fi fi-code"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+</div>
+
+<div class="layout-container">
+  
+  <div class="container">
+    <div class="entry-item">
+
+      <div class="entry-item__header">
+        <h1>挑选一个趁手的 blog 书写工具还真是难</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-08-26 22:45:11">2017-08-26 22:45:11</sup>
+          </div>
+        
+      </div>
+
+      <div class="entry-item__container">
+        <div class="typo">
+          <p>用 <a href="http://zh.mweb.im/index.html">MWeb</a> + <a href="https://github.com/SolidZORO/nighte">night</a> 写 blog 有一个多星期了。老实说，用户体验真的非常不好，抛开 build，push 到 git 之类可以用批处理搞定的步骤不谈，每写一篇文章都要找篇过往文章， copy 大概这些 HEAD 内容：</p>
+<pre><code>[slug] : url
+[date] : 2017-08-26T13:24:26
+
+# titleName
+</code></pre>
+<p>然后还得给新建的 .md 文件起个名，再 paste 上去，然后再改时间什么的，实在实在太麻烦了！这绝对会消减我写文章的动力。所以我（又）开始寻找各种 Mweb 的代替品。😢</p>
+<p>首先，我列一下我写 blog 的需求：</p>
+<ul>
+<li>App 免费或可以一次性买断，不要订阅制</li>
+<li>由于 iOS 封闭的尿性，只能选 iOS／macOS 跨平台的 App 才能方便同步</li>
+<li>能直接在 App 中不限次数的插入图片</li>
+<li>有分类或tag</li>
+<li>文章以文件形式保存，不要 sqliteDB</li>
+</ul>
+<p>经过一番试用和考研，我大概找到了这些：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">App 名字</th>
+<th style="text-align:left">iOS</th>
+<th style="text-align:left">macOS</th>
+<th style="text-align:left">售价</th>
+<th style="text-align:left">储存格式</th>
+<th style="text-align:left">优点</th>
+<th style="text-align:left">缺点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">MWeb Lite</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">只能开启一个外部文件夹</td>
+</tr>
+<tr>
+<td style="text-align:left">MWeb</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">¥99</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">综合最佳</td>
+<td style="text-align:left">列表不支持缩略图显示</td>
+</tr>
+<tr>
+<td style="text-align:left">Day One Classic</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">¥128</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">经典之作</td>
+<td style="text-align:left">一篇文章最多插 1 张照片</td>
+</tr>
+<tr>
+<td style="text-align:left">Day One 2</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">SQLite</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">一篇文章最多插 10 张照片</td>
+</tr>
+<tr>
+<td style="text-align:left">Lifecraft</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">SQLite</td>
+<td style="text-align:left">新秀</td>
+<td style="text-align:left">好用的 App 都改订阅了</td>
+</tr>
+<tr>
+<td style="text-align:left">Dyrii</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅 或 $25</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">UI 不错， Dayo One 的翻版</td>
+<td style="text-align:left">上传图片会自动压缩，不能忍</td>
+</tr>
+<tr>
+<td style="text-align:left">Pendo</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">大而全的时间流记录</td>
+<td style="text-align:left">排版方式太过自由</td>
+</tr>
+<tr>
+<td style="text-align:left">Notes（系统自带）</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">最便捷的书写工具</td>
+<td style="text-align:left">数据结构很难导出</td>
+</tr>
+<tr>
+<td style="text-align:left">Bear</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">太完美了</td>
+<td style="text-align:left">但订阅实在太贵了</td>
+</tr>
+<tr>
+<td style="text-align:left">Quip</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">API</td>
+<td style="text-align:left">完美的 API</td>
+<td style="text-align:left">API 用起来速度太慢了</td>
+</tr>
+<tr>
+<td style="text-align:left">Quiver</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">程序员属性加持</td>
+<td style="text-align:left">要新建文件，问题同 Mweb</td>
+</tr>
+<tr>
+<td style="text-align:left">LetterSpace</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">$4.99 / $9.99</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">我朝，连个设置都没有，tag 功能也很难用</td>
+</tr>
+</tbody>
+</table>
+<p>不过转了一圈，还是没选出个顺手的，就暂且用 SublimeText／MWeb／Atom 凑合着写原生 markdown 好了。又或者，我写一个 <code>.sh</code> 脚本，一键呼出自动帮我把 <code>.md</code> 文件建好，日期／标题填好，接着用自定的 App 打开 .md 直接进入书写状态！对啊～ 为什么之前没想到！</p>
+<p><a href="created_at:2017-08-26T22:45:11Z"></a></p>
+
+        </div>
+        <div class="eof">- EOF -</div>
+
+        
+          <div class="category">
+            <a class="c" href="/category/mukai.html">
+              #mukai
+            </a>
+          </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="layout-footer">
+  
+    <div class="container">
+  <div class="footer-bar clearfix">
+    <div class="footer-bar__copyright">
+      &copy; 2018 Jason Fung
+    </div>
+    <div class="footer-bar__logo">
+      <a href="/">
+        <i class="fi fi-logo"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+  
+</div>
+<script src="/_statics/vendor/dll_927faedd898d4c4fc051.js"></script>
+<script type="text/javascript" src="/_statics/scripts/simple_e97c8c123a009bedcfd1.js?d976501adedce59bb60b"></script></body>
+</html>
+

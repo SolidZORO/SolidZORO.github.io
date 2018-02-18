@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>unix/linux/macOS 下的 $PATH 设定 - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="unix/linux/macOS 下的 $PATH 设定">
+    <meta name="description" content=" found: cnpm`，我猜想可能是 PATH 的问题。网上做了下功课，PATH 的读取顺序大概这样：```bash/etc/profile (所有用户／for all users)~/.bash_profile (当前用户／for actual user)~/.bash_login (当前用户／for actual user)~/.profile (当前用户for actual user)```理论上不建议修改系统的这些 PATH，">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,43 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>unix/linux/macOS 下的 $PATH 设定</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-02-09 23:03:11">2017-02-09 23:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <p>今天在全局安装 <code>cnmp</code>（npm 中国镜像）的时候遇到了一个问题，就是装好后无法全局调用，输入 <code>cnpm</code> 的时候出现 <code>zsh: command not found: cnpm</code>，我猜想可能是 PATH 的问题。</p>
+<p>网上做了下功课，PATH 的读取顺序大概这样：</p>
+<pre class="language-bash"><code class="language-bash">/etc/profile <span class="token punctuation">(</span>所有用户／for all users<span class="token punctuation">)</span>
+~/.bash_profile <span class="token punctuation">(</span>当前用户／for actual user<span class="token punctuation">)</span>
+~/.bash_login <span class="token punctuation">(</span>当前用户／for actual user<span class="token punctuation">)</span>
+~/.profile <span class="token punctuation">(</span>当前用户for actual user<span class="token punctuation">)</span>
+</code></pre>
+<p>理论上不建议修改系统的这些 PATH，要改就改自己使用的 bash 对应的配置文件。可以输入 <code>echo $SHELL</code> 查看自己用什么 bash。</p>
+<p>如果你没切换过 bash，那么肯定是默认的 <code>bash</code>（/bin/zsh），配置文件就是上面的 <code>~/.bash_profile</code>。如果你和我一样用了 <code>zsh</code>（/bin/zsh）那么置文件是 <code>~/.zshrc</code>。</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># PATH  ----------------------------------------</span>
+<span class="token function">export</span> PATH<span class="token operator">=</span>/usr/local/bin:/usr/local/sbin:<span class="token variable">$PATH</span>
+</code></pre>
+<p>以 <code>bash</code> 为例（zsh 用户请自行脑补），输入 <code>vi ~/.bash_profile</code> 可以看到 <code>PATH=</code> 的那行，其格式为：<code>export PATH=~/bin1:~/bin2:~/bin3:**$PATH**</code></p>
+<p>可以看到每写一个 <code>path</code>（路径）都要用 <code>:</code> 隔开，只有最后一个 path 后面不需要加 <code>:</code>。</p>
+<p>特别需要留意的是最后那个 <code>**$PATH**</code>，这是什么呢？这是<strong>系统默认</strong>以及<strong>各种软件</strong>比如 Xcode 的追加 <code>path</code>，所以 <code>**$PATH**</code> 我们一定要把他放在最后，不然某些软件启动就会找不到路径了。</p>
+<p>修改完成后是不会马上生效的，只有输入了 <code>source ~/.bash_profile</code> 才会刷新，最后可以通过  <code>echo $PATH</code> 查看是否修改成功。</p>
+<p><a href="created_at:2017-02-09T23:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 

@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>新树莓派 在没有键盘没有显示器的情况下如何 SSH？ - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="新树莓派 在没有键盘没有显示器的情况下如何 SSH？">
+    <meta name="description" content="现在新版的 Raspbian 为了安全，已经无法在默认情况下通过 SSH 连接了，但是官方给出的解决方案也简单。`SSH disabled by default; can be enabled by creating a file with name &quot;ssh&quot; in boot partition`只需在 Raspbian 的 boot 新建一个 `ssh` 文件即可（不是文件件哦），">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,32 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>新树莓派 在没有键盘没有显示器的情况下如何 SSH？</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-08-04 23:03:11">2017-08-04 23:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <p>现在新版的 Raspbian 为了安全，已经无法在默认情况下通过 SSH 连接了，但是官方给出的解决方案也简单。</p>
+<p><code>SSH disabled by default; can be enabled by creating a file with name &quot;ssh&quot; in boot partition</code></p>
+<p>只需在 Raspbian 的 boot 新建一个 <code>ssh</code> 文件即可（不是文件件哦），然后树莓派在启动的时候会检查是否存在 <code>/boot/ssh</code> 这个文件，如果存在的话则开启ssh，并且删除该文件。</p>
+<p>另外一个问题是，插上了网线的树莓派怎么知道 ip 是什么？也很简单，只需</p>
+<p><code>arp -a | grep pi</code></p>
+<p><a href="created_at:2017-08-04T23:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 

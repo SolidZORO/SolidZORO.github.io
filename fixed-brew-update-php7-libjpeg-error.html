@@ -2,12 +2,12 @@
 <html lang="zh" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>about - SolidZORO</title>
+    <title>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib - SolidZORO</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keyword" content="about">
-    <meta name="description" content="__Jason Fung__ (封)，ID: _SolidZORO_，1988，巨蟹，Web 全栈工程师。__#skills__  Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design__#tags__  Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy T">
+    <meta name="keyword" content="修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib">
+    <meta name="description" content="7 就出问题了，这…… 我岂不是连 blog 都部署不了了，赶紧修复。##  问题终端执行 `php` 后出现：```bashdyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib  Referenced from: /usr/local/php7/bin/php  Reason: image not found```##  分析这看起是 libjpeg 的问题，">
     <meta name="renderer" content="webkit">
 <link rel="apple-touch-icon" sizes="57x57" href="/_statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/_statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/_statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/_statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/_statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/_statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/_statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/_statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/_statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><link rel="icon" type="image/png" sizes="32x32" href="/_statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/_statics/icons/favicon.ico"><meta name="msapplication-TileColor" content="#000"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link href="/_statics/styles/simple_e97c8c123a009bedcfd1.css?d976501adedce59bb60b" rel="stylesheet"></head>
 
@@ -54,21 +54,47 @@
     <div class="entry-item">
 
       <div class="entry-item__header">
-        <h1>about</h1>
+        <h1>修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib</h1>
+        
+          <div class="date">
+            <sup data-hash="2017-10-20123:03:11">2017-10-20123:03:11</sup>
+          </div>
         
       </div>
 
       <div class="entry-item__container">
         <div class="typo">
-          <p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
-<p><strong>#skills</strong><br>
-Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
-<p><strong>#tags</strong><br>
-Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+          <p>前几天电脑升级到了 macOS High Sierra，然后想着 brew 也来一次 update 吧，没想到更新完后 PHP7 就出问题了，这…… 我岂不是连 blog 都部署不了了，赶紧修复。</p>
+<h2>问题</h2>
+<p>终端执行 <code>php</code> 后出现：</p>
+<pre class="language-bash"><code class="language-bash">dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/php7/bin/php
+  Reason: image not found
+</code></pre>
+<h2>分析</h2>
+<p>这看起是 libjpeg 的问题，于是到 <code>/usr/local/opt/jpeg/lib/</code> 看了下，发现除了有 libjpeg.8 之外，还有个 libjpeg.9，看起来是 brew 把 9 当成了默认 libjpeg，而我的 PHP7 是自己编译的，估计固定指向了 8。</p>
+<h2>解决</h2>
+<p>至此，问题已经很明朗了，所以，只需一个 ln 就能解决问题：</p>
+<p><code>ln -s -f /usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib /usr/local/opt/jpeg/lib/libjpeg.8.dylib</code></p>
+<p>加 -f  强制覆盖一下。</p>
+<p><code>php</code> 一下：</p>
+<pre><code>PHP 7.1.2 (cli) (built: May 18 2017 18:34:13) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.1.2, Copyright (c) 1999-2017, by Zend Technologies
+</code></pre>
+<p>Good Job，收工。</p>
+<p><a href="created_at:2017-10-20123:03:11Z"></a></p>
 
         </div>
         <div class="eof">- EOF -</div>
 
+        
+          <div class="category">
+            <a class="c" href="/category/code.html">
+              #code
+            </a>
+          </div>
         
       </div>
 
