@@ -4,12 +4,12 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Feb 2018 13:22:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Feb 2018 13:26:50 GMT</lastBuildDate>
         <item>
-            <title><![CDATA[论斤卖的杂志 OKxxmilk]]></title>
-            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349072-3783b884-14b9-11e8-8b24-bbfb199126c4.jpeg" alt="xxx49cfbd0e9659a0a8e4db667943e5f1af"></div>
-<p>milk 00000是我曾经很喜欢的杂志，典型港志特色，够杂！够乱！</p>
-<p>前几天xxx在公司附近的图书馆上看到，发现依然不错，忽略掉大量的广告，其排版还是足够考究，足够有质感的，于是萌生订阅的念头，网上找了下，竟然没找到靠谱的渠道，官网更是没有明确的地方说明可以订阅。</p>
+            <title><![CDATA[论斤卖的杂志 milk]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349072-3783b884-14b9-11e8-8b24-bbfb199126c4.jpeg" alt="49cfbd0e9659a0a8e4db667943e5f1af"></div>
+<p>milk 是我曾经很喜欢的杂志，典型港志特色，够杂！够乱！</p>
+<p>前几天在公司附近的图书馆上看到，发现依然不错，忽略掉大量的广告，其排版还是足够考究，足够有质感的，于是萌生订阅的念头，网上找了下，竟然没找到靠谱的渠道，官网更是没有明确的地方说明可以订阅。</p>
 <p>那，只好翻出万能的淘宝了。</p>
 <p>找了一圈发现也没有地方可以订阅，那，我就来买买过期刊吧，没想到，这价格真是亲民，多是  10 本包邮 29，39 的，我随便选了家购入，到手后称重，足足快有 10 斤，我算了下，均摊邮费的话，每本才 2.5……感觉这出版界真是没法好好活了。</p>
 <p><a href="created_at:2017-09-29T22:45:11Z"></a></p>
@@ -1178,26 +1178,26 @@ methods<span class="token punctuation">:</span> <span class="token punctuation">
             <description><![CDATA[<p>在 <code>babel</code>， <code>webpack</code> 已经成为必装 npm 包的今天，代码还没开始写就已经装了 200MB 的依赖，我真的感觉我电脑硬盘要 gg。所以很早就开始研究 npm 的共享问题。</p>
 <h2>默认安装方式</h2>
 <pre><code>├── Sites
-│   ├── PROJECT_A
-│       └── node_modules
-│   ├── PROJECT_B
-│       └── node_modules
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
-│       └── node_modules
+│   ├── PROJECT_A
+│       └── node_modules
+│   ├── PROJECT_B
+│       └── node_modules
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+│       └── node_modules
 └── Other
 </code></pre>
 <p>看着那海量且重复的 node_modules，真没什么好多说的。这当然是最稳妥的方案。不过我必须要做些优化。</p>
 <h2>共享方式 1</h2>
 <p>之前我开发项目，喜欢把 node_modules 安装在 <code>~/Sites</code> (下文称 <code>ROOT_DIR</code>) 下：</p>
 <pre><code>├── Sites
-│   ├── node_modules
-│   ├── PROJECT_A
-│   ├── PROJECT_B
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
+│   ├── node_modules
+│   ├── PROJECT_A
+│   ├── PROJECT_B
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
 └── Other
 </code></pre>
 <p>如果项目需要安装 npm 包，比如 eslint，我会 cd 到 <code>ROOT_DIR</code>，然后 <code>npm i -S eslint</code>，这样可以最大程度的实现 npm 包多项目共享。
@@ -1295,8 +1295,8 @@ catEl<span class="token punctuation">.</span><span class="token function">addEve
 .
 ├── entry.js // webpack 的 entry 入口文件
 ├── article // 文章模块
-│   ├── article.js
-│   └── article.html
+│   ├── article.js
+│   └── article.html
 └── product // 产品模块
     ├── product.js
     └── product.html
