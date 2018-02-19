@@ -7,14 +7,15 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="keyword" content="npm node_modules 复用问题  - SolidZORO">
-    <meta name="description" content="。## 默认安装方式```├── Sites│   ├── PROJECT_A│       └── node_modules│   ├── PROJECT_B│       └── node_modules│   └── PROJECT_C│       └── node_modules│   └── PROJECT_D│       └── node_modules└── Other```看着那海量且重复的 node_modules，  - SolidZORO">
+    <meta name="description" content="。## 默认安装方式```├── Sites│   ├── PROJECT_A│       └── node_modules│   ├── PROJECT_B│       └── node_modules│   └── PROJECT_C│       └── node_modules│   └── PROJECT_D│       └── node_modules└── Other```看着那海量且重复的 node_modules，  - SolidZORO">
     <meta name="renderer" content="webkit">
-<link rel="apple-touch-icon" sizes="57x57" href="/statics/icons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/statics/icons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/statics/icons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/statics/icons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/statics/icons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/statics/icons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/statics/icons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/statics/icons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/statics/icons/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="SolidZORO"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><link rel="icon" type="image/png" sizes="32x32" href="/statics/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/statics/icons/favicon-16x16.png"><link rel="shortcut icon" href="/statics/icons/favicon.ico"><link href="/statics/styles/simple_472541972455159ea019.css?d75a09ad4fe573616c2e" rel="stylesheet"></head>
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="SolidZORO">
+<link rel="shortcut icon" href="/statics/favicon.ico"><link href="/statics/____styles/simple_devvvvvvvvvvvvvvvv.css?fc77759edab88196e6b5" rel="stylesheet"></head>
 
 <body class="body layout-body layout-body--item">
 
 <div class="layout-header">
-  
+    
     <div class="container">
   <div class="header-bar clearfix">
     <div class="header-bar__list header-bar__list--menu">
@@ -45,11 +46,11 @@
   </div>
 </div>
 
-  
+    
 </div>
 
 <div class="layout-container">
-  
+    
   <div class="container">
     <div class="entry-item">
 
@@ -67,26 +68,26 @@
           <p>在 <code>babel</code>， <code>webpack</code> 已经成为必装 npm 包的今天，代码还没开始写就已经装了 200MB 的依赖，我真的感觉我电脑硬盘要 gg。所以很早就开始研究 npm 的共享问题。</p>
 <h2>默认安装方式</h2>
 <pre><code>├── Sites
-│   ├── PROJECT_A
-│       └── node_modules
-│   ├── PROJECT_B
-│       └── node_modules
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
-│       └── node_modules
+│   ├── PROJECT_A
+│       └── node_modules
+│   ├── PROJECT_B
+│       └── node_modules
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+│       └── node_modules
 └── Other
 </code></pre>
 <p>看着那海量且重复的 node_modules，真没什么好多说的。这当然是最稳妥的方案。不过我必须要做些优化。</p>
 <h2>共享方式 1</h2>
 <p>之前我开发项目，喜欢把 node_modules 安装在 <code>~/Sites</code> (下文称 <code>ROOT_DIR</code>) 下：</p>
 <pre><code>├── Sites
-│   ├── node_modules
-│   ├── PROJECT_A
-│   ├── PROJECT_B
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
+│   ├── node_modules
+│   ├── PROJECT_A
+│   ├── PROJECT_B
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
 └── Other
 </code></pre>
 <p>如果项目需要安装 npm 包，比如 eslint，我会 cd 到 <code>ROOT_DIR</code>，然后 <code>npm i -S eslint</code>，这样可以最大程度的实现 npm 包多项目共享。
@@ -118,7 +119,7 @@
 </div>
 
 <div class="layout-footer">
-  
+    
     <div class="container">
   <div class="footer-bar clearfix">
     <div class="footer-bar__copyright">
@@ -132,9 +133,17 @@
   </div>
 </div>
 
-  
+    
 </div>
-<script src="/statics/vendor/dll_d42fea9a36be00ffe397.js"></script>
-<script type="text/javascript" src="/statics/scripts/simple_472541972455159ea019.js?d75a09ad4fe573616c2e"></script></body>
+
+<script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    if (!window.jQuery) {
+        const script = document.createElement('script');
+        script.src = "//cdn.bootcss.com/jquery/3.2.1/jquery.min.js";
+        document.body.appendChild(script);
+    }
+</script>
+<script type="text/javascript" src="/statics/____scripts/simple_devvvvvvvvvvvvvvvv.js?fc77759edab88196e6b5"></script></body>
 </html>
 
