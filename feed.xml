@@ -4,277 +4,12 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Feb 2018 01:45:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Feb 2018 01:45:52 GMT</lastBuildDate>
         <item>
-            <title><![CDATA[历史遗留问题:手机辐射]]></title>
-            <description><![CDATA[<p>很多朋友都写简讯或者是以其他方式告诉我：没事不要老带着手机,或是睡觉的时候要关机,并且不要放在床头.。</p>
-<p>我之前也考虑过这样的问题，感觉的确是那么一回事。不过仔细想想，我每天都放在裤带，如果有辐射，我下半身岂不完了……😱</p>
-<p>他们说的话也许只是出于好心，其实不一定靠谱。为此，我看了一下美国那边的手机辐射列表情况。这个是最高辐射手机Top10：</p>
-<blockquote>
-<p>1  Motorola V195s  1.6
-2  Motorola Slvr L6  1.58
-3  Motorola Slvr L2  1.54
-4  Motorola W385  1.54
-5  RIM BlackBerry Curve 8330 (Sprint)  1.54
-6  RIM BlackBerry Curve 8330 (Verizon Wireless)  1.54
-7  Motorola Deluxe ic902  1.53
-8  T-Mobile Shadow (HTC)  1.53
-9  Motorola i335  1.53
-10  Samsung Sync SGH-C417  1.51</p>
-</blockquote>
-<p>可以看到 RIM BlackBerry Curve 8330，也就是我们经常说的黑莓手机，型号8330。 后面那个 Sprint 和
-Verizon Wireless 分别是美国的运营商，就类似中国有 China Mobile 和 China Unicom 之分。可以看出，同一款型号的手机,接入了不同的运营商,辐射程度 (SAR level) 也是有不同的，但是差不了多少。上面的数值由FCC(Federal Communications Commission)测得，以FCC的权威应该相信。 毕竟联邦电信委员会这样的称号也不是摆看的，FCC也就是美国设置所有种类洲际通讯常规的独立政府机构。</p>
-<p>对于一个通过 FCC 认证的手机，它的最大比吸收率水平必须小于1.6W/kg。在欧洲，这个水平维持在2W/kg，但是加拿大运行的最大值是1.6W/kg。在上面的列表中的SAR值是指当把手机放在耳朵旁边的时候。</p>
-<p>之后我又查了查我用的哪款手机，Treo 680  0.66。恩，控制得不错，只有0.66。大大的低于了标准SAR值，怕是没有什么好担心的了。即便是晚上开着手机睡觉也不会怎么样。</p>
-<p>过我担心的是，现在很多朋友用的手机都是山寨机(也就是杂牌机)， 这样的黑手机没有通过正规检测。
-FCC 就别提了。 CE+CCC 都没通过。没有牌照，没有进网许可证。 曾经借到过这样的手机打电话。没打
-3 分钟就发觉耳朵疼了。干扰声还特别大。 可悲的是，手机主人是不会发觉这一切的，因为没体验过更好的，不知道到底好的手机是怎么样的。 就和没用过好耳塞听音乐一样，永远不知道音色居然还能好到另外一种境界。</p>
-<p>所以建议那些用杂牌手机并且有条件的话，还是把手机换成品牌的。 并不是说用品牌手机就是件值得炫耀的事情。只是更大程度上为了健康因素的考虑。 不过……不过……买品牌手机还是要看型号的，以前我用黑莓 7800 的时候，来电时竟然影响到座机，吓死我了。</p>
-<p>推荐一下最低辐射的 Top10，近期买手机的同学可以参考一下。</p>
-<blockquote>
-<ol>
-<li>LG KG800 0.135</li>
-<li>Motorola Razr V3x 0.14</li>
-<li>Nokia 9300 0.21</li>
-<li>Nokia N90 0.22</li>
-<li>Samsung SGH-G800 0.23</li>
-<li>Samsung Sync SGH-A707 0.236</li>
-<li>Nokia 7390 0.26</li>
-<li>Samsung SGH-T809 0.32</li>
-<li>Bang &amp; Olufsen Serene (Samsung SGH-E910) 0.33</li>
-<li>Motorola Razr2 V8  0.36</li>
-</ol>
-</blockquote>
-<p>LG KG800 竟然低到0.135，真是过分的夸张了。这种手机怕是抱在怀里睡觉也不会对身体有什么影响吧...</p>
-<p>所以我说嘛，还是不要过分在乎手机辐射会影响到健康的说法。任何事情都是要靠自己去判断是否要原样遵循的。</p>
-<p><a href="created_at:2008-06-22T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/cell-phone-radiation.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/cell-phone-radiation.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 19:13:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[精神欺骗]]></title>
-            <description><![CDATA[<p>其实喝咖啡并不能真正的让自己清醒，只是会让人在心里上产生一种离散的错觉， 就和病人吃药一样。这是一种物质+精神上的催化剂，而其中的作用，在于自己的态度。</p>
-<p>一道菜，本是一样，不同的厨师会给你不同的感觉。一篇文章的好坏，很大程度上取决于作者是谁。
-自己处境如何，是靠旁人评价来确定的，当旁人评价不靠谱的时候，那就得学会自己看清自己。
-活着，真是很辛苦的事情，却总有自己坚持的理由。攀比的对象不是别人，是自己，是内心。</p>
-<p>今天很奇迹般的早早入睡，然后在 3:am 这种时刻醒来。</p>
-<p>如果睡不着，起来就是了。提早开始新的一天其实也不错。 一个冷水澡，两杯 500ml 咖啡，我彻底清醒。或者说被我自己欺骗到异常清醒的地步。 为此，今天我争取到比别人多4小时的时间。一天真正有用的时间怕是只有 4 个 4 小时吧？</p>
-<p>这样算来，4 小时真是足够多的了。不是么？</p>
-<p><a href="created_at:2008-06-17T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/spiritual-deception.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/spiritual-deception.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 19:06:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PalmOS 上的 Java 环境的确让人失望]]></title>
-            <description><![CDATA[<p>原先就不看好 Palm 上的 Java 虚拟机(JVM)，也从来没有想过在 Palm 上构建 Java 环境。但是随着手机上网的次数增加，对浏览器的依赖就有了一种迫切的增长。没错，我正有换浏览器的念头。</p>
-<p>Palm 内置的 Blazer 4.5 虽然感觉上不错。原生的palm程序，速度快，响应时间也快。支持任何连接方式，也异常的稳定。但是在使用中发现，Blazer没能很好的对一些未经优化的界面读取，即便是去掉了CSS支持问题依旧。</p>
-<p>这并不是个别例子，除了类似 mac.6.cn 一类专门为移动设备有优化的网站外，其他网站可以说是面目全非。 另外，对于一些 js 页面支持得相当不好。有一些需要 js 支持的登录界面我是怎么登都登不进去……</p>
-<p>Xiion 就更不说了，这个不支持 GBK 编码的东西我是不会用的。大量的乱码会让人心情烦躁，最后唯一的指望便是 UCWEB 和 OiniOpera，据说 UCWEB 最近拿到了移动的一千万美金做开发，我想应该很好吧。但是试用后我发现并不可以使用蓝牙连接。这是致命的缺点。被打下冷宫。想来也是，倘若是任意蓝牙连接。移动也不会傻到来投资他了。</p>
-<p>然后试了试 MiniOpera，非常不错的说，界面很友好，也可以蓝牙连接，但是那速度非常不能让人满意。即便是换了据说本土化的空中 Opera 版本，速度依旧。加之载入图片较多的网站会产生假死。的确很让人无奈至极。另外还会时常的死机……</p>
-<p>或许开发厂商对 Palm 的态度根本就是了了吧。同一个软件为什么在 SB 和 WM上就会有如此好的表现呢？在回头想想，如果 PalmOS 当初就把 JVM 集成在 OS 里面，现在的情况又会是如何？</p>
-<p><a href="created_at:2008-03-30T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/bad-jvm-on-palm-os.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/bad-jvm-on-palm-os.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 19:02:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[用 Google 服务 8 年，谈谈体会]]></title>
-            <description><![CDATA[<p>首先，简短介绍一下 Google 的基本服务：</p>
-<h2><a href="https://gmail.com">电邮 - Gmail</a></h2>
-<p>我从 04 年开始使用 Gmail，一直用到现在，收到的垃圾邮件只有曲曲几封，大多数被自动过滤到了垃圾桶，Gmail 用 Ajax 界面很快，用户体验很好，页面上基本没有什么元素会给写 mail 的你带来麻烦。而且
-Gmail 自带的地址簿 - Google Contacts 和 Android 上的地址簿是通用的，云同步，手机丢了也没什么大麻烦。换一台 Android 手机，一个 Gmail 帐号，所有地址簿里面的联系人又都回来了，对了，联系人照片也一起回来了哦！</p>
-<h2><a href="https://picasaweb.google.com">照片 - Picasa</a></h2>
-<p>我用 Picasa Windows 客户端管理我的照片，并上传到 Google 服务器上备份，免费容量是 1GB，不过在Google+ 出来后，你的照片只要宽或者高不大于 2000px 像素就不算照片，只算图片，放在 Picasa 相册上不计算容量，几乎可以说，Picasa 其实是个无限容量的相册了。</p>
-<h2><a href="http://www.youtube.com">视频 - Youtube</a></h2>
-<p>Android 手机拍完视频一键就可以上传到 Youtube 了，实在太便捷了，而且 Youtube 超高级的，每一部短片 Google 用自家的语音技术把短片里面讲什么都识别出来，变成字幕，根本不用人工去做翻译字幕了，但是英文短片识别出来还是英文字母啊！！！怎么办？这个 Google 早想到了，结合自家的翻译技术，及时翻译原字幕成你想要的语言，是不是很赞很哈拉~哈哈哈。就是因为视频里面的话语被 Google 整理出了文字，然后通过 Google 搜索强大的分词技术，Youtube 的“相关视频”匹配率也相当精准。</p>
-<h3>谈谈我用Google各种服务的体会</h3>
-<p>我喜欢通过 Picasa 管理相片，把照片交给 Picasa 管理，她会帮我识别出相片里所有人物的脸谱。此时Picasa 会抓取我 Google 地址簿，要我确认分析出来的脸谱与 Google 地址簿之间的关系，简单说就是让我给脸谱加个名字，要是 Google 通讯录上没有这个人，Picasa 就会新建人物名字上传到 Google 通讯录上。</p>
-<p>而我是 Android 用户，Android 地址簿和 Google 地址簿是同步共享的，基本上 Picasa 识别出来的脸谱，都能对应到我手机 Google 地址簿上面的联系人名字。Picasa 很聪明，在我第一次关联脸谱与名字的时候就记住了这个脸谱，之后出现这个脸谱 Picasa 就知道他是谁了，如果 Picasa 实在不认识，就会问一下我是不是下面这几个名字，通过点选就加深了记忆。写 Mail 输入地址的时候，这些脸谱也会出现在 Mail 地址旁边，比较不会发错邮件。</p>
-<p>那么手机里面的照片又是怎么处理的呢？ 对，用 Google+ 客户端，只要安装了 Google+ 客户端的
-Android 手机连上网络（WiFi / 3G / GPRS）会自动上传照片到 Google+ 相册 Picasa，状态仅自己可见，在发布前都不用担心隐私问题，这样手机上传照片基本不用通过电脑传了，而且在 Picasa web 端浏览照片，Picasa 一样会给你把人物脸谱识别出来，并标记名字。</p>
-<p>感觉用 Google 家的东西一系列都可以串起来，爽到翻。订阅报纸用 Google Reader 很便捷，翻译用
-Google Translate ，看短片用 Youtube。搜索用 Google 搜索，Google 搜索连汉语这样复杂的语言他们做分词也做得很好，不过这也要归功于 Google 输入法的功劳，通过上传用户输入词语的频率来抓取关键字并做分词处理实在是个很好的 idea。</p>
-<p><a href="created_at:2011-11-12T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/talk-about-google-service.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/talk-about-google-service.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:54:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TRON Legacy]]></title>
-            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36405363-431e7a6c-162b-11e8-8d7b-b80bef3b21d6.jpg" alt="tron02"></div>
-<p>豆瓣评得太多了，我没什么头绪写，来说个细节。</p>
-<p>主角的老爹给女主角修复手臂数据的时候，弄出的黄色数据变成了一只飞蛾飞走了。搞程序的都知道，以前没有做出CPU处理器的时候，是用很多晶体管来做运算的，有一天程序出了问题，大家开始排查，发现原来一只飞蛾卡在了晶体管上，从此以后，大家便把飞蛾（臭虫）这种导致程序出问题的东西叫做bug。</p>
-<p>最后在影评上提到蛮多的疑问：女主角怎么也能和主角一起回到真实世界了？ 我觉得是借用了主角老爹的身份光盘。</p>
-<p>片子音乐很好听，电子乐，不算噪。打10分。这实在是近年科幻题材不可多得的好片！</p>
-<p><a href="created_at:2011-11-11T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/tron-legacy.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/tron-legacy.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:46:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[日本語の友達]]></title>
-            <description><![CDATA[<p>在几乎不到一周的时间里，我认识到了两位居住在身边的日语朋友，两位都是お姉さん，十二颜和Sakura。</p>
-<p>很高兴能够认识到她们。她们的出现，足够让我的生活从另一种角度精彩起来。也许，在将来的一些日子里，我也能开口说一些这种之前并没有经常使用的语言了。</p>
-<p>那么最后请让我说一句，ありがとうございます ；）</p>
-<p><a href="created_at:2008-03-14T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/talk-jpns-chns-friends.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/talk-jpns-chns-friends.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:34:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[极端的贪婪]]></title>
-            <description><![CDATA[<p>记得有这样的一个故事。</p>
-<p>一个老头家门口有一个免费的公园，公园里头有一片大草地，他每天下午都喜欢自己推着轮椅到那片草地去晒太阳。</p>
-<p>有一天来了一群小孩，他们每天下午都在那片大草地踢足球。老头觉得很心烦，但是毕竟草地不是他家的。于是他把那群小孩叫过来，说：“你们尽情在这片草地玩吧，只要你们来玩，我就每天下午给你们每人1 美元。”小孩们都很高兴，因为不仅可以找到一片大草地玩，还可以有钱拿，多爽啊。</p>
-<p>这样子过了一段时间，老头突然不给钱了，说什么都不给了，那帮小孩们觉得很不爽，就再也不到这片草地来玩了。于是老头又可以每天下午安安静静地在那片草地上晒太阳了。</p>
-<p>极端的贪婪，将会回到事物的本质。</p>
-<p><a href="created_at:2008-03-12T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/greed-extremity.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/greed-extremity.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:32:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[梦境]]></title>
-            <description><![CDATA[<p>凌晨2点睡，7点就起来了，那个时候我在做梦。怪物来到我家了。有人叫我开蓝牙等消息，但是我没开，在玩模拟器游戏，结果怪物来我关门，躲在床下……就这样醒来了。半年了，第一次这个时候起来。早晨真好。</p>
-<p>做梦会让你感到害怕，因为你无法控制脑子里人物的关系链，无法判别什么是对什么是错。就像被骇客入侵一样。</p>
-<p>梦把你一生以来所有记忆都全盘托出。乱序的把时间，地点，还有人物重叠，至于里面的事件，便是你大脑在睡眠时期的混乱思维。往往你不能控制梦里的内容。但是也有种叫清明梦，你能控制自己在梦里发生的一切，有种灵魂脱窍的感觉。另外之所以我们能记得梦。完全不是因为单单的梦，如果我们没有记忆器，我们是无法记忆梦境的。是大脑的记忆功能把梦的内容带到了未来。</p>
-<p><a href="created_at:2007-12-28T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/dreamworld-20071228.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/dreamworld-20071228.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:27:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[MAXS's Night]]></title>
-            <description><![CDATA[<p>平安夜那天在路上看见一个叔叔拉着女儿，他们很纯朴，不像是居住在城市里的。叔叔和他女儿手中都拎着一瓶可乐，他们有说有笑，像是一瓶可乐把他们满足的。</p>
-<p>其实这不挺好的么，生活几时才能开心那么一回？我们又在追求什么呢？</p>
-<p><a href="created_at:2007-12-27T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/maxs-night-2017.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/maxs-night-2017.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:26:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[冬天]]></title>
-            <description><![CDATA[<p>冬天到了，虽然白天阳光依然灿烂，但是从自来水的温度就可以判别出来，冬天的确是来到了。</p>
-<p>每次洗澡出来都特别冷，冷得让人又开始期待起那个热得让人期待冬天的夏天。华姐今天来，把相机借去了，感觉她好像又恢复了原来的本貌，不在那么接近&quot;社会&quot;了，说话也没有那种&quot;距离&quot;了。不知不觉高中3年就这样过去，大学乃至社会已经摆在了眼前，以前的快乐虽然还保留着，但是现在的快乐并不单纯，往往会有一些杂质参入，</p>
-<p>现在开心的代价似乎比以前多了少许。那个令人羡慕的 17 岁已经过去，过去就是过去了，没有办法再回去了，只能残留在记忆的角落里。有时候回忆是个让人感伤的东西，它能把人带到过去，无论忧伤与否，总是会勾起那咸咸的眼泪。15 岁会怀念小时候，18 岁会怀念 15 岁，大学毕业后的第 2 年总是会在怀念大学里那些并不美好的没好时光。</p>
-<p>当一个人爱上怀念的时候说明他已经老了，如同现在的我。</p>
-<p><a href="created_at:2007-12-29T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/winter-2007.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/winter-2007.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:24:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[秋天]]></title>
-            <description><![CDATA[<p>秋天，一个非常短暂的季节，但是很不幸，在它快要结束的时候我也没能把它放入自己的视野里。</p>
-<p>在冬天来到的时候，忽然想到了去放放风筝，很显然！寒冷的冬天是不能满足这样的期望的，只好作罢。不知道有多少年没有让这玩意飘荡在空中了，想想都觉得神奇，一张白纸，几梗竹片，加上牵引线就可以把这玩意送上蓝天，多么美妙的事情，要是和着心爱的人一起放飞，那情景将会是多么的罗曼蒂克。</p>
-<p>不过始终是错过了，秋天！很短，短得很多事都忘记去实现，明年的秋天但愿我会记得。</p>
-<p><a href="created_at:2007-11-28T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/autumn-2007.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/autumn-2007.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:21:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[用 Flickr 相册的感触]]></title>
-            <description><![CDATA[<p>起初没看好 Flickr 是因为网速慢，后来想用了，却又被 X 了…… 放弃之。</p>
-<p>这两天忽然想找个网络相册，国内的感觉都不行。国外的速度慢。后来尝试了一下 Flickr。居然解封了？速度非常好(CNC网通)不过如果是中文的话，只有繁体？不管啦，英文也一样好用，上传照片有 Flickr Tools。</p>
-<p>感觉虽然不如 Google Picasa 强大，但是配合 Photoshop 也能很好的处理图片了，不错不错。</p>
-<p>但郁闷的就是 Flickr Pro User 制度。 Free User 用户每月只能上载20MB的相片，而且最多200张。多出200以后，以前的就会不见了。但是如果之前 Blog 有引用的话，图片还是在的，其实还是会保存在Server上的。也就是不让你浏览罢了。话说注册 Pro User 一年需要 $24，这个价钱对于国人来说的确是过了。</p>
-<p>Flickr 上的气氛很好，几乎每张图片都有评论，像这样浓厚气氛的网络相册在中国是见不到的。国内比较出色的 Yupoo，Bababian 都是仿照 Flickr 做出来的。效果可想而知，虽然无限容量，但是感觉没有什么气氛。</p>
-<p>只是 Share 照片感觉没多大意思了，话又说回来，QQ相册现在还好，毕竟使用QQ的用户比较多，比较容易被网友看到。但是回复机制的确不是那么令人满意，并不是说没有，是太淡化了。很多人都不知道QQ相册能回复留言，知道了也不会去回复。 那么照片放在网路上还有什么意思？</p>
-<p>Flickr 虽然&quot;昂贵&quot;，但是估且会用上个一年半载的吧。 哪怕是 Free User。技术过硬，气氛浓厚的网络相册现在的确难找了。Share照片不仅仅是上传那么简单。</p>
-<p><a href="created_at:2007-11-07T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/talk-flickr-album.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/talk-flickr-album.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:18:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[不能说的秘密]]></title>
-            <description><![CDATA[<p>闲暇的午后聆听着随和的钢琴曲，浏览着回忆中的照片，心里忽然觉得很难受。有种淡淡的忧伤。原来回忆中的影像能给人那么多感觉。忽然发觉照片是多么的珍贵。好喜欢这样的感觉。</p>
-<p>就在这几天里看了 3 遍 JAY 亲自操刀的爱情片 Secret (不能说的秘密)。作为一个对爱情片不闻不问的人，这次居然被感动了。小雨和小伦那种若例如及的感觉是以前的片子中从未感受过的。也就是 Secrte 给了我重新认识 JAY 的机会。</p>
-<p>原来 JAY 不单单是个歌手那么简单了。还是一个优秀的导演。片中的曲子也多为 JAY 亲自谱写，从
-Opening 到 Ride With Me，从湘伦小雨四手联弹到 Secret，都是那么的动听，纯得透明，似乎没有一点杂质。插曲晴天娃娃和情人的眼泪也可以说是配得恰到好处，无一不体现出JAY在音乐方面的才华。</p>
-<p>很喜欢片中小雨那样的女生，娴熟涵养的性格中略带一些疯狂，让人摸不着，猜不透。睿智和清纯得一塌糊涂。以前看过触不到的恋人这次没想到在没心理准备的情况下又遇见了同样类型的影片。据说剧情取自 JAY 的初恋哦，不知道是真的还是假的。</p>
-<p><a href="created_at:2007-10-31T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/secret-jay.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/secret-jay.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 18:14:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Time and space]]></title>
-            <description><![CDATA[<p>我们都是同一个人，但是我们没有存活在同一个时间里，每一个人都和他最近的那个人相隔了一段时间，交错的时间放在一个空间里，就形成了这个社会，一个４维空间。</p>
-<p><a href="created_at:2007-10-28T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/time-and-space.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/time-and-space.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 17:59:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[解析记忆]]></title>
-            <description><![CDATA[<p>记忆深度，人的记忆存储在大脑，并且是以图片或连贯画面(也就类似于影片记录)方式存储，可见其容量有多大了！</p>
-<p>而这图片和连贯画面就有了分辨率一说，通常经常看到的东西分辨率会慢慢加大，而一些不注意观察的东西在记忆清晰度中是非常模糊或者可以忽略不记的，因为人的大脑再大也是有个限度的，如果太大装不下东西了那么人的记忆能力就下降了老人就是一个很好的例子，时间使脑容量逐渐填满，到老的时候，什么东西都只可以以非常低的分辨率来储存，所以老忘事，或是记不清楚东西了，(有的人可以看书过目不忘，那是因为他的脑容量比较大，什么东西都可以以高分辨率来储存)。</p>
-<p>脑子，储存东西的地方，也可以说是储存的地方，但是绝对不是思考东西的部位。</p>
-<p>思考东西是思想，是一种精神上的东西，看不见也摸不着，有的人会问为什么思考东西的时候人的大脑会痛，那是因为思考东西的时候，思想快速的调用脑袋中存储的信息。</p>
-<p>你想想，人能够在1秒中的时间里回忆起30，甚至80年前的事情，可见这个搜索速度快得惊人，世界上最快的电脑都没有那么快，而且不是以文字形式进行搜索而是以记忆影像或者图片的方式。脑袋要承受如此大的运算速度，能不痛么？</p>
-<p>如果是把大脑构造用现在的电脑硬件模拟出来，估计搜索一个片段至少要花上N年的时间了。还有一个结论就是，人的存储方式绝不是按字符储存的，是感性的，人们如果要回想一个英语单词，绝对不会出现单纯的英文字母，而是当时在什么地方第一次看见这个单词的画面，</p>
-<p>比如英语书，取出回忆图片的时候，旁边还略有模糊的音标呢。当然，这要看看当时你是不是在意那些音标了。这里就留下一个问题了，如果要模拟出人工智能，那么必须拥有一个能根据需要，搜索图片或者影视的系统了，不单单是单纯的字母符号了，现在的科技还没能写出这样的程序来。</p>
-<p>另外要佩服一下，制造人类的那些物种，太强大了，把人做得如此完美，比如说骨骼、大脑、和思想，还有神经的情况下加入了同样多的缺点，比如依赖食物来转换能量、疾病、运动限制等。</p>
-<p><a href="created_at:2007-10-28T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/memory-structure.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/memory-structure.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 17:56:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[空间]]></title>
-            <description><![CDATA[<p>一维，点
-二维，平面
-三维，立体
-四维，是在三维基础上加入时间的概念(也就是所谓的空间)。
-打个比喻：一个人的维度是多少？无非是你的本身体积乘以你的寿命(也许不是乘的关系)
-至于第五维，第六维……本年代还是无法解答的。
-所以每一维都是建立在前一维的基础上的，第四维的准元素不存在就没有空间，反之，空间消失就意味着前三维在第四维层次上的叠加及第四维准元素都不存在了，故而不存在时间。</p>
-<p><a href="created_at:2007-09-13T22:45:11Z"></a></p>
-]]></description>
-            <link>http://solidzoro.com/space123456.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/space123456.html</guid>
-            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 17:47:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[论斤卖的杂志 milk]]></title>
-            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349072-3783b884-14b9-11e8-8b24-bbfb199126c4.jpeg" alt="49cfbd0e9659a0a8e4db667943e5f1af"></div>
-<p>milk 是我曾经很喜欢的杂志，典型港志特色，够杂！够乱！</p>
-<p>前几天在公司附近的图书馆上看到，发现依然不错，忽略掉大量的广告，其排版还是足够考究，足够有质感的，于是萌生订阅的念头，网上找了下，竟然没找到靠谱的渠道，官网更是没有明确的地方说明可以订阅。</p>
+            <title><![CDATA[论斤卖的杂志 OKxxmilk]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349072-3783b884-14b9-11e8-8b24-bbfb199126c4.jpeg" alt="xxx49cfbd0e9659a0a8e4db667943e5f1af"></div>
+<p>milk 00000是我曾经很喜欢的杂志，典型港志特色，够杂！够乱！</p>
+<p>前几天xxx在公司附近的图书馆上看到，发现依然不错，忽略掉大量的广告，其排版还是足够考究，足够有质感的，于是萌生订阅的念头，网上找了下，竟然没找到靠谱的渠道，官网更是没有明确的地方说明可以订阅。</p>
 <p>那，只好翻出万能的淘宝了。</p>
 <p>找了一圈发现也没有地方可以订阅，那，我就来买买过期刊吧，没想到，这价格真是亲民，多是  10 本包邮 29，39 的，我随便选了家购入，到手后称重，足足快有 10 斤，我算了下，均摊邮费的话，每本才 2.5……感觉这出版界真是没法好好活了。</p>
 <p><a href="created_at:2017-09-29T22:45:11Z"></a></p>
@@ -290,10 +25,10 @@ Opening 到 Ride With Me，从湘伦小雨四手联弹到 Secret，都是那么�
 <p>但好在碎片总要陨落。</p>
 <p><a href="created_at:2017-09-22T22:45:11Z"></a></p>
 ]]></description>
-            <link>http://solidzoro.com/dream-20170922.html</link>
-            <guid isPermaLink="false">http://solidzoro.com/dream-20170922.html</guid>
+            <link>http://solidzoro.com/dream.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/dream.html</guid>
             <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 17:45:26 GMT</pubDate>
+            <pubDate>Sat, 17 Feb 2018 22:35:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[KFC & M 最佳 CP]]></title>
@@ -1443,26 +1178,26 @@ methods<span class="token punctuation">:</span> <span class="token punctuation">
             <description><![CDATA[<p>在 <code>babel</code>， <code>webpack</code> 已经成为必装 npm 包的今天，代码还没开始写就已经装了 200MB 的依赖，我真的感觉我电脑硬盘要 gg。所以很早就开始研究 npm 的共享问题。</p>
 <h2>默认安装方式</h2>
 <pre><code>├── Sites
-│   ├── PROJECT_A
-│       └── node_modules
-│   ├── PROJECT_B
-│       └── node_modules
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
-│       └── node_modules
+│   ├── PROJECT_A
+│       └── node_modules
+│   ├── PROJECT_B
+│       └── node_modules
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+│       └── node_modules
 └── Other
 </code></pre>
 <p>看着那海量且重复的 node_modules，真没什么好多说的。这当然是最稳妥的方案。不过我必须要做些优化。</p>
 <h2>共享方式 1</h2>
 <p>之前我开发项目，喜欢把 node_modules 安装在 <code>~/Sites</code> (下文称 <code>ROOT_DIR</code>) 下：</p>
 <pre><code>├── Sites
-│   ├── node_modules
-│   ├── PROJECT_A
-│   ├── PROJECT_B
-│   └── PROJECT_C
-│       └── node_modules
-│   └── PROJECT_D
+│   ├── node_modules
+│   ├── PROJECT_A
+│   ├── PROJECT_B
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
 └── Other
 </code></pre>
 <p>如果项目需要安装 npm 包，比如 eslint，我会 cd 到 <code>ROOT_DIR</code>，然后 <code>npm i -S eslint</code>，这样可以最大程度的实现 npm 包多项目共享。
@@ -1560,8 +1295,8 @@ catEl<span class="token punctuation">.</span><span class="token function">addEve
 .
 ├── entry.js // webpack 的 entry 入口文件
 ├── article // 文章模块
-│   ├── article.js
-│   └── article.html
+│   ├── article.js
+│   └── article.html
 └── product // 产品模块
     ├── product.js
     └── product.html
