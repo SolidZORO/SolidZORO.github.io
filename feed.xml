@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Feb 2018 11:31:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Feb 2018 11:34:54 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Travis-CI TEST]]></title>
             <description><![CDATA[<p>Travis-CI 检测。</p>
@@ -180,6 +180,1820 @@ Google Translate ，看短片用 Youtube。搜索用 Google 搜索，Google 搜�
             <guid isPermaLink="false">http://solidzoro.com/maxs-night-2017.html</guid>
             <dc:creator><![CDATA[SolidZORO]]></dc:creator>
             <pubDate>Mon, 19 Feb 2018 18:26:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[冬天]]></title>
+            <description><![CDATA[<p>冬天到了，虽然白天阳光依然灿烂，但是从自来水的温度就可以判别出来，冬天的确是来到了。</p>
+<p>每次洗澡出来都特别冷，冷得让人又开始期待起那个热得让人期待冬天的夏天。华姐今天来，把相机借去了，感觉她好像又恢复了原来的本貌，不在那么接近&quot;社会&quot;了，说话也没有那种&quot;距离&quot;了。不知不觉高中3年就这样过去，大学乃至社会已经摆在了眼前，以前的快乐虽然还保留着，但是现在的快乐并不单纯，往往会有一些杂质参入，</p>
+<p>现在开心的代价似乎比以前多了少许。那个令人羡慕的 17 岁已经过去，过去就是过去了，没有办法再回去了，只能残留在记忆的角落里。有时候回忆是个让人感伤的东西，它能把人带到过去，无论忧伤与否，总是会勾起那咸咸的眼泪。15 岁会怀念小时候，18 岁会怀念 15 岁，大学毕业后的第 2 年总是会在怀念大学里那些并不美好的没好时光。</p>
+<p>当一个人爱上怀念的时候说明他已经老了，如同现在的我。</p>
+<p><a href="created_at:2007-12-29T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/winter-2007.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/winter-2007.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 18:24:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[秋天]]></title>
+            <description><![CDATA[<p>秋天，一个非常短暂的季节，但是很不幸，在它快要结束的时候我也没能把它放入自己的视野里。</p>
+<p>在冬天来到的时候，忽然想到了去放放风筝，很显然！寒冷的冬天是不能满足这样的期望的，只好作罢。不知道有多少年没有让这玩意飘荡在空中了，想想都觉得神奇，一张白纸，几梗竹片，加上牵引线就可以把这玩意送上蓝天，多么美妙的事情，要是和着心爱的人一起放飞，那情景将会是多么的罗曼蒂克。</p>
+<p>不过始终是错过了，秋天！很短，短得很多事都忘记去实现，明年的秋天但愿我会记得。</p>
+<p><a href="created_at:2007-11-28T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/autumn-2007.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/autumn-2007.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 18:21:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[用 Flickr 相册的感触]]></title>
+            <description><![CDATA[<p>起初没看好 Flickr 是因为网速慢，后来想用了，却又被 X 了…… 放弃之。</p>
+<p>这两天忽然想找个网络相册，国内的感觉都不行。国外的速度慢。后来尝试了一下 Flickr。居然解封了？速度非常好(CNC网通)不过如果是中文的话，只有繁体？不管啦，英文也一样好用，上传照片有 Flickr Tools。</p>
+<p>感觉虽然不如 Google Picasa 强大，但是配合 Photoshop 也能很好的处理图片了，不错不错。</p>
+<p>但郁闷的就是 Flickr Pro User 制度。 Free User 用户每月只能上载20MB的相片，而且最多200张。多出200以后，以前的就会不见了。但是如果之前 Blog 有引用的话，图片还是在的，其实还是会保存在Server上的。也就是不让你浏览罢了。话说注册 Pro User 一年需要 $24，这个价钱对于国人来说的确是过了。</p>
+<p>Flickr 上的气氛很好，几乎每张图片都有评论，像这样浓厚气氛的网络相册在中国是见不到的。国内比较出色的 Yupoo，Bababian 都是仿照 Flickr 做出来的。效果可想而知，虽然无限容量，但是感觉没有什么气氛。</p>
+<p>只是 Share 照片感觉没多大意思了，话又说回来，QQ相册现在还好，毕竟使用QQ的用户比较多，比较容易被网友看到。但是回复机制的确不是那么令人满意，并不是说没有，是太淡化了。很多人都不知道QQ相册能回复留言，知道了也不会去回复。 那么照片放在网路上还有什么意思？</p>
+<p>Flickr 虽然&quot;昂贵&quot;，但是估且会用上个一年半载的吧。 哪怕是 Free User。技术过硬，气氛浓厚的网络相册现在的确难找了。Share照片不仅仅是上传那么简单。</p>
+<p><a href="created_at:2007-11-07T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/talk-flickr-album.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/talk-flickr-album.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 18:18:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[不能说的秘密]]></title>
+            <description><![CDATA[<p>闲暇的午后聆听着随和的钢琴曲，浏览着回忆中的照片，心里忽然觉得很难受。有种淡淡的忧伤。原来回忆中的影像能给人那么多感觉。忽然发觉照片是多么的珍贵。好喜欢这样的感觉。</p>
+<p>就在这几天里看了 3 遍 JAY 亲自操刀的爱情片 Secret (不能说的秘密)。作为一个对爱情片不闻不问的人，这次居然被感动了。小雨和小伦那种若例如及的感觉是以前的片子中从未感受过的。也就是 Secrte 给了我重新认识 JAY 的机会。</p>
+<p>原来 JAY 不单单是个歌手那么简单了。还是一个优秀的导演。片中的曲子也多为 JAY 亲自谱写，从
+Opening 到 Ride With Me，从湘伦小雨四手联弹到 Secret，都是那么的动听，纯得透明，似乎没有一点杂质。插曲晴天娃娃和情人的眼泪也可以说是配得恰到好处，无一不体现出JAY在音乐方面的才华。</p>
+<p>很喜欢片中小雨那样的女生，娴熟涵养的性格中略带一些疯狂，让人摸不着，猜不透。睿智和清纯得一塌糊涂。以前看过触不到的恋人这次没想到在没心理准备的情况下又遇见了同样类型的影片。据说剧情取自 JAY 的初恋哦，不知道是真的还是假的。</p>
+<p><a href="created_at:2007-10-31T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/secret-jay.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/secret-jay.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 18:14:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Time and space]]></title>
+            <description><![CDATA[<p>我们都是同一个人，但是我们没有存活在同一个时间里，每一个人都和他最近的那个人相隔了一段时间，交错的时间放在一个空间里，就形成了这个社会，一个４维空间。</p>
+<p><a href="created_at:2007-10-28T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/time-and-space.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/time-and-space.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 17:59:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[解析记忆]]></title>
+            <description><![CDATA[<p>记忆深度，人的记忆存储在大脑，并且是以图片或连贯画面(也就类似于影片记录)方式存储，可见其容量有多大了！</p>
+<p>而这图片和连贯画面就有了分辨率一说，通常经常看到的东西分辨率会慢慢加大，而一些不注意观察的东西在记忆清晰度中是非常模糊或者可以忽略不记的，因为人的大脑再大也是有个限度的，如果太大装不下东西了那么人的记忆能力就下降了老人就是一个很好的例子，时间使脑容量逐渐填满，到老的时候，什么东西都只可以以非常低的分辨率来储存，所以老忘事，或是记不清楚东西了，(有的人可以看书过目不忘，那是因为他的脑容量比较大，什么东西都可以以高分辨率来储存)。</p>
+<p>脑子，储存东西的地方，也可以说是储存的地方，但是绝对不是思考东西的部位。</p>
+<p>思考东西是思想，是一种精神上的东西，看不见也摸不着，有的人会问为什么思考东西的时候人的大脑会痛，那是因为思考东西的时候，思想快速的调用脑袋中存储的信息。</p>
+<p>你想想，人能够在1秒中的时间里回忆起30，甚至80年前的事情，可见这个搜索速度快得惊人，世界上最快的电脑都没有那么快，而且不是以文字形式进行搜索而是以记忆影像或者图片的方式。脑袋要承受如此大的运算速度，能不痛么？</p>
+<p>如果是把大脑构造用现在的电脑硬件模拟出来，估计搜索一个片段至少要花上N年的时间了。还有一个结论就是，人的存储方式绝不是按字符储存的，是感性的，人们如果要回想一个英语单词，绝对不会出现单纯的英文字母，而是当时在什么地方第一次看见这个单词的画面，</p>
+<p>比如英语书，取出回忆图片的时候，旁边还略有模糊的音标呢。当然，这要看看当时你是不是在意那些音标了。这里就留下一个问题了，如果要模拟出人工智能，那么必须拥有一个能根据需要，搜索图片或者影视的系统了，不单单是单纯的字母符号了，现在的科技还没能写出这样的程序来。</p>
+<p>另外要佩服一下，制造人类的那些物种，太强大了，把人做得如此完美，比如说骨骼、大脑、和思想，还有神经的情况下加入了同样多的缺点，比如依赖食物来转换能量、疾病、运动限制等。</p>
+<p><a href="created_at:2007-10-28T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/memory-structure.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/memory-structure.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 17:56:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[空间]]></title>
+            <description><![CDATA[<p>一维，点
+二维，平面
+三维，立体
+四维，是在三维基础上加入时间的概念(也就是所谓的空间)。
+打个比喻：一个人的维度是多少？无非是你的本身体积乘以你的寿命(也许不是乘的关系)
+至于第五维，第六维……本年代还是无法解答的。
+所以每一维都是建立在前一维的基础上的，第四维的准元素不存在就没有空间，反之，空间消失就意味着前三维在第四维层次上的叠加及第四维准元素都不存在了，故而不存在时间。</p>
+<p><a href="created_at:2007-09-13T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/space123456.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/space123456.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 17:47:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[论斤卖的杂志 milk]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349072-3783b884-14b9-11e8-8b24-bbfb199126c4.jpeg" alt="49cfbd0e9659a0a8e4db667943e5f1af"></div>
+<p>milk 是我曾经很喜欢的杂志，典型港志特色，够杂！够乱！</p>
+<p>前几天在公司附近的图书馆上看到，发现依然不错，忽略掉大量的广告，其排版还是足够考究，足够有质感的，于是萌生订阅的念头，网上找了下，竟然没找到靠谱的渠道，官网更是没有明确的地方说明可以订阅。</p>
+<p>那，只好翻出万能的淘宝了。</p>
+<p>找了一圈发现也没有地方可以订阅，那，我就来买买过期刊吧，没想到，这价格真是亲民，多是  10 本包邮 29，39 的，我随便选了家购入，到手后称重，足足快有 10 斤，我算了下，均摊邮费的话，每本才 2.5……感觉这出版界真是没法好好活了。</p>
+<p><a href="created_at:2017-09-29T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/magazin-milk.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/magazin-milk.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:37:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[梦]]></title>
+            <description><![CDATA[<p>有时候各式各样莫名其妙的梦是真的能影响早晨起床时那一刻的心情，时好时坏，又搞不好梦的碎片会在午后穿过你的心。</p>
+<p>但好在碎片总要陨落。</p>
+<p><a href="created_at:2017-09-22T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/dream-20170922.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/dream-20170922.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 17:45:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KFC & M 最佳 CP]]></title>
+            <description><![CDATA[<p>就像是约定，杯面同时换新装 hhhhhhhhhhh</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349058-ea4c7b1e-14b8-11e8-93f8-b250cfa9b430.jpeg" alt="9323c0daae6c0afdda69a9e6dd590f4d"></div>
+<p><a href="created_at:2017-09-20T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/kfc-m-cp.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/kfc-m-cp.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:35:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GAP  96% 纯棉 + 4% 弹性纤维]]></title>
+            <description><![CDATA[<p>不喜欢 100% 纯棉T恤的拖沓感，GAP 这样的配方刚刚好。每季都要买一些。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349054-d43dc828-14b8-11e8-8d12-75a73312877d.jpeg" alt="2a7d07f3990c862337d1a44123479980"></div>
+<p><a href="created_at:2017-09-17T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/gap-t-shirt.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/gap-t-shirt.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:34:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[聊聊 BEM]]></title>
+            <description><![CDATA[<p>最近在写 CSS 的时候遵循了一个叫 <a href="http://getbem.com/">BEM</a> 的思想，这东西在网上评价两极分化比较严重，我之前受评论影响，觉得 BEM 的语法和一坨屎一样难看。</p>
+<p>来来来，先看看 BEM 的语法：</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.block</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">//块（block）
+.block__element</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">//元素（element）
+.block--modifier</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> //修饰符（modifier）
+</code></pre>
+<p>运用在实际项目中是这个样子的：</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.article</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">// 文章块
+.article__header</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">// 文章头部元素
+.article__header .title</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">// 文章头部元素 的标题
+.article__footer</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">// 文章尾部元素
+.article--project</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token selector">// 文章修饰符 project 页面
+.article--about</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> // 文章修饰符 about 页面
+</code></pre>
+<p>嗯，果然是<a href="https://yandex.com/">战斗名族 (yandex) </a>的味道。</p>
+<p>换做以前啊，看到一个 CSS class 如 <code>article-header</code> 是分不清楚这是否有上下文的，很可能就是即兴命名。再看看 BEM 命名 <code>article__header</code>，应为有了 BEM 约定，明确可以知道 <code>article</code> 是一个模块，而 <code>header</code> 是他的元素（子类）。</p>
+<p>当然啦，今天讲的不是 BEM 本身，而是他的思想。有没有想过为什么会有 BEM 这种如此丑陋难看恶心语法？那全拜 CSS 没有 namespace （命名空间）所赐，必须弄个什么奇奇怪怪的分隔符当 namespace。</p>
+<p>在文件夹中，如果不考虑用子文件夹，但是各文件又有从属关系，也可以运用 BEM 的思想去构建。</p>
+<p>比如有如下几个文件。</p>
+<pre class="language-bash"><code class="language-bash">article.php
+about.php
+header.php
+footer.php
+</code></pre>
+<p>article.php 是文章模版，而 about.php 是 article.php 的小改款。</p>
+<p>article.php 和  about.php 都需要引入 header.php 和 footer.php，不过一眼看过去并不能看到他们之间的从属关系，那么可以改成这样：</p>
+<pre class="language-bash"><code class="language-bash">article.php
+about.php
+article_header.php
+article_footer.php
+</code></pre>
+<p>这样会好一些，但是这样就看不出 about 也引用了 header 和 footer，所以把他们用 BEM 的方式修改一遍：</p>
+<pre class="language-bash"><code class="language-bash">article.php
+article--about.php
+article__header.php
+article__footer.php
+</code></pre>
+<p>好家伙，这样一改就显得非常清晰了。</p>
+<p>当然，如果在允许有子文件夹的情况下，并且用上 BEM 思想，就会变成这样 hhhhh：</p>
+<pre class="language-bash"><code class="language-bash">article.php
+    <span class="token operator">|</span> -- <span class="token punctuation">(</span>DIR<span class="token punctuation">)</span>
+	<span class="token operator">|</span> about.php
+    <span class="token operator">|</span> __ <span class="token punctuation">(</span>DIR<span class="token punctuation">)</span>
+        <span class="token operator">|</span> header.php
+        <span class="token operator">|</span> footer.php
+</code></pre>
+<p><a href="created_at:2017-09-10T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/talk-bem.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/talk-bem.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:34:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在树莓派上驱动各种 LCD]]></title>
+            <description><![CDATA[<p>个人感觉硬件编程的魅力在于看得见摸得着，还能拿到好友面前 show 两段，明明一样的代码量啊，为什么硬件比软件 🆒 那么多！！</p>
+<p>不过 🆒 不过两天依旧难逃吃灰的命。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349047-9c90c88a-14b8-11e8-8460-c225325329a4.jpeg" alt="12fd89d39a00eb0d289e3286d714973f"></div>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349048-9ccb555e-14b8-11e8-972d-53d44e12210d.jpeg" alt="cf1b6bdb0b775fc5aedd8300b9825a59"></div>
+<p><a href="created_at:2014-09-04T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/raspberrypy-drive-lcd.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/raspberrypy-drive-lcd.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:33:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nighte 更新日志（第一次用 nighte）]]></title>
+            <description><![CDATA[<p>既然是第一次用 nighte，当然是要截个图做纪念咯，截什么好呢？让我想想。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349039-55898170-14b8-11e8-9c14-c9a2a8585502.jpeg" alt="3b389f3e2ed8472b851f1ebaaff8ef9c"></div>
+<p>这是刚写自动【自动传图 &amp; 自动 Github 提交】的脚本时遇到的问题。</p>
+<p>即 <code>cd /abc/x y z</code> 这种带空格的目录怎么办，那上图就给出了方法，把变量用双引号引起来就好了。</p>
+<p>其实 nighte 有几个彩蛋。</p>
+<ul>
+<li>有一套黑色主题的，我的想法是根据时间自动切换，如果用户手动点击 day/night，就记到 cookie 里面，不再自动切换。</li>
+<li>以及 nighte 还实现了一小个功能，就是每篇 markdown 文章的文件里面都可以加入自定义的 <code>script</code> 和 <code>style</code>，觉得如果要写一些比较具备专题性的文章，比如介绍 switch 上的游戏“马里奥”啦，把 <code>background-image</code> 换成“马里奥”的主题背景不也挺好玩的吗。</li>
+</ul>
+<p>最后，截一张我写这篇文章的书写环境，为此我还故意添加了那个代码小功能 ：）</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349040-6001a664-14b8-11e8-85d2-4332c78eac08.jpeg" alt="49159d0e1e8fecf6a8de37642f73cc66"></div>
+<p>我想这样各位会看得更一目了然。</p>
+<p>最最后，nighte 只是一个小小的 markdown to HTML 工具，涉及主文件只有两个 js，陆陆续续写了一个星期，其实大部分时间都花在了主题的微调上，看着这稍显简陋的主题，各位绝难想象到其中的龟毛与艰辛。hhh 😂</p>
+<p>不过，现在总算完成了，对不对。所有的铺垫就是为了看书时能记得记笔记以及回报给万维网。OK，nighte！</p>
+<p><a href="created_at:2017-08-31T22:45:11Z"></a></p>
+<pre class="language-css"><code class="language-css"><span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #fefefe<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<pre class="language-javascript"><code class="language-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'你看不到的控制台都能看到😅'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+]]></description>
+            <link>http://solidzoro.com/nighte-update-log.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/nighte-update-log.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:32:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[挑选一个趁手的 blog 书写工具还真是难]]></title>
+            <description><![CDATA[<p>用 <a href="http://zh.mweb.im/index.html">MWeb</a> + <a href="https://github.com/SolidZORO/nighte">night</a> 写 blog 有一个多星期了。老实说，用户体验真的非常不好，抛开 build，push 到 git 之类可以用批处理搞定的步骤不谈，每写一篇文章都要找篇过往文章， copy 大概这些 HEAD 内容：</p>
+<pre><code>[slug] : url
+[date] : 2017-08-26T13:24:26
+
+# titleName
+</code></pre>
+<p>然后还得给新建的 .md 文件起个名，再 paste 上去，然后再改时间什么的，实在实在太麻烦了！这绝对会消减我写文章的动力。所以我（又）开始寻找各种 Mweb 的代替品。😢</p>
+<p>首先，我列一下我写 blog 的需求：</p>
+<ul>
+<li>App 免费或可以一次性买断，不要订阅制</li>
+<li>由于 iOS 封闭的尿性，只能选 iOS／macOS 跨平台的 App 才能方便同步</li>
+<li>能直接在 App 中不限次数的插入图片</li>
+<li>有分类或tag</li>
+<li>文章以文件形式保存，不要 sqliteDB</li>
+</ul>
+<p>经过一番试用和考研，我大概找到了这些：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">App 名字</th>
+<th style="text-align:left">iOS</th>
+<th style="text-align:left">macOS</th>
+<th style="text-align:left">售价</th>
+<th style="text-align:left">储存格式</th>
+<th style="text-align:left">优点</th>
+<th style="text-align:left">缺点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">MWeb Lite</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">只能开启一个外部文件夹</td>
+</tr>
+<tr>
+<td style="text-align:left">MWeb</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">¥99</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">综合最佳</td>
+<td style="text-align:left">列表不支持缩略图显示</td>
+</tr>
+<tr>
+<td style="text-align:left">Day One Classic</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">¥128</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">经典之作</td>
+<td style="text-align:left">一篇文章最多插 1 张照片</td>
+</tr>
+<tr>
+<td style="text-align:left">Day One 2</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">SQLite</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">一篇文章最多插 10 张照片</td>
+</tr>
+<tr>
+<td style="text-align:left">Lifecraft</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">SQLite</td>
+<td style="text-align:left">新秀</td>
+<td style="text-align:left">好用的 App 都改订阅了</td>
+</tr>
+<tr>
+<td style="text-align:left">Dyrii</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅 或 $25</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">UI 不错， Dayo One 的翻版</td>
+<td style="text-align:left">上传图片会自动压缩，不能忍</td>
+</tr>
+<tr>
+<td style="text-align:left">Pendo</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">大而全的时间流记录</td>
+<td style="text-align:left">排版方式太过自由</td>
+</tr>
+<tr>
+<td style="text-align:left">Notes（系统自带）</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">最便捷的书写工具</td>
+<td style="text-align:left">数据结构很难导出</td>
+</tr>
+<tr>
+<td style="text-align:left">Bear</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">订阅</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">太完美了</td>
+<td style="text-align:left">但订阅实在太贵了</td>
+</tr>
+<tr>
+<td style="text-align:left">Quip</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">API</td>
+<td style="text-align:left">完美的 API</td>
+<td style="text-align:left">API 用起来速度太慢了</td>
+</tr>
+<tr>
+<td style="text-align:left">Quiver</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">免费</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">程序员属性加持</td>
+<td style="text-align:left">要新建文件，问题同 Mweb</td>
+</tr>
+<tr>
+<td style="text-align:left">LetterSpace</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">✅</td>
+<td style="text-align:left">$4.99 / $9.99</td>
+<td style="text-align:left">文本</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">我朝，连个设置都没有，tag 功能也很难用</td>
+</tr>
+</tbody>
+</table>
+<p>不过转了一圈，还是没选出个顺手的，就暂且用 SublimeText／MWeb／Atom 凑合着写原生 markdown 好了。又或者，我写一个 <code>.sh</code> 脚本，一键呼出自动帮我把 <code>.md</code> 文件建好，日期／标题填好，接着用自定的 App 打开 .md 直接进入书写状态！对啊～ 为什么之前没想到！</p>
+<p><a href="created_at:2017-08-26T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/choose-a-blog-write-app.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/choose-a-blog-write-app.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:30:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[每月看 100 块钱的 Kindle 电子书]]></title>
+            <description><![CDATA[<p>最近一直有一个生活上的 bug 无法解决，就是在通勤的时候拿着手机不知干嘛。</p>
+<p>以前是听音乐听播客，但是也不是每天都适合干这个，而且老看新闻/朋友圈也觉得不健康，这种碎片知识很难沉淀到记忆里。于是我把目标锁定在 Kindle 上。</p>
+<p>这里说的 Kindle 不是阅读器设备，而是 Kindle 服务。</p>
+<p>我的做法是每月给 Amazon 冲 100 块钱用于买书。其实 100 块/月对于买书来说是非常充裕的，平均下来每月可以买 4 本。而且 Kindle 电子书可以完同步阅读位置到所有设备，也就是说我用 Kindle 看到第 36 页，拿起 iPhone 打开也会自动跳到第 36 页。</p>
+<p>本着花了钱不能浪费的本能，买的书还真的会看，各位可能会觉得这和买实体书一样会吃灰，但其实不会，毕竟这些书在手机上，拿起来就看，很好的利用了碎片时间。</p>
+<p>最近两个月我还真是看过不少书，有很多都是发送样张觉得不错就买了。而且 Kindle 电子书记笔记也很方便，有时间要把这些笔记整理出来分 po 文到这里，权当二次回顾，也蛮好的。</p>
+<p><a href="created_at:2017-08-20T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/kindle-book-rmb100-one-m.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/kindle-book-rmb100-one-m.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:29:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[这就是 vim HJKL 的来源]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36349013-f0b68c52-14b7-11e8-84a9-26f55da945b5.jpeg" alt="4d4bd7daa13fb1b2e7fd8d7308a56d85"></div>
+<p>hhhh 当时的键盘千奇百怪，很多都没有方向键，所以还是靠 HJKL 比较安全咯。</p>
+<p><a href="created_at:2017-05-17T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/vim-hjkl-origin.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/vim-hjkl-origin.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:28:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2015 3/4]]></title>
+            <description><![CDATA[<p>等我回过神来，发现时间已被拨到'15年3月。才发现自己还没来得及没总结去年的成败，今年就浑浑噩噩的过了一小半。而正是因为去年没有做总结，今年自然就没有『票根』拿来验收去年的收成。既然如此，今年一定要把票定了，即便时直 4 月，似乎也还不算太晚，至少还可以有 8 个月拿来拼一拼。</p>
+<h2>2014</h2>
+<p>去年的事情我似乎忘的差不多了，好像大体上只在几个方向有动作：</p>
+<ul>
+<li>阅读</li>
+<li>电影</li>
+<li>技术</li>
+<li>英文</li>
+</ul>
+<p>就这几个？嗯。</p>
+<p>如果要细说的话，恐怕一时间说不上来，容我回忆一下。</p>
+<p>大体上去年书是看得比较多的，把闲置 1 年的 Kindle 用起来，方方面面的书都在看，不过对我来说具备指导意义的似乎都属传记类，像『织田信长』，『武田信玄』，『邓小平时代』这种，百万字以上的传记也看过几本，不过大都如愿烂尾了，以后决定不再阅读超长篇。传记书籍很好玩，以旁观者模式去观察那个年代的格局感觉很有带入感，历史&amp;政治总是爱纠缠在一起。</p>
+<p>电影方面去年看了比较多的台湾电影，尤其是台湾两大导演：李安和杨德昌。之所以看台湾电影，是出于两岸之间文化的相通性，让我能比较充分理解里面的心理细节，不像看国外影片，总感觉隔着一层文化堡垒。单就李安和杨德昌两个导演来说，我只喜欢杨德昌，因为他的电影更『旧』，更生活化，更值得回味。比如我在不同年代反覆重看的『一一』、非常偏门偏门到在网上都难以找到的『独立时代』。</p>
+<p>反观李安，我对他了解不多，只是听说有这么一号人，恰逢看过『少年派』，就尝试着去看他的电影，比如说『喜宴』，『饮食男女』还有『断背山』，觉得李安拍摄手法有点过于『电影』了，我并不那么喜欢这种感觉，想必以后不会再继续关注。看电影这种消遣行为要说能看出什么名堂来我真没办法回答，不过能影响人生价值观是真的，所以烂片尽量少看，好片要常看，重复地看都没关系，因为好片毕竟是看一部少一部。</p>
+<p>技术这块我发现现在有点不那么在乎了，现在要说精通吃透的技术实在是没有，稍微能拿得出手的只有 CSS，笑话，CSS 还能算技术？所以嘛我说，我现在在技术这块真的是什么都不会的状态。</p>
+<p>互联网上那么多人在追技术，在做前后端分离，在做自动化，这些我都搞过，我3年前就搞了。但是搞来搞去，没什么意思，都是幌子。以前PHP一手包办前台后台还是硬写代码，效率和速度都是怪兽级别的，现在却要搞个框架，搞 API 输出，搞 AngularJS，这样一拆，本来 1 人能干的活变成 3 人，3 人怎么协作？当然要找个产品经理协调，然后变成 4 人。你觉得有用吗？可能有吧，但我觉得这样做对于 5 人以下的 team 是个灾难，哪怕 10 人的 team，也是很危险的。</p>
+<p>去年全端（full stack）一词很流行，今年不怎么说了，去年 nodejs 很火，今年慢慢冷了下来，技术就是这样，不停的重复造车轮。我现在是懒了，还不用看，鼻子闻到新技术都累了，注定冲不到技术的金字塔顶端，而且觉得越来越觉得没必要去上那个塔尖。</p>
+<p>现在大家用的 SQL、C、操作系统，这些都是 5～60 年代的产物啊！哪里来那么多新东西可学啊？就像最近很火的 ReactJS，我没看，为什么？没必要啊！真些鬼东西我觉得都是小打小闹，没有上亿级别的压力真没必要考虑，玩这些东西玩得再溜又有什么意思？用在你那日均 5PV 的部落格上真的有意思吗？真正值得花时间的是『原型』，『模式』，『抽象』这几类东西。</p>
+<p>去年我看完『Javascript启示录』后就发觉，技术这块『本质』的东西特别重要，很多时候拼技术不是拼你会不会这个会不会那个，而是拼对这些『本质』理解的积淀，这也让我现在越来越认同 WangYin 的说法，他说的话基本上都是对的，现在觉得不对的今后 10 年回头看看，肯定是对的。</p>
+<p>最后是英文的学习，去年最后一个月的时候我才开始刻意的学起的英文，我的英文基础很烂，基本上是零基础，where 和 what 我都不知道应该怎么用的，听同事说赖世雄的英文教学很好，我就找来了『赖世雄音标』开始从音标学起，感觉赖非常 niubility。</p>
+<p>其实学英文主要是因为我想玩 MGS（合金装备）这个游戏，这个游戏是老早就喜欢的，但是一直没机会玩，11 月的时候我听到 MGS 要出第 5 代『幻痛』就拿 PS 的初代怀旧了一下，然后发现没有汉化版本，纯英文的试着咬牙玩了两下，发现我这英文水平根本没办法玩下去，那巨大的文本量要吓死我了，于是才决定学一学英文，然后到后来提取 CD 音轨和剧情文本，在 github 上开了 MGS 的汉化项目，做汉化的过程蛮享受的，遇到 boy oh boy（好家伙）、you are green（你太嫩了）这种美国人常用但我们不常用的口语真是不 Google 根本不知道在讲什么，而且每次 Google 完后总是在惊叹，干！靠北！单词居然还可以这么用！</p>
+<p>年末我用扇贝单词测试了一下词汇量，大概在 1200 个左右，离 CET4 都差很远，不过我想试试看，坚持一年扇贝不晓得能不能达到 4000 个，我现在每天上班公交的时间基本上在背单词了，一天大概能记 10 个上下，所以嘛，看来过 CET4 看来还是很有希望的（笑～）。</p>
+<h2>2015</h2>
+<p>OK，似乎一下子回忆了很多以前去年的事情。那么今年的大类我要追加3个，分别是：</p>
+<ul>
+<li>游戏</li>
+<li>设计</li>
+<li>硬件</li>
+</ul>
+<p>游戏是一定要玩的，不过之前是偶尔玩玩，感觉不算正真在玩游戏，一直都感觉时间紧紧紧，生活压力重重重，有学不完的东西，有赚不完的钱，把游戏时间给耽搁了，今年要完全打破这个局面。</p>
+<blockquote>
+<p>life is short, play more.</p>
+</blockquote>
+<p>设计这块，坚持每个月至少参加一次策展活动，侧重『建筑』、『排印』。我实在不想看什么纯艺，那玩意太高深，看不懂，对我来说纯艺就是纯意淫，那帮 BiG 极高的人搞出来的玩意我是真没能力鉴赏。</p>
+<p>然后硬件改装今年一定要动手做了，飞飞线啊、焊焊板子啦，类似于 Arduino 一类的电子积木看看有时间玩就玩，没时间就算了，感觉还是个坑，太 Digital。连 Analog（模拟）我都很多地方没搞明白，实在没有太大兴趣碰 Digital（数字）的东西。等我能看懂示波器，搞明白了大法经典的 CXA1129N 后，再开始玩 Digital 也不晚，不过那个时候（大概'17年）的电子世界是怎么一番景象，还有没有 Arduino 就是后话了。</p>
+<h2>最后是各种TODO清单：</h2>
+<h3>书单：</h3>
+<ul>
+<li>设计模式</li>
+<li>人件</li>
+<li>交互设计之路</li>
+<li>算法导论</li>
+<li>深入理解计算机系统</li>
+<li>计算机程序的结构和解释</li>
+<li>编程珠玑</li>
+<li>编程之美</li>
+<li>大话无线通信</li>
+<li>经济学原理（上下）</li>
+<li>百年中国经济史笔记</li>
+<li>亲密关系</li>
+<li>现代设计史</li>
+<li>为什么设计</li>
+<li>圆与方</li>
+<li>一字一生</li>
+<li>造型的诞生</li>
+<li>版式设计原理</li>
+<li>零ZEЯRO</li>
+</ul>
+<h3>网站：</h3>
+<ul>
+<li>FC(famicom 红白机)的可在线玩图鉴，拖了很久</li>
+<li>法印森林（新东西，暂时保密 ：）</li>
+</ul>
+<h3>游戏（还在考虑要不要为了这3款游戏买PS4）：</h3>
+<ul>
+<li>MGS5</li>
+<li>The Last of Us</li>
+<li>如龙 ZERO</li>
+</ul>
+<h3>硬件：</h3>
+<ul>
+<li>做一台带背光的GB（GBP?）</li>
+<li>用 CXA1129N 做一台收音机</li>
+<li>可能的话，用 Arduino 或是别的板子做一辆 3 通道的遥控车</li>
+</ul>
+<p>OK，一觉醒来后开始执行。</p>
+<p>于 2015-03-23 01:23 am</p>
+<p><a href="created_at:2015-03-23T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/2015-3-of-4.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/2015-3-of-4.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:27:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[关于大数据的一点点思考]]></title>
+            <description><![CDATA[<p>最近在用一个公交 App，这个 App 可以告诉什么车还在跑，跑到什么地方了，还有多久才到你这里。</p>
+<p>这一切都是通过 GPS 定位或 BUS 站台 NFC 定位实现的，这意味着要为成百上千个 BUS、BUS 站台部署硬件装置。</p>
+<p>那有没有什么方法在不部署硬件的前提下做这件事情呢？</p>
+<p><strong>排除一切客观因素，我觉得应该是有的。</strong></p>
+<p>但是这件事情在国内可能只有几个大公司能做，比如腾讯或 360，也就是说 App 装机量足够大的公司都可以做（隐私问题先不讨论）。</p>
+<p>实现方式是定时通过 App 回传 GPS 信息到数据库，数据库可以根据数据分析出很多数据，比如。</p>
+<p>站台：显示 GPS 上停留超过 3～5 秒的地点（精准一点可以找出速度下降后几秒然恢复又到正常速度的数据）。
+线路：根据路径算法结合大量的 GPS 走停信息可以算出。
+BUS 现在在哪里：分析 GPS 在移动，且符合走停规律的线路。</p>
+<p>一般做 BUS 的人大多都是去上班，都具有持续性，比如 10 个 P（人）上了 L（BUS Line线），始发站时 S0，8 个在 S1 站先下了，2 个在 S2 站下了，那么在 S1 站下车的 P 走过的路线重合且短于 S2 下车的 P，那么就可以确定 L 走的线路一定经过了 S1（还能确定 S1 是个 BUS 站）和 S1。但是这条站的终点在哪？因为 10 个 P 都下车了，没办法统计下去了，没关系，等第二天看看有没有 P 做这个 L（不确定是哪线），走过之前 S0 到 S2 的站，如果符合，就继续追踪下去。</p>
+<p><a href="created_at:2014-12-12T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/big-data-think.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/big-data-think.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:27:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[命名]]></title>
+            <description><![CDATA[<p>今天在在星巴克和两程序员在聊做站的问题，他们想合作用 nodejs 开发一个视频种子下载站。初衷是：</p>
+<ul>
+<li>学习 nodejs</li>
+<li>学习正则</li>
+<li>研究爬虫</li>
+</ul>
+<p>但是卡在这些问题前面的却是一些非技术相关的问题，比如不知道网站叫什么，程序叫什么，甚至不晓得用哪一个 nodejs 框架开发。</p>
+<p>我想，这是大多数程序员做一个程序或站点会遇到的问题，而且不少会卡在这步没有办法进行下去。</p>
+<p>我觉得这实在显得没有必要，就程序名字来说，当时我看了眼星巴克杯子上的女神建议他们在行星中选一个熟知的星球，找到这个星球的守护女神。</p>
+<p>我相信以古希腊人民的尿性，会给大多数星球配一个守护女神，那么，这个星球名可以做引擎（或内核）的名字，守护女神的名字可以做软件的名字。</p>
+<p>打个比方软件开发代号叫“雅典娜”，雅典娜身边很多神祇，如果程序需要多主题（Theme），不知道怎么命名了，可以用她的神祇命名嘛，比如：</p>
+<ul>
+<li>恐怖神佛波斯（Φόβος）</li>
+<li>不合女神艾莉斯（Ἔρις）</li>
+<li>勇敢女神亚尔克（Ἀλκή）</li>
+<li>袭击女神伊欧克（Ἰωκή）</li>
+</ul>
+<p>再不然，需要定义模块名了，又开始词穷了，直接上雅典娜的称谓即可：</p>
+<ul>
+<li>Παλλὰς Ἀθήνη　“帕拉斯．雅典娜”</li>
+<li>Γλαυκώπις　“灰眸女神”</li>
+<li>πολύϐουλος　“好事议女神”</li>
+<li>θύγατερ Διὸς αἰγιόχοιο　“宙斯的提盾之子”</li>
+<li>αἰγίοχος　“提盾者”</li>
+<li>Πρόμαχος　“在前方战斗者”</li>
+<li>Ἐργάνη　“工人女神”</li>
+<li>Άτρυτώνη　“不倦女神”</li>
+<li>Παρθένος　“处女神”</li>
+<li>The Queen of Spades“黑桃皇后”（扑克牌中）</li>
+</ul>
+<p>我之前做 dayone2html 的时候就取名叫 dayone2html，后来做到一半觉得这个东西不错，威力蛮大，就随手翻开游戏杂志，看到街霸的新番，于是决定改名叫<a href="https://github.com/SolidZORO/HADOUKEN">“HADOUKEN”</a>，为主题命名的时候，我直接按街霸里的角色命名，比如说白色主题代表 ryu（因为 ryu 穿白色衣服），然后很自然的 ken 是红色，gouken 是黑色等等……感觉取名真是及其简单的事情阿。</p>
+<p>还有一个建议，如果实在没有看到适合的，楼下走走，比如逛逛水果摊，给看到的水果加怪异的颜色前缀，比如绿番茄（GreemTomato），黑香蕉（BlackBanana），赤芒（RedMango），这些都是还不错的命名吧？</p>
+<p><a href="created_at:2014-12-12T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/named.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/named.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:26:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[睡 5 个小时就好]]></title>
+            <description><![CDATA[<p>最近每天都睡 5 个小时，开始几天感觉要崩溃了，但现在似乎有变得慢慢适应了。</p>
+<p>每天都是很准时的每天凌晨 2 点睡下，早上 7 点起来，到了公司马上打一杯咖啡慢慢喝掉，一天下来感觉还是很精神的，大家都说冬天容易困，不晓得为什么我的冬天很精神。</p>
+<p>科学上虽说最好睡上 8 小时，但是我觉得睡够了就好。以前我 83KG 的时候是绝对做不到睡 5 小时的，那时晚上 10 点睡到第二天 8 点都要觉得困，最近吃得少了，体重骤降到 75KG，感觉身体轻松了很多，健康了很多。</p>
+<p>当然啦，削减掉睡眠时间主要还是因为忙，而且现在感觉时间真的很是宝贵，没有什么理由像以前那样“让时间过快的流逝掉”。</p>
+<p><a href="created_at:2014-12-12T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/sleep-5hs-one-day.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/sleep-5hs-one-day.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:25:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[麻烦给我一个用 OSX 的理由]]></title>
+            <description><![CDATA[<p>我是一个工程师，日常的工作中，超过80%的时间被设计、代码、服务器维护所占据。从一开始接触电脑到工作这些年，都在用着Windows，算下来足足有14年。
+而萌生买MacBook的念头并不是最近才有的，从早些年尝试吃一吃黑频果到现在已有几年时间，与其说入手MacBook，还不如说是买OSX送了台MacBook来得恰当，MacBook硬件本身我真没有特别在意。</p>
+<p>不过后来我还是有花了几小时在线上做功课，最后买了一台15英寸的rMBP，512G_SSD，16G_RAM，有带独立显卡，算高配。买东西是个大事，既然要买就要有买了用一辈子的觉悟。</p>
+<p>首先，讲讲我之前都用Windows在干嘛：</p>
+<ul>
+<li><strong>Photoshop</strong>，处理一切像素设计。</li>
+<li><strong>Illustrator</strong>，处理一切矢量设计。</li>
+<li><strong>SublimeText</strong>，一旦依赖，就很难离开，有他我连Vim都不爱用了。</li>
+<li><strong>git</strong>，协同开发必备，没什么好说的。</li>
+<li><strong>xShell</strong>，Windows上最好的免费SSH客户端。</li>
+<li><strong>FileZilla</strong>，Windows上最好的免费FTP客户端。</li>
+<li><strong>executor</strong>，快捷启动，比较复杂，免费，国内有类似的叫Altrun。</li>
+<li><strong>Listary</strong>，快速定位文件路径，免费，用了可延长你的寿命。</li>
+<li><strong>OneNote</strong>，多平台同步便签，ORC光学识别图片上的文字，免费。</li>
+<li><strong>bat</strong>，windows自家的批处理，买系统免费送的。</li>
+</ul>
+<p>老实说，除去Chrome和QQ这种必备App之外，以上的清单即是我在Windows上的生产力工具。有很多都是开源免费的，但是功能绝不含糊，瑞士军刀级别，指那打那，熟练起来提升效率显著，我有时候甚至怀疑，如果离开了executor和listary，我的工作效率是否会跌个500%？</p>
+<p>那我需要OSX吗？有什么事情非得在上面做吗？当然没有！Windows对我来说已足够好了，在强调一次，我不在意MacBook这台机器，而看重的是OSX。</p>
+<h2>原因有很多，这里列几条主要的：</h2>
+<ul>
+<li>因为我用iPhone、iPad，而且包括邮件在内的所有服务我都从Google checkout到了iCloud，算是iCloud重度用户，很多时候我在iPhone系统自带的“待办”上写下 TODO，但是回到Windows的时候，我却没办法看到这条TODO，虽说配合Apple自家的iCloud for Windows结合Outlook可以勉强做到同步，但是依然没有很直观就对了，为此我感到很心塞。</li>
+<li>Windows上的命令行功能太少，配合vi用起来不舒服，即便是用更高阶的PowerShell也是如此。</li>
+<li>文件不区分大小写，本来Windows下debug没问题的文件，上载到服务器中就找不到，后来才发现原来是文件大小写的关系。</li>
+<li>听说OSX上使用PS很优雅，因为OSX的系统UI很优雅，会让你做设计的时候灵感爆表。</li>
+<li>更好的字体渲染技术、etc……</li>
+</ul>
+<p>综合以上种种原因，我认为换OSX势在必行，期待OSX能把这些问题通通解决掉。</p>
+<p>结果用上OSX后，以上提到的种种问题虽然都得以解决，但是，更可怕的恶梦却来了。</p>
+<h2>恶梦陈述：</h2>
+<h3>快捷键恶梦</h3>
+<p>起初我是非常非常非常非常非常非常不适应OSX的快捷键，但是由于我个人非常在意物品或App的原生型态，不想轻易去改动设定，努力了2个星期，结果还是败了，10几年windows keymap习惯，真的改不掉了，若是普通的使用者，只要 <code>cmd＋c</code> ， <code>cmd＋y</code> 那就还好，我用PS的时候需要 <code>shift+cmd+option+control+s</code> 来输出PNG规格的图像，而且这个操作是经常性需要做的。再就是，也是最后促使我修改OSX按键的最后忍耐极限的关键，PS中缩放画布居然是按 <code>control（小拇指）＋鼠标滚轮</code> ，OMG，这怎么能忍！这简直就是强迫让我我放弃用 <code>Alt（大拇指）＋鼠标滚轮</code> 5～6年的习惯啊？</p>
+<p>所以，逆我者亡，一改了之！</p>
+<p>改完之后，整个世界都安静了，工作效率瞬间提升500％，PS 100多个快捷键完美回归，而且任意穿梭于OSX，Windows，Linux都不再有keymap问题。</p>
+<h3>文件管理恶梦</h3>
+<p>OSX自带的文件管理器finder，每一次打开我都要纠结一下，因为没有快捷键的关系，我每次使用都要把手从键盘移动到用触控板或鼠标，用鼠标把他打开，进去之后依旧不能回去碰键盘，键盘不能文件夹操作， <code>enter键</code> 不能进入文件夹而是对文件重命名， <code>delete键</code> 不能返回上一层目录而是什么都不做。后来我得知，进入文件夹是 <code>cmd＋箭头下</code> ，返回上一层目录是 <code>cmd＋箭头上</code> 。剪切是按了 <code>cmd＋c</code> ，再按 <code>cmd＋opt＋v</code> 就成剪切了，查看文件属性信息大小是 <code>cmd＋i</code> ，查看N个选中文件的大小是 <code>cmd＋ctlr＋i</code> 。</p>
+<p>当然，这些都是小问题，并不影响效率，让效率大减的是没有目录书结构的sidebar，这样找文件就变得非常不直观，写代码的时候直接用terminal不用finder还好，做设计的时候就必须看缩略图来找文件，通常目录层级稍微多几层，找着找着就陷入文件夹地狱了。</p>
+<h3>btw</h3>
+<p>还有很多没写完。持续更新ing……</p>
+<p>最后更新 2014-12-01</p>
+<p><a href="created_at:2014-12-01T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/give-me-a-reason-to-use-osx.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/give-me-a-reason-to-use-osx.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:24:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[深圳书城打折未眠夜]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348985-399dd8b8-14b7-11e8-8e74-66533e64c5d4.jpeg" alt="2adbe487a3a09dc35fc72adfaab712ea"></div>
+<blockquote>
+<p>图：众动物书中，犀牛书真是翘楚，那么厚厚厚一本。</p>
+</blockquote>
+<p>因为前两个星期看到有 68 折活动日的消息，所以今天特别去了。</p>
+<p>其实也没买多少，本来想买：</p>
+<ul>
+<li><strong>紫龙书</strong>（编译原理第三版，想了一下，放弃了，我不是做编程的可能也实在看不下去。。）</li>
+<li><strong>犀牛书</strong>（Javascript 大全，发现之前 kindle 打折买了，而且没几次翻开，就又没买。）</li>
+</ul>
+<p>最后最后，就买了本 RESTfull API 设计相关的动物书，。别的书都是关于商业奇谈的，感觉想写出优秀的站点，做出优雅的用户体验还得从平实的方向入手才对，总是互联网、程序员思维更本行不通。</p>
+<p><a href="created_at:2014-11-29T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/shenzhen-off-book-night.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/shenzhen-off-book-night.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:23:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[横山光辉和他的『三国志』]]></title>
+            <description><![CDATA[<p>今天偶然发现东映的三国不是横山光辉画的，然后特意到了 youtube 找了横山光辉的『三国志』，哇勒，风格大变，有点类似『中华小当家』的风格，也就是更 Q 了。这点让我很喜欢。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348973-f1b2c932-14b6-11e8-883d-5f3fed26e172.jpeg" alt="143a76e73d2036bb1b4537a04ca5f874"></div>
+<p>这部『三国志』动画片一共 47 集，而我现在才看到 21 集，如果不是昨晚弄 GAE goagent 通宵了，可能会看更多。</p>
+<p>无论如何，周三前要看完他。然后就是看横山光辉的『织田信长』，再然后我想把他的『德川家康』和『武田信玄』也看了，忽然觉得横山老师很厉害，一个人居然画了那么多忠于历史原著的动漫。</p>
+<p>只可惜他老人家 04 年家中发生大火，被烧死了，由于古代战争画面也有很多纵火画面，所以每次看到纵火的画面都会想到横山老师，真是悲惨的命运啊。</p>
+<p><a href="created_at:2014-11-23T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/sangoku.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/sangoku.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:21:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[感动得把我弄哭的 Podcasts]]></title>
+            <description><![CDATA[<p>听 Podcasts 至少 2 年了，听过不少有用的，也听过不少毫无营养的，唯独“一席”里面有让我感动、甚至是流泪的。这里分享几期让我感动，甚至是改变我人生轨迹的 Podcasts。</p>
+<blockquote>
+<p>听君一席话，胜读十年书。（Get Inspired） 一席鼓励分享见解、体验和对未来的想象，做有价值的传播。</p>
+</blockquote>
+<p>btw： 这是一席的简介，我觉得诠释得到位。</p>
+<p><a href="http://yixi.tv/talk/liu-guan-zhong-cong-zao-wu-dao-mou-shi/">柳冠中：从造物到谋事</a>
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNzcwODUzOTE2/v.swf&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;</p>
+<p><a href="http://yixi.tv/talk/wangqiuyang/">王秋杨：苹果十年 公益的脚步</a>
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XNDc3ODg5NDM2/v.swf&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;</p>
+<p><a href="created_at:2014-11-10T22:45:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/great-podcasts.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/great-podcasts.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:20:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vodka 05:am]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348964-c226191c-14b6-11e8-9ea7-898e9b0bc981.jpeg" alt="498ba51d88e94bb7af2d7f0fec6d99de"></div>
+<p>周一凌晨 5 点，半杯 Absolute 伏特加。</p>
+<p>一年前，我总是加班，总是在下班的时候把笔记本背回家，总想在家的时候能延续工作或和工作有关的事情。</p>
+<p>最近几个月，我选择了按时下班，除了用耳塞塞住耳朵外，别的什么都不带，下意识的在下班之后离开可以上网的设备，包括手机。</p>
+<p>有一天早上，大概是 1 个星期前，在我某个路口的拐角处，吹到了无比凉快、舒服的风，那一刻让我觉得活着的确还是有一些东西会给自己带来喜悦，或者说这些小小的惊喜会让自己感觉是在活着。</p>
+<p>“活着”这个词汇或许在很多人眼中是个被忽略的存在事物，但是对我来说，越长大越容易忽略自己是在活着已然是存在已久的事实，每天做着大量且稍显重复的工作让自己内心变得麻木起来，变得没有危机意识，变得没有喜怒哀乐。</p>
+<p>很多次我问自己，自己的兴趣、爱好、追求都跑哪里去了，以前我还会对想要的事物，想暸解的事情抱有期待和探索，现在却变得什么都没有，空，虚无。但从另一个层次上来说，又好像自己不需要去获得去探索，因为自己都有了，都懂了，没有什么事情值得自己去挑战了。</p>
+<p>那……其实这个时候我觉得我是停下来了。停在了自我满足的原地中，但是情况又不是这样的，因为我每天都有在做新功课，新功课很可能一天就完成了，做一件复杂的事情，很可能现学现用一个小时就理清楚了，我有时候想定一个大一点的目标，但是应为琐碎的时间，没能长久的延续下去，又或者我的完美主义让事情进度变得很缓慢，久而久之就变停下来了。</p>
+<p><a href="created_at:2014-09-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/vodka-5am.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/vodka-5am.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:19:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[互联网初创团队都会遇到的那些问题]]></title>
+            <description><![CDATA[<p>也许是因为豌豆荚最近在深圳成立了分部，所以有了这次公开课，主讲是丁吉昌先生，网上查了一下他是豌豆荚初创时期的人员，我对他暸解不多，但这似乎并不妨碍我写这篇分享文，这篇文章主要想对号入座谈谈自己团队这几年遇到的一些问题，以及……给我这个 github blog 开荒（捂脸）。</p>
+<p>那么，丁先生讲了什么呢？回顾一下：</p>
+<ul>
+<li>豌豆荚的公司文化</li>
+<li>数据验证（注意，不是数据驱动）</li>
+<li>软件开发迭代</li>
+<li>团队协同工具</li>
+<li>一句话概括 产品／项目（原文大概是 Product/Project Brief）</li>
+<li>OKR</li>
+</ul>
+<p>（……抱歉，我的记忆总是不靠谱，肯定还有什么被遗漏了，但没有办法，权当只有我记得的这些吧）</p>
+<h2>数据验证</h2>
+<p>OK，我觉得最开始有必要说说“数据验证”，丁先生说，数据很重要，但要质疑，一定要多问自己为什么，K 线图的大起大降一定是有原因的，只要找到原因就能找到规律，就能看见更多的事态。</p>
+<p>他分享的这个 idea 对我启发较大，原来除了我这种对数据“完全质疑”的人之外，还有对数据“半质疑”的人。</p>
+<p>我之前之所以对数据的不信任是因为，产品开发的程度不够，不停的快速迭代产品过程中，肯定会有很多搅成一团摸不着北的数据K线，这个时候是不能够过于依赖数据，不可以让数据驱动开发的。</p>
+<p>后来，我开始想要看数据，因为产品逐渐稳定。前段时间还因新浪微博推广造成用户瞬间涌入，拖挂了网站，我对其中缘由非常感兴趣，想弄明白为什么。分析服务器日志过于麻烦，唯有数据分析这条路是靠谱的。</p>
+<p>另外要说的是，近来由于微信、微博以及之后少数派即将要开放的安卓客户端出现，数据的统计变得稍显复杂，需要在不同的地方放置不同的统计代码，才能把细颗粒化交叉分析做好。当然，这也是大多数拥有多平台网站在数据统计上会遇到的问题。</p>
+<h2>团队里的协同工具</h2>
+<p>丁先生说豌豆荚里用这些工具：</p>
+<ul>
+<li>asana</li>
+<li>Gmail</li>
+<li>Google Calander</li>
+<li>Google Doc</li>
+<li>Google Hangouts</li>
+</ul>
+<p>考虑到豌豆荚是一家“从路由器开始就全面部署 VPN”的公司，所以他们用一系列 Google 的服务协作很理所当然，一般公司做不到这样（fenng推荐过方法，但实际上实现起来会有障碍，且不多说），所以我只想聊聊 asana 这类简单的 Todo List 解决方案。</p>
+<p>2 年前我们和豌豆荚一样，尝试了市面上能用到的 Todo List 方案，其中包括 bootcamp、asana、teambition、甚至连 Google calander 都考虑过当 Todo List 来用。最后确定用 asana，不过没有坚持，用了一个月后便放弃了（当时功能还很简陋，远没有今天那么完善）。</p>
+<p>为什么放弃？几个原因：</p>
+<ul>
+<li>没有电脑桌面端（OSX、Windows），打开 Web 界面成本太高。</li>
+<li>初创团队人少琐事多，几乎没有时间在做事前写一个 Todo。</li>
+<li>缺少监管机制，没有 die line 视图，起不到压迫感，没有明确惩罚制度，Todo 写上去只会一拖再拖。</li>
+</ul>
+<p>综合至少包含以上因素的种种原因我们放弃了协作平台。</p>
+<p>直到去年夏天，因为 tower.im 的出现，我们决定再次试用协作平台。的确，和之前一样，刚开始的时候效果很明显，但是慢慢的效果就开始变淡，除了涉及到与非本地团队的那个节点还稍显火热之外，其他基本都以沦陷为静音模式。</p>
+<p>所以我对这类 协同工具再得出了几条结论：</p>
+<ul>
+<li>同办公室，少于 20 人的团队用协同工具效果不明显，难坚持。</li>
+<li>协同工具一定要 PC 端，而且能像 QQ 一样能制定快捷键呼出。</li>
+</ul>
+<p>所以，后来我们的技术团队开始用 OneNote 作为技术团队内部的 Todo List 工具，感觉体验非常好，快捷键打开，截图顺手贴，非常方便，另外 OneNote 其实不是专门的 Todo List 工具，Todo List 功能只是他的一个做得很好的小功能而已 xD</p>
+<h2>软件开发迭代</h2>
+<p>公司越大，人越多，在代码控制上越麻烦，这是“人月”不能逾越的障碍，是有钱都解决不了的问题。让所有工程师编写出“风格一致”的代码是所有研发领导人员的梦想，梦想即不大可能或很难实现的事情，所以就会变成：要想工程师写好代码，必须花钱请一个测试人员，以便时刻确保代码能跑起来。然后再请一个项目经理盯着这些测试人员，然后再……</p>
+<p>但是你会想，为什么不从源头把问题解决了？鼓励工程师自律呢？OK，豌豆荚全公司的测试只有 2 人，而工程师多达 200 多人，这显然是豌豆荚刻意的决策，然后一改之前的迭代周期方式，通过一个更好的方案，让工程师适应这种方案，在痛苦几个月后，进入一个良性循环。</p>
+<p>这种更好的方式大体是：</p>
+<ul>
+<li>每个版本的迭代时间从之前的4周更改为 8 周（也就是 2 个月）。</li>
+<li>最开始的4周（一个月）开发新功能。</li>
+<li>中间 2 周（半个月）停下来，不要再开发新功能，改为修BUG。</li>
+<li>后面 2 周（半个月）修复那些已经变得很少的 BUG 并测试（这时可以稍微继续接着开发新功能）。</li>
+<li>DO IT，发布（就这样一直循环）。</li>
+</ul>
+<p>互联网公司（特别是一些小公司）较之于软件公司，最明显的一点是没有专业开发流程，而且因为快节奏迭代而忽略了A/B测试。少数派开发团队也面临过以上问题，一度没有明确的 die line 和 milestone，开发起来就会变得没有压力，因此迭代的时候会出现缓慢和混乱。</p>
+<p>解决方案有 2 点：</p>
+<ul>
+<li>制定细颗粒的 die line</li>
+<li>预留大块时间只做 BUG 修复</li>
+</ul>
+<h2>一句话概括 产品／项目</h2>
+<p>你能用一句话说清楚现在你在做的项目吗？这个一句话也叫“电梯时间”，也就是在两个人同处电梯的那一分钟如果不能把项目说明白，就不要做了。</p>
+<p>“电梯时间”是我在&lt;a href=&quot;http://the0step.com/business-model-canvas/&quot; target=&quot;_blank&quot; &gt;商业模式画布&lt;/a&gt;里没有听到的内容，但是我觉得这应该内置在商业模式画布上才对。</p>
+<p>少数派做过的项目中，大多数失败项目都是典型的用一两句话解释不清的项目，“电梯时间”算是一个警戒，互联网项目立项初期，真的不能做太复杂的事情，如果功能不能直达用户痛点，删掉你的 APP 只需1秒。</p>
+<h2>OKR</h2>
+<p>相对于少数派运营经理对OKR这个词汇理解错误而言，我深感羞愧，因为今天是我第一次听到 OKR 这个词汇，不过很显然，光看字面意义大家肯定搞不懂这是个什么东西。</p>
+<p>OKR（Objectives and Key Results ）字面意义即“目标和主要成果”。按我自己今天理解到的大概是这样一句话：“方向自己规划好，与公司目标不能差太多，这是 Objectives。然后剩下的具体目标要根据自己的能力定一个量，能做 100 万不要写 80 万，鼓励写 120 万或是更多，这是 Key Results。”</p>
+<p>OKR 有一个很有意思的地方在于它和绩效（如 KPI）没有直接关联，通常我们如果要做审计 KPI，一定会报一个非常保守的数值，有能力做 100 万的人可能最多写个 80 万，这样可以确保过 KPI 不成问题，如果报 80 万，自己做出了 100 万，还能算是自己超出业绩，会有奖励。慢慢的大家都会玩虚的，公司业绩会因此 low 下去。OKR 因为不和绩效做关联，在完成 KPI 后能做多少是多少，尽可能挑战自己的极限往这个数值上靠，有点挑战极限的感觉。</p>
+<p>对于这个的 OKR 好处我是没有感知的，因为我没经历过 KPI，不能体那些不满 KPI 的人痛点在哪里，所以不做评判，也做不了评判……弄明白 OKR 的理念就差不多了。顺带提一句，OKR 是 Intel 发明的，后来被人带到 Google 执行下来。So，种种迹象表明豌豆荚是 Google 的真·粉……</p>
+<h2>另外</h2>
+<p>丁先生提到一点“让员工保持大块连续的时间做软件开发”。我非常赞同这个观点，这应该是工程师出身的管理者都会重视的问题，作为工程师，编写代码的时候不断有人给你提 BUG 或者开会是件及其痛苦的事情，很多时候 BUG 沟通完了，自己也不知道要做什么了，这和人的短时记忆只有 20 秒有关，刚好沟通 BUG 的时间很多时候会大于 20 秒。</p>
+<p>再另外：
+ps1，3W 咖啡会场冷气给得很足。
+ps2，3W 咖啡的会场餐很好吃（可能是太饿了）。
+ps3，3W 咖啡的位置太偏了……虽然如此，以后有好会议还是得常去。</p>
+<p><a href="created_at:2014-08-24T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/team-q.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/team-q.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:18:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[巨蟹]]></title>
+            <description><![CDATA[<ul>
+<li>厌倦东西速度快</li>
+<li>对品质要求极高</li>
+<li>悲观</li>
+<li>无信仰</li>
+<li>习惯性自我构筑矛盾世界观</li>
+<li>理想的完美主义</li>
+<li>不相信美好事物</li>
+<li>荒诞</li>
+<li>冷感</li>
+<li>隐忍</li>
+<li>理性</li>
+<li>不赞美</li>
+<li>不喜寒暄</li>
+<li>恋家</li>
+<li>对旅行的意义理解不能</li>
+<li>不下厨</li>
+<li>转基因无伤大雅</li>
+<li>番茄炒蛋吃一生</li>
+<li>支持杀食稀有动物</li>
+<li>麻烦事直接放弃</li>
+<li>拥护暴力美学</li>
+<li>不排斥同性恋</li>
+<li>吸大麻爽过做爱</li>
+<li>Hack 系</li>
+<li>数字复兴人</li>
+<li>反 Open Source</li>
+<li>依赖 Open Source</li>
+<li>世界黑暗</li>
+<li>网路黯然</li>
+<li>唯有 vim 能改变世界</li>
+<li>Life is shortPlay more</li>
+</ul>
+<p><a href="created_at:2014-06-30T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/here-is-cancer.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/here-is-cancer.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:17:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[保护动物的意义]]></title>
+            <description><![CDATA[<p>印象中，最近一次听到“保护动物”这个词汇是在小学二年级，保护动物这个概念就好像与生具来降临在大家的脑子一样，大家接受的观点尤为一致，我想，从来没有人怀疑保护动物的意义。也从来没人考虑过为什么要保护动物。达尔文说过，就算英国不禁止打猎，动物依然回减少，甚至灭绝。</p>
+<p><a href="created_at:2014-06-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/protect-the-meaning-of-animals.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/protect-the-meaning-of-animals.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:17:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[打口 CD]]></title>
+            <description><![CDATA[<p>广州天河，济南大学附近某小店淘到的。打口 CD。贵的几十快钱一盘，上面这张 8CM，五块钱就拿走了。</p>
+<p>我找大冢爱同学的 Sakurabo 单曲好久了。</p>
+<p>今天终于发现了热泪 10 快钱收下再来就是仓木的几张百听不厌大碟。</p>
+<p>都是日本原版碟加起来快 10000 日元 还是用 CD 机听 CD 碟片的时光美好呢 我喜欢那种静静的音乐共振。</p>
+<p>大冢爱在 Sakurabo 时期的声音好好笑，而且还带点关西腔有 Demo 的感觉呢？这种怕是在网上爬不到的音乐。</p>
+<p>现在算是被我拥有且感知到了。而且看着那些做工精良的歌词小册，好幸福。</p>
+<p>星期天，开心。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348943-3751b3fa-14b6-11e8-8b35-bc01e3c4dccc.jpg" alt="2009-09-13_205708"></div>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348944-37828dc2-14b6-11e8-97b6-2cff657ca2d0.jpg" alt="2009-09-13_205848"></div>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348945-37b00720-14b6-11e8-9bc3-269fc4083496.jpg" alt="2009-09-13_210522"></div>
+<p><a href="created_at:2009-09-21T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/cut-out-cd.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/cut-out-cd.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:16:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[负建筑]]></title>
+            <description><![CDATA[<p>地震。</p>
+<p>我们的人造物世界，各种建筑或者系统，在这个时候开始呲牙咧嘴，露出本来面目。</p>
+<p>地震只用那么短短几分钟，让这些系统原型显露。那些物质中隐藏的欲望被无情地剥离出来。血淋淋。</p>
+<p>这些欲望中，有贪婪，腐败，也有狂妄。</p>
+<p>学校成了最不安全的地方，6898 间。</p>
+<p>而周边80年代的房子依然挺立。愤怒么？</p>
+<p>地震把很多事情简化。</p>
+<p>地震把人分成两种：活人，死人。</p>
+<p>地震把人的欲望快速分离，灾难来临，要继续生存的话，只需要水，食物，和空气。</p>
+<p>你是否能把生命托福给这样的系统？</p>
+<p>房子被作为商品。你不会看到面团水泥背后的交易，你不知道那些是真实的力量，那些是虚假的力量。</p>
+<p>周围的欲望，我们之看见赤裸裸的金钱，看见成功，看见胜利。</p>
+<p>我们习惯用 胜/负 来分别一切，无论建筑，经济，或者人生。</p>
+<p>金钱不是底线，经济发展的借口不是，胜负也不是。</p>
+<p>天灾难免，人祸可除。唯有对生命的尊重才是底线。</p>
+<p>我更心痛这样的一套在人造物国度里的迂腐，而不是那些逝去的同胞。</p>
+<p>“负建筑”是一本书，作者隈研吾。</p>
+<p><a href="created_at:2009-05-14T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/negative-building.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/negative-building.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:13:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[后来]]></title>
+            <description><![CDATA[<h2>INTRODUCTION</h2>
+<p>起初并没有太在意这样的规范性东西，但是在现在看来。或多或少地有那么一点必要了。</p>
+<p>起码在偷窥我记录内心的文字前，知道我是什么人，我在做什么，不然你们没办法理解像我这样内心奇怪的怪咖。其实怪咖对于现在的我，称呼还是显得有些过了，不过我本身就是一个偏执狂。也没找到什么其他词汇去形容，暂且就怪咖好了，这样的称呼就我而言，不坏。</p>
+<h2>DESIGN</h2>
+<p>我一直坚定我会成为一名优秀的 Web Designer，就算现在不是，那么在不久的将来，一定会在某些场合，顺理成章的成为。因为我在坚信，坚信我就是干这个的，除此，无他。在尽善尽美的完成一切关于 Web 图形的一切设计。可以说，我现在以及将来的工作都会变得非常的感性，而这和我自身的本性也都是非常的吻合的。用 Photoshop 构建图形，并且用 CSS 代码去构架设计出来的图像，这也许就是我工作的全部。另外要说的是，我不会改图，或者换句话说，我不会修改大部分人所说的那种图片，我每天都会加到一定数量因为不知道如何改图而向我讨教的同学，对此，我表示歉意，设计和改图其实并没有太大的关联。或许你们应该自己尝试着用 Photoshop 或者是其他一些非常傻瓜但是好用的软体，去实现你们内心的想法。</p>
+<h2>PROGRAM</h2>
+<p>对于电脑程式语言，我少有触碰，除了数学非常糟糕这样的原因外，还非常讨厌逻辑上的一切想法。逻辑对我而言，就是在糟蹋我的生活方式，但程式对于我来说，偏偏如同一种奇妙的诱惑一般，让我无法抗拒。即便挫折，但是仍然会去喜欢，对每一个函式呼叫，每一段语句输出，都有着强烈的好奇感，就如同对尚未冲洗出来的 35cm 像卷，带有一种非常迫切的憧憬和好奇。但是对于逻辑概念的偏执，我想我今后不会是一个程式师，如果是，那么一定只是业余级别。</p>
+<h2>PHOTOGRAPHY</h2>
+<p>喜欢拿着相机到处的 Shoting，喜欢这种让我感到相当神奇的事情。能用相机这样的东西把逝去的某一秒钟记录下来，并在未来足够清晰的传达那时那刻的所捕捉的影像。这无疑是一件相当有趣的事情。在拿到属于自己相机的时候，我 19 岁，Nikon Coolpix S5。像素 600W。用的是搭建网站换来的第一桶金购入的，异常的喜欢这样潜望式镜头的小卡片机，虽然没有凶猛的 DSLR 单反相机来得专业，但是它的体积小到了足以让我放进口袋的程度，真正让我做到了在任何时间里都能以最快速度按下 Shot 键。直到现在，我都会有外出带相机的习惯，无论去什么地方。看到有趣的东西用相机 Shoting 一下，然后分别储存在大脑记忆和电脑硬碟里。Very Nice。</p>
+<h2>GIRL</h2>
+<p>我不讨厌长得抽象的女生。但是对不坚定内心，且在一定程度上被视为无聊的女生，我相当的不喜欢，不论漂亮与否。我极度反对任何形式和意义上的无聊。以其发生一些极度没有建设性的对话，那倒不如跑到一个安静的地方，大睡几天来得恰当。对于漂亮且思想独特的女生我会在一定程度上抱有暧昧的态度，但遗憾的是在近来的一些日子里，我没有认识到任何这样的女生。另外，我欣赏那些有足够想法的女生，并且那样地想法最好不是因为岁月的磨练而得来的。</p>
+<p>@ 2008年5月21日</p>
+<p><a href="created_at:2008-05-21T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/after.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/after.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:12:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[注册 ID]]></title>
+            <description><![CDATA[<p>话说现在在网络中申请 ID 是件很麻烦的事情，不是未满 6 位数不然注册，就是想了一个十分理想的名字被注册了。</p>
+<p>这是相当懊恼的事情。要是刚出来的服务商比如 百度有啊， 饭否 之类的还好，碰到 Yahoo，Gmail 就想都别想了，不说 AlexChen 这样的没有了，就是 AlexChen1960 这样偏门的都被注册了。</p>
+<p>当然如果不是完美主义的话，走个偏偏偏门，那么 AlexChen199438560 一般还是让你给注册的。</p>
+<p>但是这种名字:</p>
+<p>一来，除了自己能记住外基本上别人看一遍是记不住的。不利于网路上的交流，就好比玩一游戏，大家聊过天，可是忘了交换名片，第二次有事情想找，记不住名字，就算知道前面叫 AlexChen 后面的数字谁记得住呀。</p>
+<p>二来，在就是名字太长会影响注册一些服务提供商的帐号，比如有的网络提供商之允许用户名在 5-12 个字符之间注册。少了多了都不能注册。</p>
+<p>所以这次 ID 的注册的确让我花了不少心思去想，起初叫 GouKen，GouKen 啊Capcom公司 街霸 Ryu 和 Ken 的师傅，死牛死牛的角色，在街霸4里面还是隐藏 Boss。可是每次我搜搜 gouken 的时候。 Google都提示我: **您要找的是不是狗啃。 ** 。 。</p>
+<p>Orz 给 Google 这样一折腾，我崩溃了。还是换吧，不然到了以后用着用着不爽又得换。然后就想啊想。</p>
+<p>每次想我都会开 Gmail 的注册界面去验证要注册的 ID 是否被注册。据我经验，一般能注册 Gmail 的 ID 基本上没什么问题。基本上世界上不会再有第二个人用了。那么接下来的 Yahoo，MSN。 Twitter，就都可以注册了。其实注册MSN我是为了 @Live。 com 这个邮箱。用这个来登录 MSN，现在的 MSN 改为 Windows Live Messenger 成为 Windows Live 的一部分了。</p>
+<p>可是由于历史遗留问题，我们还是叫它 MSN，想想看如果按官方的叫法得叫 WLM 多难听啊。然后注册 Yahoo 邮箱是为了 Flickr，Flickr 是世界上最好的相册。免费用户可以上传 200 张图片。 200 张意味着什么？如果用心去维护这个相册，只把拍到的照片精挑细选的 upload 上去。还是很够用的。而且上面的​​气氛很好，很多国外摄影好手。能收到他们对自己照片的评价是一件非常愉快的事情。</p>
+<p>可是放弃使用 Gouken 这个 ID 后。到了第二天，还是没想好新的。就要崩溃了。最后立马睡觉，不想了，想睡醒一觉好好想。每次 Gmail 验证的时候都说我注册了。而且当我输入多次的时候会跳出验证码让我输入。想想看那验证码。 。做得歪歪扭扭的，用来防止机器注册的机制跑到我头上。我眼睛都崩了。到了第三天忽然间想到 MGS (METAL GEAR SOLID) 的主角，SolidSnake，对!就是那个被称为 [传说中的佣兵] 的角色，然后我找到先前比较喜欢的一个名字 Zoro，Zorro 的不规范写法，其实也规范啦，读音是一样的。可是 Zooro 不助于记忆，就中国而言，Zoro 无疑是会念就会写的，而 Solid 也基本上很多人都知道意思会写，固体的意思。</p>
+<p>按我的理解 SolidZoro 这个名字的意思是: 真佐罗。 Oh my god，其实 Zoro 不应该翻译成佐罗，这里只是音译而已，就像 真三国无双 讲求 究极奥义。</p>
+<p>哇噢，一个 ID NAME 写了那么多。我是一个废话比较多的孩子，请各位见谅。</p>
+<p>OK. SolidZORO is my Nickname. so I must cherish.</p>
+<p><a href="created_at:2008-01-03T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/register-id.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/register-id.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:12:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IDEA / PHPStorm navigate file 失效的解决办法]]></title>
+            <description><![CDATA[<p>IDEA / PHPStorm 中的 navigate file 算是我最常用的功能之一，和 sublimetext 的 ctrl+p 一模一样。</p>
+<p>不过在 macOS 升级到 High Sierra 之后就不好使了，很多文件找不到。</p>
+<p>试用很多办法，如删掉 .idea 目录，重装 IDEA，都无法解决。</p>
+<p>最后发现其实是 macOS 强制关机，造成缓存丢失。</p>
+<p>那解决方法其实很简单，菜单中 File -&gt; Invalidate Caches / Restart，IDEA 重启后重新生成索引就好。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348928-92dd0270-14b5-11e8-898d-b815f2ba6cf3.jpeg" alt="8e05b48a8e226e126e6cfb1ea8f152e9"></div>
+<p><a href="created_at:2017-10-25T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/fixed-idea-navigate-file-miss.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/fixed-idea-navigate-file-miss.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:11:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[修复 brew 更新后 PHP7 出现 dyld: Library not loaded: libjpeg.8.dylib]]></title>
+            <description><![CDATA[<p>前几天电脑升级到了 macOS High Sierra，然后想着 brew 也来一次 update 吧，没想到更新完后 PHP7 就出问题了，这…… 我岂不是连 blog 都部署不了了，赶紧修复。</p>
+<h2>问题</h2>
+<p>终端执行 <code>php</code> 后出现：</p>
+<pre class="language-bash"><code class="language-bash">dyld: Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib
+  Referenced from: /usr/local/php7/bin/php
+  Reason: image not found
+</code></pre>
+<h2>分析</h2>
+<p>这看起是 libjpeg 的问题，于是到 <code>/usr/local/opt/jpeg/lib/</code> 看了下，发现除了有 libjpeg.8 之外，还有个 libjpeg.9，看起来是 brew 把 9 当成了默认 libjpeg，而我的 PHP7 是自己编译的，估计固定指向了 8。</p>
+<h2>解决</h2>
+<p>至此，问题已经很明朗了，所以，只需一个 ln 就能解决问题：</p>
+<p><code>ln -s -f /usr/local/Cellar/jpeg/8d/lib/libjpeg.8.dylib /usr/local/opt/jpeg/lib/libjpeg.8.dylib</code></p>
+<p>加 -f  强制覆盖一下。</p>
+<p><code>php</code> 一下：</p>
+<pre><code>PHP 7.1.2 (cli) (built: May 18 2017 18:34:13) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.1.2, Copyright (c) 1999-2017, by Zend Technologies
+</code></pre>
+<p>Good Job，收工。</p>
+<p><a href="created_at:2017-10-20123:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/fixed-brew-update-php7-libjpeg-error.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/fixed-brew-update-php7-libjpeg-error.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:10:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[linux 下安装 git 和 zsh]]></title>
+            <description><![CDATA[<p>记录一下两个必备工具的安装。</p>
+<h2>安装 git</h2>
+<p><code>aptitude -y install git-core</code></p>
+<h2>安装 curl</h2>
+<p><code>aptitude install curl</code></p>
+<h2>安装 zsh</h2>
+<p><code>cat /etc/shells</code> 查看当前系统可以使用哪些shell</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">aptitude</span> -y <span class="token function">install</span> zsh
+chsh -s /bin/zsh 
+chsh -s /bin/zsh <span class="token punctuation">[</span>USERNAME<span class="token punctuation">]</span>
+</code></pre>
+<h2>升级为 oh-my-zsh</h2>
+<pre class="language-bash"><code class="language-bash">sh -c <span class="token string">"<span class="token variable"><span class="token variable">$(</span>curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="token variable">)</span></span>"</span>
+<span class="token function">vi</span> ~/.zshrc
+<span class="token function">source</span> ~/.zshrc
+</code></pre>
+<p><a href="created_at:2017-09-04T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/install-git-zsh-on-linux.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/install-git-zsh-on-linux.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:09:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[树莓派连 wifi]]></title>
+            <description><![CDATA[<p>假设当前路由器为 10.0.124.1</p>
+<h2>配置正确的 nameserver</h2>
+<pre><code># /etc/resolv.conf
+nameserver 114.114.114.114
+nameserver 114.114.115.115
+</code></pre>
+<h2>编辑 wifi 密码</h2>
+<pre><code># /etc/wpa_supplicant/wpa_supplicant.conf
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+ap_scan=1
+
+network={
+    ssid=&quot;xxxx&quot;
+    psk=&quot;xxxx&quot;
+    id_str=&quot;home&quot;
+    priority=4
+}
+
+network={
+    ssid=&quot;xxxx&quot;
+    psk=&quot;xxxx!&quot;
+    id_str=&quot;work&quot;
+    priority=5
+}
+</code></pre>
+<h2>配置正确的 gateway</h2>
+<pre><code># /etc/network/interfaces
+auto lo
+iface lo inet loopback
+
+auto eth0
+allow-hotplug eth0
+iface eth0 inet dhcp
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
+## 动态 IP
+iface home inet dhcp
+iface work inet dhcp
+
+
+## 静态 IP
+## home
+# iface home inet static
+# address 192.168.31.199
+# gateway 192.168.31.1
+# netmask 255.255.255.0
+#
+## work
+# iface work inet static
+# address 10.0.124.99
+# gateway 10.0.124.1
+# netmask 255.255.255.0
+
+</code></pre>
+<p>##重启网络服务使用的命令</p>
+<pre><code>sudo /etc/init.d/networking restart
+</code></pre>
+<p>OK！</p>
+<p><a href="created_at:2017-09-04T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/raspberry-pi-use-wifi.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/raspberry-pi-use-wifi.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:09:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新树莓派 在没有键盘没有显示器的情况下如何 SSH？]]></title>
+            <description><![CDATA[<p>现在新版的 Raspbian 为了安全，已经无法在默认情况下通过 SSH 连接了，但是官方给出的解决方案也简单。</p>
+<p><code>SSH disabled by default; can be enabled by creating a file with name &quot;ssh&quot; in boot partition</code></p>
+<p>只需在 Raspbian 的 boot 新建一个 <code>ssh</code> 文件即可（不是文件件哦），然后树莓派在启动的时候会检查是否存在 <code>/boot/ssh</code> 这个文件，如果存在的话则开启ssh，并且删除该文件。</p>
+<p>另外一个问题是，插上了网线的树莓派怎么知道 ip 是什么？也很简单，只需</p>
+<p><code>arp -a | grep pi</code></p>
+<p><a href="created_at:2017-08-04T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/raspberry-pi-default-open-ssh.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/raspberry-pi-default-open-ssh.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:08:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[记录一下 img 写入到树莓派 3B]]></title>
+            <description><![CDATA[<p>首先 过去下载 img 镜像 <code>RASPBIAN</code> https://www.raspberrypi.org/downloads/</p>
+<p>然后用 <code>diskutil list</code> 看看 TF 卡情况</p>
+<pre><code>/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *31.9 GB    disk2
+   1:                 DOS_FAT_32                         31.9 GB    disk2s1
+</code></pre>
+<p>可以看到，我的 TF(DOS_FAT_32 ) 是 <code>/dev/disk2</code>，所以要先移除他，以免 dd 的时候提示 busy，在我自己电脑上，移除命令为 <code>sudo diskutil unmount /dev/disk2s1</code>。</p>
+<p>输入密码稍等一会如果看到  <code>Volume NO NAME on disk2s1 unmounted</code>  就代表卸载成功啦。</p>
+<p>最后用 dd 写入 img（bs=1m 代表每块 1MB），我自己电脑上的命令是 <code>sudo dd bs=4m if=./2017-08-16-raspbian-stretch-lite.img of=/dev/rdisk2</code>，其中 <code>bs</code> 是块大小，<code>if</code> 是 img 镜像的位置，<code>of</code> 是 tf 卡的位置。</p>
+<p>⚠️注意：这里要说明两点：</p>
+<ul>
+<li>为什么卸载的是 <code>/dev/disk2s1</code>，但写入的是  <code>/dev/disk2</code> 呢？因为 img 写的是整个盘，而不是盘下的某个盘符。</li>
+<li>为什么是 rdisk2 而不是 disk2 呢？因为 rdisk 是 raw模式存取，接近kernel原生檔案系統效能，比原生 disk 要快 20 倍。</li>
+</ul>
+<p>经过耐心的等待（视设备速度，3 - 10 分钟），屏幕上会出现</p>
+<pre><code>442+1 records in
+442+1 records out
+1854418944 bytes transferred in 81.266996 secs (22818845 bytes/sec)
+</code></pre>
+<p>证明写入完成，这个时候可以把卡拔下来插入树莓派上启动了。</p>
+<p><a href="created_at:2017-08-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/write-img-to-raspberrypi3b.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/write-img-to-raspberrypi3b.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:08:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[我心目中的 jQuery 与 vue.js 学习曲线对比]]></title>
+            <description><![CDATA[<h2>jQuery</h2>
+<pre><code>+ 我心目中的 jQuery 学习曲线（拿起来就是干）
+|
+|
+|
+|
+|
+|
+|
+|
+|          +----+
+|     +----+    +----+
++-----+              +--------+
+|                             +------------------
++-----------------------------------------------+
+</code></pre>
+<p>jQuery 无愧上个前端时代的王者，API 优雅，兼容性好，单文件调用爽，插件齐全，没什么好说的，即便是现在，依然是 DOM 处理方面（非数据处理）的泰斗。而且用那么久了没出什么让人抓破脑袋都无解的瞬间。</p>
+<h2>vue.js</h2>
+<pre><code>+ 我心目中的 vue.js 学习曲线（........）
+|
+|                       +--+        +------------
+|                 +--+  |  |        |
+|                 |  |  |  |        |
+|                 |  |  |  |        |
+|                 |  |  |  |  +--+  |
+|                 |  |  |  |  |  |  |
+|      +---+      |  |  |  |  |  |  |
+|  +---+   |      |  |  |  |  |  |  |
+|  |       |      |  |  |  |  |  |  |
++--+       +------+  +--+  +--+  +--+
+|
++-----------------------------------------------+
+</code></pre>
+<p>vue.js 上手简单，API 不错，v1 到 v2 无明显 break change，单文件，渐进式调用很赞👍。</p>
+<p>但当项目写到一定数量级时（modules 10+），就要花比较多的时间深入学习 vue.js 概念以及周边生态。</p>
+<p>最让人头疼的还是有些 feature 不知道用 vue.js 怎么实现（自身经验／jQuery 思想遗留），而且一卡就卡很久，一步都动弹不得，比较绝望。</p>
+<p>翻遍 SO 及 官方 issue 有时候也难找到满意的答案，这让我很苦恼／忧伤。但愿随着深入后，慢慢的可以 handle 住这些烦恼。</p>
+<p>BTW，在当下前端时代，框架真是没有太多可选的余地，只好挑一个趁手的慢慢打磨了。</p>
+<p><a href="created_at:2017-08-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/learning-curve-jquery-vs-vuejs.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/learning-curve-jquery-vs-vuejs.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:06:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue.js 中自动填充 div 高度为 100%]]></title>
+            <description><![CDATA[<pre><code>window.client H:900px
+ |
+ v
++--------------------------+
+| navbar                   |
++------+-------------------+
+|      |                   |
+|      |                   |
+| side |   main H:200px    |
+| bar  |                   |
+|      |                   |
++------+-------------------+
+|                          |
+|   FPzone                 |
+|                          |
++--------------------------+
+</code></pre>
+<p>这种问题在前端中属于典型案例，如（图）所示，main 的高度撑死了就只有 200px 且为灰色底，但浏览器 window.client 高度有 900px，这 tMd 就非常尴尬了。搞得 FPzone 那块地方是白色的，巨丑无比。所以必须想办法技计算出一个高度，赋给 main。</p>
+<h2>jQuery 时代的解决方案</h2>
+<p>这种事情在 jQuery 时代是个小事情，几行代码写个 setMaxHeigt() 搞定了：</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// 伪代码</span>
+<span class="token keyword">const</span> mH <span class="token operator">=</span> <span class="token function">getMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> cH <span class="token operator">=</span> <span class="token function">getClientHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>mH <span class="token operator">&lt;</span> cH<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    mH<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> cH<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2>vue.js 时代的解决方案</h2>
+<p>但是到了 vue.js 时代，…… *&amp;……¥%#@ 好多东西说不清楚，听我慢慢道来（今天差点给跪了😖）</p>
+<ul>
+<li>一开始想着写个 computed 实时计算一下 mainHeight，但是失败了，因为进来第一次是 computed 出来了，但由于 vue.js 是 SPA，不全局刷新 dom，所以 router 到另外的模块就没反应了！这……</li>
+<li>既然 computed 只跑一次，那我 watch 还不行，watch 什么呢？当然是 $router，不过 watch $router 出来的 mainHeight 都是上一个页面的 heightValue，这……</li>
+<li>中途还试了很多方法，包括走回 jQuery 老路，但涉及 router 刷新问题，一样失败了，直到我想起 vue.js 有个生命周期表。</li>
+</ul>
+<p>try 半天，到最后其实还是弄出来，分别在 mounted() 和 updated() 放上这个 autoSetLayoutMainHeight()。</p>
+<p>特别要说的是 updated()，vue.js 相必大家常用的就两个，一个 created()，一个 mounted()，别的要么不知道怎么用，要么就是没有场景让你知道怎么用。我属于第二种。😢</p>
+<p>话不多说，贴代码：</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        layoutMainStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            height<span class="token punctuation">:</span> <span class="token string">'auto'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token function">updated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function">autoSetLayoutMainHeight</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> layoutMainEl <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'layout__main'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token comment">// 初始化 mainHeight，避免出现 mainHeight 附上 clientHeight 的值就一直保持不变</span>
+            layoutMainEl<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> <span class="token string">'auto'</span><span class="token punctuation">;</span>
+
+            <span class="token comment">// 计算 mainHeight 新高度</span>
+            <span class="token keyword">const</span> clientHeight <span class="token operator">=</span> document<span class="token punctuation">.</span>body<span class="token punctuation">.</span>clientHeight<span class="token punctuation">;</span>
+            <span class="token keyword">const</span> layoutMainHeight <span class="token operator">=</span> layoutMainEl<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>layoutMainHeight <span class="token operator">&lt;</span> clientHeight<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                layoutMainEl<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>clientHeight<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px`</span></span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<h2>这里顺带贴一下 vue 生命周期解释</h2>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">// 在数据初始化之前被调用（实例创建之后）</span>
+<span class="token function">beforeCreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 在数据初始化之后被调用（页面进来时立即调用，created 是第一选择）</span>
+<span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 在组件渲染之前被调用（数据渲染之前）</span>
+<span class="token comment">// 比如要色彩渲染可以在这里写</span>
+<span class="token function">beforeMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 整个实例被创建完成后被调用（生命周期用的最多的就是 mounted）</span>
+<span class="token comment">// 实例创建完成、数据初始化、渲染页面数据后，才被调用，这个时候就可以在 mounted 里写 Dom 操作了</span>
+<span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 在数据改变时被调用</span>
+<span class="token comment">// 比如: total = 0 , 然后手动把num++; 就会执行此方法</span>
+<span class="token function">beforeUpdate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 数据被更新之后</span>
+<span class="token comment">// 比如：total 值改变之后</span>
+<span class="token function">updated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// keep-alive 组件激活时调用（路由切换时被调用）</span>
+<span class="token comment">// 注意要配合 keep-alive 使用才会被调用</span>
+<span class="token function">activated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// keep-alive 组件停用时调用</span>
+<span class="token comment">// 也可以理解成在路由切换的时候会自动停用组件</span>
+<span class="token function">deactivated</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 实例销毁之前被调用</span>
+<span class="token comment">// 这个方法适用于把 new Vue({}) 赋值给一个变量时，如 var vm = new Vue({})，然后用vm.$destroy() 方法销毁这个实例</span>
+<span class="token function">beforeDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token comment">// 实例销毁之后被调用</span>
+<span class="token comment">// 一般情况下，在页面切换路由时，会自动销毁组件</span>
+<span class="token function">destroyed</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<p><a href="created_at:2017-08-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/vue-js-auto-fill-div-height-100-percent.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/vue-js-auto-fill-div-height-100-percent.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:06:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[npm node_modules 复用问题]]></title>
+            <description><![CDATA[<p>在 <code>babel</code>， <code>webpack</code> 已经成为必装 npm 包的今天，代码还没开始写就已经装了 200MB 的依赖，我真的感觉我电脑硬盘要 gg。所以很早就开始研究 npm 的共享问题。</p>
+<h2>默认安装方式</h2>
+<pre><code>├── Sites
+│   ├── PROJECT_A
+│       └── node_modules
+│   ├── PROJECT_B
+│       └── node_modules
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+│       └── node_modules
+└── Other
+</code></pre>
+<p>看着那海量且重复的 node_modules，真没什么好多说的。这当然是最稳妥的方案。不过我必须要做些优化。</p>
+<h2>共享方式 1</h2>
+<p>之前我开发项目，喜欢把 node_modules 安装在 <code>~/Sites</code> (下文称 <code>ROOT_DIR</code>) 下：</p>
+<pre><code>├── Sites
+│   ├── node_modules
+│   ├── PROJECT_A
+│   ├── PROJECT_B
+│   └── PROJECT_C
+│       └── node_modules
+│   └── PROJECT_D
+└── Other
+</code></pre>
+<p>如果项目需要安装 npm 包，比如 eslint，我会 cd 到 <code>ROOT_DIR</code>，然后 <code>npm i -S eslint</code>，这样可以最大程度的实现 npm 包多项目共享。
+新建项目时(下文称 <code>PROJECT_DIR</code>)，不再需要安装诸如 node-sass，webpack，eslint 之类的常用库了。如果<code>PROJECT_DIR</code> 真有需要调用特定的 npm 包，那就进入 <code>PROJECT_DIR</code> 下 <code>npm i</code> 即可。</p>
+<p>一切看起来很完美，既有全局共享，又能局部调用，可是 <code>PROJECT_DIR</code> 的 package.json 里面记录的东西不全，多人开发的时候时常会搞得对方 clone 代码后，<code>npm i</code> 漏装某些库搞得项目 build 失败。</p>
+<h2>共享方式 2 （新方法，待尝试）</h2>
+<p>然后今天在 Häagen-Dazs 聊天的时候，我提到这个问题，L 说可以用 ln -s 软链的方式把 PROJECT_DIR/node_module 软连接到 <code>ROOT_DIR/node_module</code> 下。</p>
+<p>这样在 <code>PROJECT_DIR</code> 里 <code>npm i</code> 的时候，即更新了 PROJECT_DIR/package.json，又更新了全局共享的 <code>ROOT_DIR/node_module</code>，可谓真的两全其美。</p>
+<p>不过我还没有实践，但已有担心的问题。假如 <code>PROJECT_A</code> 依赖了 jQuery1.x，<code>PROJECT_B</code> 依赖 jQuery3.x，然后 <code>PROJECT</code> 下已经有一个 ln -s 的 node_modules，不可能再建一个，这样的问题怎么解？</p>
+<p>嗯，回头实践一下这个方法，再更新文章。</p>
+<p>最后更新：2017-08-20 :-&gt;</p>
+<p><a href="created_at:2017-08-20T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/npm-node-modules-reuse.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/npm-node-modules-reuse.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:05:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CSS4 图片放大不加 Filter]]></title>
+            <description><![CDATA[<p><code>image-rendering: pixelated;</code></p>
+<p>这个必须记住，老忘记，有一些 FC 游戏没有高清分辨率，在 retina 屏幕上硬放大看起来很模糊，给 img 加上这个属性就清晰了。</p>
+<p><a href="created_at:2017-08-20T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/css4-image-rendering.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/css4-image-rendering.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:04:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[写了一段原生 js，发现真是难哭了]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348881-59f45c3e-14b4-11e8-9164-e783530075e8.jpeg" alt="1a8631f28f6642ac17181381b9300c68"></div>
+<p>起因是为了完成 <a href="https://classroom.udacity.com/courses/ud989/lessons/3417188540/concepts/33916789250923">优达学城</a> 的这个习题。要求是点击一个猫的图片，计数器+1。</p>
+<p>DOM 代码:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>cat<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>cat.jpg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>times<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>jQuery 代码：</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> $catEl <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#cat'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> $timesEl <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#times'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> $timesCounter <span class="token operator">=</span> $timesEl<span class="token punctuation">.</span><span class="token function">val</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'body'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> $catEl<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=></span> <span class="token punctuation">{</span>
+    timesEl<span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token operator">++</span>$timesCounter<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>不过习题要求的是用原生 javascript 编写，完整写出来大概是这样的：</p>
+<p>原生 javascript 代码：</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> catEl <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'#cat'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> timesEl <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'#times'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> timesCounter <span class="token operator">=</span> timesEl<span class="token punctuation">.</span>innerHTML<span class="token punctuation">;</span>
+
+catEl<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    timesEl<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token operator">++</span>timesCounter<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>和 jQuery 一样，都很简单，但是我却花了很多时间在 Google 上找语法，我一开始以为可以像 jQuery 一样 <code>timesEl.val()</code> 得到 0，但是我错了，并不行，又试了 <code>timesEl.value</code>，居然也不行，明明去 SO 上说可以的（后来查了下 MDN，才知道这只能用于 input），然后东找西找，最后问了 @dongyu 才知道是用 <code>innerText</code>，有种累觉不爱的感觉。</p>
+<p>然后我又试了下 <code>innerHtml</code>，发现居然也不行，我就奇怪了！！郁闷之下使用 <code>innerHTML</code>（注意大小写）就又可以了。马上感觉自己这几年写 jQuery 多了，原生 javascript 真是连一些基础代码都不会了，然而未来的方向又得面向 vue、react 编程，可能真的没有机会写原生 javascript 了😭。</p>
+<p><a href="created_at:2017-04-04T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/write-javascript.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/write-javascript.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:02:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[unix/linux/macOS 下的 $PATH 设定]]></title>
+            <description><![CDATA[<p>今天在全局安装 <code>cnmp</code>（npm 中国镜像）的时候遇到了一个问题，就是装好后无法全局调用，输入 <code>cnpm</code> 的时候出现 <code>zsh: command not found: cnpm</code>，我猜想可能是 PATH 的问题。</p>
+<p>网上做了下功课，PATH 的读取顺序大概这样：</p>
+<pre class="language-bash"><code class="language-bash">/etc/profile <span class="token punctuation">(</span>所有用户／for all users<span class="token punctuation">)</span>
+~/.bash_profile <span class="token punctuation">(</span>当前用户／for actual user<span class="token punctuation">)</span>
+~/.bash_login <span class="token punctuation">(</span>当前用户／for actual user<span class="token punctuation">)</span>
+~/.profile <span class="token punctuation">(</span>当前用户for actual user<span class="token punctuation">)</span>
+</code></pre>
+<p>理论上不建议修改系统的这些 PATH，要改就改自己使用的 bash 对应的配置文件。可以输入 <code>echo $SHELL</code> 查看自己用什么 bash。</p>
+<p>如果你没切换过 bash，那么肯定是默认的 <code>bash</code>（/bin/zsh），配置文件就是上面的 <code>~/.bash_profile</code>。如果你和我一样用了 <code>zsh</code>（/bin/zsh）那么置文件是 <code>~/.zshrc</code>。</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># PATH  ----------------------------------------</span>
+<span class="token function">export</span> PATH<span class="token operator">=</span>/usr/local/bin:/usr/local/sbin:<span class="token variable">$PATH</span>
+</code></pre>
+<p>以 <code>bash</code> 为例（zsh 用户请自行脑补），输入 <code>vi ~/.bash_profile</code> 可以看到 <code>PATH=</code> 的那行，其格式为：<code>export PATH=~/bin1:~/bin2:~/bin3:**$PATH**</code></p>
+<p>可以看到每写一个 <code>path</code>（路径）都要用 <code>:</code> 隔开，只有最后一个 path 后面不需要加 <code>:</code>。</p>
+<p>特别需要留意的是最后那个 <code>**$PATH**</code>，这是什么呢？这是<strong>系统默认</strong>以及<strong>各种软件</strong>比如 Xcode 的追加 <code>path</code>，所以 <code>**$PATH**</code> 我们一定要把他放在最后，不然某些软件启动就会找不到路径了。</p>
+<p>修改完成后是不会马上生效的，只有输入了 <code>source ~/.bash_profile</code> 才会刷新，最后可以通过  <code>echo $PATH</code> 查看是否修改成功。</p>
+<p><a href="created_at:2017-02-09T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/unix-linux-macos-path-setting.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/unix-linux-macos-path-setting.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:01:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？]]></title>
+            <description><![CDATA[<h3>需求描述</h3>
+<pre><code>先看文件目录
+.
+├── entry.js // webpack 的 entry 入口文件
+├── article // 文章模块
+│   ├── article.js
+│   └── article.html
+└── product // 产品模块
+    ├── product.js
+    └── product.html
+</code></pre>
+<blockquote>
+<p>Tips: <strong>这个项目没有用到 <code>react</code> 或 <code>vue</code> 等前端框架。</strong></p>
+</blockquote>
+<p>一共两个模块，文章 <code>article</code> 和 产品 <code>product</code>，对应的文件是：</p>
+<p><code>article.js</code> 文章
+里面有很多函数，如 <code>aFn()</code>，最后都会 <code>export default</code> 出去。</p>
+<p><code>product.js</code> 产品
+里面也有很多函数，如 <code>pFn()</code>，最后都会 <code>export default</code> 出去。</p>
+<p>预期访问 URL <code>/article</code> 执行 <code>article.js</code> 中的代码。 访问 <code>/product</code> 时执行 <code>product.js</code> 的代码。</p>
+<hr>
+<h3>一些我能想到的方案和问题</h3>
+<ul>
+<li>在 <code>entry.js</code> 中 import <code>p.js</code> 和 <code>a.js</code>，然后分别调用，业务代码都写在 <code>entry.js</code> 中。这个方法的缺点是 <code>entry.js</code> 会变很大，很面条。</li>
+<li>让 webpack 编译多个 js，在 <code>article.html</code> 中加载 <code>article.js</code>，在 <code>product.html</code> 中加载 <code>product.js</code>，这样最好，但是需要手动控制，而且 js 文件太多，请求次数太多，拖慢速度。</li>
+<li>用 if 判断 URL（或 DOM 中的 <code>className</code>），然后决定执行哪些 js 代码。</li>
+</ul>
+<p>想了很多方案，但没有明确答案到底那个好。其实想问的是 在使用 <code>ES6</code> + <code>webpack</code> 的情况下，怎么组织多页面应用（非 SPA）？</p>
+<p>文章发布于：https://segmentfault.com/q/1010000008284105</p>
+<p><a href="created_at:2017-02-08T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/hot-to-webpack-multi-page.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/hot-to-webpack-multi-page.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:00:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gmail 与 gmaiI]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348862-e7fb1f82-14b3-11e8-9ce1-938baab3b113.jpeg" alt="882f80e5e222aa27fa7890557d2a2de5"></div>
+<p>今天在调试一个用户登录不了的 bug，用户反馈账号无法登录，我把账号 copy 过来测试了一下，的确无法登录，但我自己手动输入这个账号又没问题。</p>
+<p>奇怪了！</p>
+<p>开始我怀疑是多了空格的问题，但是都在代码上加了 <code>trim</code>，应该不会有问题才对啊。</p>
+<p>直到折腾了几回后才发现用户给来的字符串是 <code>gmaiI</code>，大写的    <code>I</code> 与小写的 <code>l</code> 在微信聊天窗口中长得真是神似，只有换用了 mono 族的字体才发现了问题。</p>
+<p>btw，最后我好奇上了下 gmaiI.com，果然是一个钓鱼网站……</p>
+<p><a href="created_at:2017-02-05T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/gmaiI-and-gmail.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/gmaiI-and-gmail.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:59:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PHP 调用 curl 的一个坑]]></title>
+            <description><![CDATA[<p>今天在写 dayone2 输出 html 的时候，其中有一个 function 需要用 curl 访问自己。怎么说呢？就是在 d.com 中的执行 curl 去爬 d.com 的内容。</p>
+<p>这个需求看起来有点奇怪对吧？但是如果不这样做的话，我就无法得到 Laravel blade 渲染出来的 DOM。但，为什么要触发 blade 渲染呢？</p>
+<p>其实触发 blade 渲染有一个好处，就是能够 1:1 还原其 DOM，可以很方便的利用 blade 的内置方法。比如说 <code>render()</code> 这种分页功能，可以很大程度减少自己动手写分页的过程。</p>
+<p>不过坑点就在这里，d.com 并不能 curl d.com，一旦执行抓取自己就会陷入死循环，直到 timeout，出现 502 Bad Gateway。</p>
+<p>所以，最后还得换一个思路去生成静态 HTML。</p>
+<p><a href="created_at:2017-01-25T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/php-curl-keng.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/php-curl-keng.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:58:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[基于 Bootstrap v4 alpha.5 的改造计划]]></title>
+            <description><![CDATA[<p>看到 alpha.5 在如此凌乱的 branch 中就发布了……这让我相当凌乱啊……忧伤。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348855-b4aedd44-14b3-11e8-8e42-a88dcda11627.jpeg" alt="e243e2f1095e19b3c5629cd5033f414e"></div>
+<p><a href="created_at:2016-10-19T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/bootstrap-v4-a5-mod.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/bootstrap-v4-a5-mod.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 22:38:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[初始化 MySQL / MariaDB (for macOS)]]></title>
+            <description><![CDATA[<p>今天用 brew 执行了一下 update，结果发现 mariaDB 从 5.5 升级成了 5.6，导致启动的时候出现很多 warning。</p>
+<p>网上说是 table mysql 没有很好的做向下兼容导致了一些问题。</p>
+<p>还好我 mysql 本地开发环境的用户权限并不多，只有默认的 root 和 后来新建的 admin，所以决定把 table mysql 的所有文件清除掉，然后重建，那么开始吧。</p>
+<p>1.首先删掉 <code>my.cnf</code> 里 <code>datadir</code> 指定目录下 的 <code>mysql</code> 目录。</p>
+<p>备份 <code>datadir</code> 所有<strong>非目录</strong>文件，特别注意备份好 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等，因为后面需要用到覆盖恢复。</p>
+<p>删除 <code>datadir</code> 所有<strong>非目录</strong>文件。</p>
+<p>2.初始化 <code>mysql_install_db</code>。</p>
+<p>3.启动 mysql 服务 <code>mysql.server start</code>。</p>
+<p>4.然后设定新密码 <code>mysqladmin' -u root password '新密码'</code>，当然，也可以用工具设定
+<code>mysql_secure_installation</code>。</p>
+<p>5.把 <code>ibdata1</code> 和 <code>ib_logfile0</code>，<code>ib_logfile1</code> 等文件放回 <code>datadir</code>（覆盖）。</p>
+<p>6.最后重启一下 mysql 服务 <code>mysql.server restart</code>。</p>
+<p>重启之后终端这样的：</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># mysql.server restart</span>
+Shutting down MySQL
+<span class="token punctuation">..</span> SUCCESS<span class="token operator">!</span>
+
+Starting MySQL
+
+.170207 10:53:36 mysqld_safe Logging to <span class="token string">'/Users/SolidZORO/Files/databases/logs/error.log'</span><span class="token keyword">.</span>
+
+170207 10:53:36 mysqld_safe Starting mysqld daemon with databases from /Users/SolidZORO/Files/databases/data
+ SUCCESS<span class="token operator">!</span>
+</code></pre>
+<p>由此可见 <code>error.log</code> 文件还是有东西写入，不过不再有 Warning，都是一些 Note 了。</p>
+<p>问题就此解决。</p>
+<p><a href="created_at:2016-07-04T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/init-mysql-mariadb-for-macos.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/init-mysql-mariadb-for-macos.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:57:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nodeJS 调试好麻烦]]></title>
+            <description><![CDATA[<p>昨天因为想要用 nodejs 写一个 dayone 日志生成 html 的工具，弄了很久，不得要领，真是难过，而且奇怪的 debug 方式及其麻烦，简直是欺负我这种既没 Javascript 基础且又是初次接触 nodejs 的人。</p>
+<p>而且之前我还想用 gulp 写的，但后来发现 gulp 是个大坑，而且功能远没 nodejs 那么丰富灵活，所以才决定用 nodejs 来写。</p>
+<p>写了几个小时，实在写不下去了，最后搞得连觉都没睡好，真是自找麻烦。</p>
+<p><a href="created_at:2015-11-29T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/debug-trouble-nodejs.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/debug-trouble-nodejs.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:56:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[聊聊 CSS 预处理器，LESS、Sass、Stylus 及 postCSS]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348846-700d1368-14b3-11e8-9809-a92b3e1c04a0.jpeg" alt="e48a25a00f8c810e56892dee20116d5f"></div>
+<h2>先说结论</h2>
+<p>其实没有一个 CSS 预处理器是完美的，都得按场景来择优。</p>
+<p>如果非要推荐一个给新手，那我推荐 <a href="http://lesscss.org/"><strong>LESS</strong></a>。 LESS 是这几个里面最均衡最易上手的，其丰富的 <a href="http://www.zhihu.com/question/20651624">语法糖</a> 也足够你吃上一段时间了。</p>
+<p>另外，那些对 LESS、Sass、Stylus 没有概念的同学可以先先看这篇，<a href="http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-a-preprocessor-shootout--net-24320">Sass vs. LESS vs. Stylus: Preprocessor Shootout</a>。</p>
+<h2>CSS 预处理器出现之前的黑历史</h2>
+<p>我 02 年开始接触前端，算下来 10 多年年，从 IE 6 “两只猪”的兼容问题到现在 CSS3 的普及，可以说是看着 CSS 这门语言长大的。</p>
+<p>以前没有 CSS 预处理器，所有选择器嵌套只能靠手写，在没有作用域的情况下很容易污染全局（类似于 js 里的全局变量），但更大的问题是不好维护，所以那个时候的 CSS 代码在大多都是一次性的。</p>
+<p>Qzone 前端团队在当时算国内技术较为高级的，他们也吐槽 CSS 的不便说：</p>
+<blockquote>
+<p>我们很少写 CSS 全局模块，哪里有需要，就写哪里，从来不敢放全局。几百个业务 CSS 的情况下，debug 起来简直就是灾难。</p>
+</blockquote>
+<p>'12 年的时候前端在国内慢慢正规划起来， Bootstrap（以下简称 BS） 这个框架就是在那个时候活起来的，BS 用起来很方便，于是我就想按着 BS 的思路自己也试着实现一套。当时还不知道 CSS 预处理这种东西，看 BS 的 CSS 源码巨复杂，各种混淆以及让人摸不着头脑的浮点数 <code>line-height</code>，当时我是真的震惊了！这种高度重复的代码是人写出来的？我吵！要么维护？</p>
+<p>然后那年的夏天，一有空就泡在泳池，一下水就看着天花板，满脑子是都是这个“实现自己 BS”问题。结果想了大半个月，粗糙方案很多，完美的那个却一直没想到满意的。直至后来偶然间把 BS 的源码 download 回来看后，才认识了 CSS 预处理这种东西，然后知道了 LESS，真是相见恨晚。</p>
+<p>Talk is cheap，来，上代码：</p>
+<h3>“现代”样式复用（LESS 语法）</h3>
+<pre class="language-scss"><code class="language-scss"><span class="token comment">/*定义一个列表样式*/</span>
+.<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/*文章里调用list*/</span>
+<span class="token selector">.article </span><span class="token punctuation">{</span>
+    .<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/*产品里调用list*/</span>
+<span class="token selector">.product </span><span class="token punctuation">{</span>
+    .<span class="token function">list</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>CSS 预处理器里我用得最多的其实是服用，可以看到，上面列子很轻易的就在“文章”和“产品”里调用了 <code>.list()</code>。</p>
+<p>当然，如今看似简单的几行代码在 <code>纯 CSS 年代</code>，维护起来简直就是噩梦。想要“文章”和“产品”都拥有 <code>.list</code> 的样式就必须分别给他们各模块写上。当 <code>.list</code> 样式要修改了，那“文章”和“产品”就得跟着改。</p>
+<p>###“旧式”样式复用</p>
+<p>其实那个年代也是不乏聪明人的，hack 手法普遍吊。既然 CSS 那么弱，我就从 class 入手吧，比如：</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>
+    pd25
+    mgb10
+    bordernone
+    text-right
+    list
+    article
+<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    halo
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>乖乖！ <code>pd25</code> 是什么？哈哈，当然是 <code>padding: 25px</code> 啦，那 <code>mgb10</code>呢，额⋯⋯ 就是 <code>margin-bottom: 10px</code>？别笑，当时就是这样处理的，直到现在 bootstrap 身上还有类似身影，只不过规范得更加合理了。</p>
+<p>所以，当这么多问题摆在面前需要去解决的时候，CSS预处理器自然应运而生。</p>
+<h2>Sass 还是 LESS？</h2>
+<p>Sass 诞生于 Ruby 社区，众所周知 Ruby 写代码很爽，但是跑得很慢。Sass 的编译器最开始只有 Ruby 版。所以每次保存后， Ruby 版 Sass 编译器要等几秒才能编译完成，体验及其糟糕！</p>
+<p>但好在我使用 Sass 的时候， LESS 早已出来。</p>
+<p>LESS 的速度目测是 Sass 的 10 倍！！无论 LESS 源码多大，基本都能在 1 秒内完成编译。总之我在切浏览器按下刷新的时候 CSS 早已是最新状态。这点让我感觉非常非常爽！而 LESS 与 Sass 语法的差异最大的不同就是变量符号，从 <code>$</code> 变成了 <code>@</code> ，批量替换一下就可以了，</p>
+<p>总之，直到现在我都还是 Sass 一生黑，碰都不敢碰。</p>
+<blockquote>
+<p>PS：其实现在 Sass 已经有 nodejs 版本的编译器了，速度与 LESS 基本持平，而且因为 Sass 比 LESS 强大许多，加之bootstrap 4 又要从 LESS 换回 Sass，估计今后两年又是 Sass 的天下。</p>
+</blockquote>
+<h2>Stylus 呢？</h2>
+<p>看了几分钟手册，没明白在写什么，就放弃掉了，不过还是有很多 nodejs 的死忠会去用它，它有各种 API 啊，.set 方法啊，之类很偏程序的东西，新手还是别把自己绕进去了。</p>
+<h2>最后说说 postCSS</h2>
+<p>postCSS 算是最近才出来的东西，非常新，自由度绝对是最大的。比如想要自动前缀功能，就引用下 <code>autoprefixer</code> 插件就好。</p>
+<p>其实 postCSS 本质和 gulp（或grunt、etc⋯⋯） 的机制很像，而且本来就是依赖 gulp 的。很多 postCSS 的插件作者本身就是 gulp 插件的原作者。</p>
+<p>说到底，postCSS 更像是把 gulp 等批处理 CSS 方面的部分做了一次梳理而已。而且 postCSS 学习成本肯定是在 LESS 和 Sass 之上，且国内可能都找不到支持它的团队。</p>
+<p>所以⋯⋯ 过两年再看吧，希望它不是下一门还没来得及学就过时了的前端技术：）</p>
+<p><a href="created_at:2015-09-27T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/talk-about-css-preprocessor.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/talk-about-css-preprocessor.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:56:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angularJS 双向绑定的应用场景]]></title>
+            <description><![CDATA[<p>用 angularJS（下文简称ng）的时间加起来没超过一天，但的的确确能感觉这是一个值得一试的框架。之前只是想学一下这个新奇的东西，但是在尝试过后，决定用 ng 从写公司 CMS 的后台（原为 backboneJS）。</p>
+<p>案例1：双向绑定带来了极大的便利
+刚看 ng 的时候，我实在搞不懂这个双向绑定到底是什么，感觉只是在一个地方输入文字，其他地方跟着变化而已。想不到什么应用场景，但是在移植后台编辑器这块的时候让我颇为惊喜。</p>
+<p>需求是这样的：
+后台编辑器有 3 个，可以来回切换，分别是</p>
+<ul>
+<li>ace（代码高亮，debug 的时候用）</li>
+<li>tinymce（可视化，给不懂 HTML 的用户使用）</li>
+<li>text（纯文本，手机上用）。</li>
+</ul>
+<p>在用 backbone 开发的时候，切换 3 个编辑器非常头疼，或者说，从 2 个编辑器变到 3 个的时候非常头疼，因为 backbnone 没有双向绑定，我们可以做的事情就是先找一个 textarea 出来，作为缓冲层。</p>
+<p>什么时候用户点击了切换按钮，再用赋值的方式把缓冲层的代码 copy 到切换的编辑器中，如果用户切换了别的编辑器，那就再重复做这个事件。巨麻烦巨坑，以至于为了理清这些编辑器的切换逻辑我们就花了两天。</p>
+<p>本以为用 ng 移植这个编辑器也会变得很复杂，结果前几天用 ng 重写的时候，非常顺，几行代码就完成了，把编辑器都绑一个 ng-model，初始化的时候只显示一个，别的先隐藏，点击切换的时候其实只是在做隐藏和显示的切换，这就是一切了！</p>
+<p>巨简单，巨省心，完全不用做什么额外的工作就全都好了，结合 ui-bootstrap 的切换 tab 组件，5 分钟完成妥妥的，真让我不敢相信，太 tmd 神奇了。</p>
+<p>另外，现在 ng 的周边组件还不多，但这并不影响用 ng 做商用开发，我觉得 ng 自带的一些特性完全可以满足“不是特别复杂”的后台开发了。</p>
+<p>不过，对于网站前台开发可能还需要再等等，1.3 版本不支持 IE8 的确是个硬伤，如果是 Mobile 开发可以大胆使用，另外 ng 这种方式对 SEO 还是非常不利的，不晓得今后会有什么对策出来解决这个问题。</p>
+<p><a href="created_at:2014-09-22T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/angular-js-two-way-bind.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/angular-js-two-way-bind.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:54:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[最佳备机]]></title>
+            <description><![CDATA[<p>看着挺喜欢的，名字叫 sword-hond，卖 500 多，MADE IN 深圳，如果看到了，要买一个回来。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348810-b2d9c6c4-14b2-11e8-8799-4ecce6eab99c.jpg" alt="21687072_1773849346246029_4069018754266560501_o"></div>
+<p><a href="created_at:2017-04-25T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/sword-hond.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/sword-hond.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:51:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AMPLiFi 路由器 ＋ AP]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348773-36df21f4-14b2-11e8-8c1a-80752f8c39c7.jpg" alt="img_7629"></div>
+<p>前段时间看到 AMPLiFi 这套路由方案在 v2ex 上做活动，加之刚好有需求，决定定一套到公司尝试一下，看能不能 hold 住公司的需求。</p>
+<p>相对于中小型公司而言，网络最重要的就是：<strong>稳定</strong> + <strong>无缝漫游</strong>。</p>
+<p>如果单求稳定，只需无脑砸钱上大内存， 高频 CPU 即可，但对于无缝漫游……这个搞起来还真是比较复杂。一年前我用 TPLINK 交换机 AC1000 串了几个吸顶 AP 组了一套还算可用的网络，因为跑在 2.4G 频段上，设备少的时候还行，一旦设备上到 50+ 之后，就开始显得力不从心。</p>
+<p>所以，才有了今天的这套 AMPLiFi。</p>
+<p>买 AMPLiFi 前就早有耳闻它 niubility 的技术，说是用了三根天线，一根收，一根发，还有一根配合算法补充收发损耗。</p>
+<p>经过两个星期的充分测试后，觉得物超所值，于是趁着折扣期又追加了三根 AP，扩大部署范围。</p>
+<p>(路由器主机 x 1) + (AP x 4) ，大概花费 4500+，算是民用方案中比较贵的。但放到商业用途上来看就又还好。毕竟省事就是省钱了嘛。所以，希望 AMPLiFi 能越做越好，写出越来越优秀的算法以及功能更全的固件来。</p>
+<p><a href="created_at:2017-08-24T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/amplifi-router-and-ap.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/amplifi-router-and-ap.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:47:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[要不要买台 iPad Pro 呢？]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348746-b30e319e-14b1-11e8-93a8-5b839e81246a.jpg" alt="img_e7499 1"></div>
+<p>其实从 iPad Pro 发布的那一天我就想买一台，但是看当时 for iPad Pro 的 App 还没普及，就放弃了。但是最近感觉看 PDF 挺多的，而且做笔记的需求感觉越来越强烈，就想买一台。</p>
+<p>于是一大早跑去 Apple Store 上体验了一把，体验机是最新的 10.5 寸 ／ 120fps 款，大概用了半个小时，笔啊，键盘啊，相关 App 啊都过了一遍，最后得出结论：</p>
+<blockquote>
+<p><strong>我不会买！</strong></p>
+</blockquote>
+<p>为什么呢？</p>
+<h2>先说优点</h2>
+<ul>
+<li>120fps，这是最直接的体验，用完之后再看自己 iPhone7，感觉和 24fps 胶片电影一样一卡一卡的。</li>
+<li>10.5 点屏幕真爽，基本上能通吃所有 PDF，几乎不用 Zoomin 操作，相当直观。</li>
+<li>笔非常跟手，据说笔还是那支笔，只是 120fps 让书写更流畅了。</li>
+<li>键盘手感比预期好，怎么说呢…… 可能是用了 MacBookPro 2017 那辣鸡键盘之后的错觉。</li>
+<li>没有了……</li>
+</ul>
+<h2>再说缺点</h2>
+<ul>
+<li>虽然只有 10.5，带出门还是显得太大不方便。</li>
+<li>原装键盘 cover 感觉特别难看，另外，这 cover 不能放笔，很尴尬。</li>
+<li>键盘（如图），没有 esc 键，没有 esc 键，没有 esc 键，那我怎么用 vim 啊？</li>
+<li>App 生态还是弱了，想用键盘在上面做写文章之外的事情几乎不可能。</li>
+<li>没有鼠标（这个估计未来也没希望了）</li>
+</ul>
+<p>总的来说，iPad Pro 主要还是靠笔，Apple 定位非常明确，这东西一定不能抢 iPhone 和 MacBook 的市场，不然还不如不开这条线。</p>
+<p>所以，我买来干嘛？</p>
+<p><a href="created_at:2017-08-31T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/do-i-buy-ipad-pro.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/do-i-buy-ipad-pro.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:44:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[红白机生日快乐]]></title>
+            <description><![CDATA[<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348716-1ca006b0-14b1-11e8-8448-deb2a3ead30f.jpg" alt="b621324f758b36cddebc37c7ffd186c8"></div>
+<p>在如今网络游戏大行其道的时代。不知道你是否还记得以前的那份欢乐，还记得以前的我们么？</p>
+<p>那个时候的我们。尤其是暑假，都会一群人挤在一个房间里。一台 FC“8位机”，几张卡，还有一台电视。玩着上面的游戏。就这样乐此不疲的玩上一个下午。</p>
+<p>那些日子很快乐。真的很美好。</p>
+<blockquote>
+<p>一段美好的回忆。一部伟大的主机。提起 FC 只要触摸过这个神奇盒子的人。都会感慨而谈的说出无数用笑容编制的故事。当如日中天的 PS2，实力雄厚的 XBOX，色彩绚丽的 NGC 大展宏图之时。不知不觉中这个红百相间的小巨人。已经走过了 22 个春夏秋冬。22 年，让超级马里奥、魂斗罗，成为永恒的经典。22 年，让无数如今长大成人的老玩家拥有了快乐的童年。</p>
+</blockquote>
+<p>FC 就是我们的启蒙老师 我们对 FC 的感情是很难用语言来表达的。他好像就是属于小孩时代的那种东西，永远就像小孩一样。因为他是我童年的一个伙伴。</p>
+<p>也许很少有人会探究 FC 的含义。其实 Family Computer 的全称也决难表达出这款主机带给家庭的欢乐。</p>
+<p>1983 年 7 月 15 日。红白相间的 FC 降临人间。这一天 并没有人意识到一款游戏机能够成为人们生活的一部分。也决没有想到它会创造这么多个游戏史上的之最。几乎80%的游戏类型都是在 FC 上创造出来的。这些游戏包括 FC 主机。它的按键方式。甚至包括他的电视输出方式。这些都成为未来一些游戏主机的基本架构。几乎可以这样讲 .就是未来包括现在 PS2 也好 XBOX 也好。这些强劲的主机。在它身上都可以看到 FC 的影子。</p>
+<p>可以毫不夸张的说如果没有 FC 主机就不会有当今价值数百亿美元产值的游戏业。与 FC 同领的还有一位传奇人物。</p>
+<p>它，就是大叔马里奥。在最早的游戏大金刚中。马里奥第一次登场。而让玩家们家喻户晓的游戏便是那款让无数人彻夜难眠的超级马里。从那时起人们就把 FC 和马里奥的名字紧紧的连在了一起。但马里奥对与 FC 来说仅仅是个开端。在这之后 FC 平台上推出的经典游戏树不胜数。每一款游戏都足与让喜爱它的玩家说上 3 天 3 夜。</p>
+<p>我们这一代包括我们上一代永远都会记得。“上上下下 左右左右 BA BA”这个秘笈，等于它是 FC 进入中国的一个先锋。</p>
+<p>像 RPG SLG 这种。如今大行其道的游戏类型。都是因为“霸王大陆”当年在中国的普及而火起来的，有很多玩家都是因为“霸王大陆”才开始研究三国。自学日语。包括我。也许你不会相信。2003 年任天堂才宣布 FC 正式停产。</p>
+<p>这对一个电子产物来说。简直是个奇迹。在和各大平台华山论剑。笑傲江湖数十载后。荣满一身的老将 FC 终于光荣隐退。与其说FC是一台游戏机。或许并不如把他比做一段美好的回忆来得恰当。其实对于中国玩家来说 接触到这款主机时 已经在 86、87 年以后。而在中国 FC 也是以各种形态存在的。及时当 SS PS 成为主流的日子里。钟情于画面单调。音乐刺耳的 8 位红白机游戏。因为在中国人的脑海中。FC 几乎已经成为了游戏的代名词。</p>
+<p>当时大家一块玩游戏 那是非常高兴的了。4、5 个孩子凑在一起玩FC游戏。轮着玩 互相抢。那种感觉到现在可能再也找不着了。</p>
+<p>也许并不是所有人都认为 FC 是历史上最成功的一款主机。带它带给玩家的实在太多了。在 FC 走过 22 个年头的今天 或许你会感慨。或许你会伤心。或许你拥有的是更加美好的憧憬。但我们相信没有一个曾经感受过 FC 给他带来快乐的人。会忘却这个经典。当你在看这这个虽粗槽。但却生动的画面。当你在听到这刺耳 但却熟悉的音乐时。让我们对这款退却的主机祝一声。“FC，我的红白机，生日快乐”</p>
+<p>2005-07-15</p>
+<p><a href="created_at:2005-07-15T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/fc-22th.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/fc-22th.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:39:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dreamcast]]></title>
+            <description><![CDATA[<p>Dreamcast，SEGA 最后的一台家用机，同时也是我最初的一台家用机。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348707-decdcf3e-14b0-11e8-8925-842e4415c54c.jpg" alt="0b2d2c7a382b44428960828c0636ace9"></div>
+<p>那是 02 年圣诞节爸爸和我一起到市里一家盗版 DVD 光盘兼游戏店买的。不知道当时他为什么会支助我买这东西的，只了解这台机器是至 FC 后第二台被家里允许在家光明正大玩的游戏机。为了我能玩 Dreamcast，家里还特别买了台超豪华 TOSHIBA 飞视！！拿来打 Dreamcast 超爽!
+机器是当时最不被玩家喜欢的欧版，但是我却特别的喜欢它，因为是 220V 直接插入的嘛不必要为使用时间和控制变压器发热而担忧了。所有东西包括了主机，试玩盘〈里面的游戏真的好多哦〉，手柄一个 AV 线一条，还有 33K Moden 一个〈正是这个东西为我DC上网提供了便利途径〉，除此之外还有一些说明书云云的东西包装盒好气派。</p>
+<p>金属蓝外壳中一个幽雅的“蚊香”感觉到现在 XB360 的包装就事仿照 DC 来做的连那个旋转的圆圈都那么的熟悉，呵呵@.@ 也难怪我对 XB 系列的感情要强于 PS 系列主机，何况自己又有这样的一个感觉 Dreamcast 是被 PS2 给逼死的！！！Dreamcast 带给我的快乐并不是一开始就体现出来了的！？因为一开始的 2 个星期我都一直在玩试玩盘。</p>
+<p>虽然游戏不少但是都只能玩前面一小段或者是有体验一定时间的限制。够郁闷哦，后来回到买 Dreamcast 哪家店一看才知道，哇哇哇哇哇哇！有那么多盘呀？好多好玩的游戏哦。</p>
+<p>10 张一起买是 3 块一张！，比起以前 FC 时代昂贵的卡带媒体来说，光盘简直就是街边白菜！！</p>
+<p>呵呵）看着花了 30 块换回来的哪 10 张 D 盘，口水呀！（如果现在有人问起我最崇拜什么行业，我一定会很幸福的对他说出“大 D 商人”这4个伟大的汉字 ）记得当时买的盘中有 SEGA RELLY，DancyUSA2001 等一些经典的赛车游戏还有那个蓝色刺猬 Sonic，之外就是 BIO 代号维罗昵卡（好象 Dreamcast 上有 2 代的 2 代我都买了之后在电脑上玩了 MGS1、2 后觉得这两个系列真的好像，如果 MGS 是在 BIO 后诞生的我到会觉得他是抄袭 BIO 的，呵呵不过小岛君的想象力真的毋须置疑，太强大了，对于丧尸接受不能者还是推荐搞笑的 MGS，以免失眠带来的困扰！）</p>
+<p>当把梦游美国放入 Dreamcast 光盘仓的那一刻，我的心以经完全被征服！那是一种叫热血的感觉！赛完两圈下来心里久久不能平静那种如飞的速度加上优秀的挂当方式和完美的操作手感，精心策划的跑道这么多经典要素加在一起，自然的一款完美的 RAC Game 由此诞生！加速--侧外--陀挡--切内--加速--出弯！！！就这样反复操作着这些微妙的动。</p>
+<p>作这里我可以很负责的告诉你，完美达成以上动作需要的时间是以若干千小时来计算的，最快估计也要 2-3000 小时其中的奥秘也只有体会了才能明白的！不过令自己骄傲的是------梦美的世界第一名是我们中国的 LYF 大哥，还是广西桂林的哪！这可不是我随便说的，是 SEGA 封的！ AM2 给的！！再次证明了中国人的实力。</p>
+<p>当时我打梦美的那段时光真的说出来都觉得 BT，打到饭都不用吃的地步了！要不就是拿碗饭来 Dreamcast 前面赛完一圈吃一口，那个场面诶……太凄凉了。
+之后练得没昼没夜的，总算给我打出用 RED CAT 的警车跑 777 耗时 13 秒的记录，呵呵当时 LYF 用火箭跑了12秒，还用了及其 BT 的压加油站路基的方法。</p>
+<p>FT!!!打击偶不会开火箭哦！</p>
+<p>陪伴着我过 2003 新年的游戏是 DC 末期的压轧大作---莎木，记忆中我是在大年 30 那天爆机莎木 2 的！完全记得最后莎花和芭月凉在桂林山洞里发生的一切（可表想歪呀！别人我不敢说，但是芭月凉的人品我是信任的）也还记得那个利害的格斗士白虎样还有可恶但利害的蓝帝，小店里的大婶庙前的小女孩和那只可怜的小猫以及芭月凉的好朋友鹰还有那个帮助并喜欢凉的性感女孩 JOY，太多了……似乎莎木里的人物全都被邻木裕精心刻画过这样。</p>
+<p>让人铭记于心里面的所有人。莎木！希望在 XB360 中在能再次于你会面。</p>
+<p>过年以后又学会了 DC 上网，然后又顺理成章的认识了 Jeff.ma，他那个时候是大学生研究 DC 的程度可不是一般人能及的，呵呵比较厉害的哪类，还做出了像中文 DP3 一类让当时的我很佩服的东西来，造福了好多用 DC 打中文不能的玩家。</p>
+<p>那个时候用 DC 上 jeff.ma 的 DC 专用网站，看了好多 DC 相关知识，记得有篇讲某游戏的文章看完自己都觉得眼睛痛了，太长了嘛！然后他下面注解了这样一段文字（以上文字花了一个月时间在 DC 上敲打出来。……瀑布汗，佩服这位兄弟的耐心，哈哈！用 DC 上网最大的缺陷就是会被家人骂，看着一个月下来的那巨额电话费就自然不觉得家人骂我是什么怪事了！-.- 慢慢的，我开始了频繁接触电脑的生活！一次用狗狗搜索 DC 的时候发现了一个 BBS，WWW.GAMEST.NET 上面全是有关 DC 的东西我就点进去看了开始只是随便看看后来觉得有意思就学着注册了 ID 进去发贴，然后一发不可收拾之后上 Gamest 逛成了我后来去网吧的唯一原因。</p>
+<p>现在 SEGA 的处境实在让人感到惋惜呀！曾经的一匹黑马。当时就觉得论坛这个东西很又意思，不像 QQ 那样有局限性，你发了帖子连上 Intelnet 的所有人都能看见到你发的帖子。</p>
+<p>更有趣的是在 Gamest 我和深圳的一个女孩子大吵大脑后没有被封 ID 反而当上了 DC 区版主，估价是偶对 DC 的热情被 ZGQ 发现了！那个时候认识了好多和我一样热爱游戏同时又喜欢 DC 的玩家，像我们的猪哥地雷高达 FANS MS18E，精通计算机知识的咸鱼兄，后来自己弄了网站的果珍在火星电玩工作的 COMY，等等等等……美好的回忆实在太多太多。</p>
+<p>当忽然有一天因为全国大规模的检查网站，同时 Gamest.net 登录不能……然后 ZGQ 给出说明……到最后的网站关闭，之间用了 2-3 个月的时间。</p>
+<p>其实在这几个月的时间里我发现在没有和他们一起交流的时光里我对游戏的感觉慢慢的变淡了，不再去为一款游戏通宵达旦不再为那天才能玩到某某主机而彻夜难眠……</p>
+<p>一年后 ZGQ 征求意见是否要 Gamest 恢复，前提是以前的帖子完全丢失我虽然投票选应该再开，但是心里知道这样又有什么意思呢！果然从新注册的玩家没能突破 200 人，论坛也没有了以前的那片繁华短短的几个星期论坛再次草草收场！但是这次没有了那份伤心，心里得到的却是自己对 Gamest 的宽容。</p>
+<p>2004 年过年后的那段时间，我把陪伴自己快 2 年的 DC 卖了，记得是以很白菜的价钱卖给了一个同地方的加油站员工，那时的那台欧版 DC 已经是有正版无数陪伴着的机器了，还有一些至今市面难找的周边比如打 PSOV2 时候买的原装键盘，玩桑吧舞时候的沙锤和玩空之飞舞是的直立飞行遥感等等……呵呵</p>
+<p>要不是同地方的人来提货估计 DC 永远也卖不出去，因为周边实在太繁琐了打包裹估价都要花百多来块钱了……卖了 DC 不觉得遗憾，根本不觉失去了自己身上最后 SEGA 的血液而遗憾！</p>
+<p>因为在决定卖 DC 的时候我已经想好了要把这台 DC 交给另外一个需要这台主机寻找快乐寻求开心的人，这就够了。</p>
+<p>感谢这几年 DC 给我带来的欢乐时光，回忆一群朋友蹲在房子里拼打灵魂能力，竞速 SONIC 一起桑芭舞，无数用笑容编织的美好日子。</p>
+<p>也许在这个讲求画面追求音效的次世代里，强劲的主机能演绎出更丰富的内容，营造出更有趣项目但是能像 Dreamcast 这样真正带给我们快乐的主机，也许以后真的再也寻不回了。</p>
+<p>The End
+2005/09/08</p>
+<p>附【QHNseta】言：</p>
+<blockquote>
+<p>感谢这几年 DC 给我带来的欢乐时光，回忆一群朋友蹲在房子里拼打灵魂能力竞速 SONIC，一起桑芭舞无数用笑容编织的美好日子。</p>
+</blockquote>
+<blockquote>
+<p>也许在这个讲求画面追求音效的次世代里，强劲的主机能演绎出更丰富的内容，营造出更有趣项目但是能像 Dreamcast 这样真正带给我们快乐的主机，也许以后真的再也寻不回了。</p>
+</blockquote>
+<blockquote>
+<p>这种日子也让我怀念。
+怀念以前一帮人跑到街上的 DC 店去开赛车（名字都忘了）杀再生侠。</p>
+</blockquote>
+<blockquote>
+<p>记得有次我生日去打 DC 被老妈逮到半夜都不敢回家 半夜 2 点和表弟跑到他家住 还有一次是大年 30 我们本想打通宵 打到半夜 12 点 林猪他爸突然杀来拎着他的耳朵走了 我们继续打到2点也不欢而散后来几天还为担心林猪他爸会不会告诉我老妈而提心吊胆了几天 到底最终他有没有告状都忘了。</p>
+</blockquote>
+<blockquote>
+<p>那时好羡慕表弟因为他打游戏家里不会反对 还帮他买游戏机 眼红死了。（其实现在还是这样），还有到表弟家拼打灵魂能力，竞速 SONIC 每次都带一帮人去 好象要打架一样 搞得我都不好意思遇见表弟他父母，也许我称不上真正的玩家 对 SEGA 一些硬派的 GAME 都没玩过但是 DC 也让我享受到了游戏的乐趣 经常梦想以后的生活 有属于自己的空间 有像这样的属于自己的游戏机 工作什么的不要太长时间 空余时间能约上三五好友来家里一起享受游戏的乐趣 那已足够了。</p>
+</blockquote>
+<blockquote>
+<p>不过这可能不可能的了 现在对这些游戏感兴趣的人似乎都不多了 能有共鸣的更少了 怀念 DC 将几个人聚在一起享受闲暇时光的时候。</p>
+</blockquote>
+<p><a href="created_at:2005-09-07T21:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/dreamcast-my-1st-console.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/dreamcast-my-1st-console.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:38:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[飞镖]]></title>
+            <description><![CDATA[<p>无意中下载到这个游戏，然后没看规则就开始投，我觉得奇怪了，每次都投得不错，为什么还总是输。于是开始到 wiki 上找 <a href="https://zh.wikipedia.org/wiki/%E9%A3%9B%E9%8F%A2">飞镖的规则</a>。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348680-4122f26e-14b0-11e8-84d0-aaf6e25e1308.png" alt="image"></div>
+<blockquote>
+<p>301规则
+301规则和501规则类似。每位选手起始为301分，选手积分随投掷得分而递减，首先将分减为0的选手获胜，如十轮投掷完成后无选手将积分减为0，则积分最低者获胜。如果选手投中某镖后使积分减成无法结束游戏的分数(正常出积分＜0；双倍区积分≤1；三倍区积分≤2或者在双倍区/三倍区出条件下，投中非双倍区/三倍区使积分减为0)为&quot;爆镖&quot;，发生爆镖后，取消该轮得分，同时结束本轮投掷，轮到下位选手投镖。</p>
+</blockquote>
+<p>上面是飞镖玩法中的其中一种，看完规则，颠覆了我对飞镖的传统认知，跟斯诺克一样，其实也是个脑力运动，而且并不是要射中心点，而是算分。</p>
+<p>飞镖的靶子我觉得设计也非常巧妙（懂人性），基本上都是 大分 夹 小分，小分 夹 大分，想大口吃的时候很容易吃空……</p>
+<p>玩这个游戏简直停不下来，好想下次看到真飞镖的时候亲自来两局。</p>
+<p><a href="created_at:2017-09-15T22:07:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/darts.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/darts.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:33:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flower]]></title>
+            <description><![CDATA[<p>老实说我买这个游戏纯粹是盲目跟风（笑），一来是因为 Apple 发布会上主要提了它，二来是制作人陈星汉在机核播客上以久仰大名，三来是错过了他获奖无数的「风之旅人」后不想再错过点什么。</p>
+<p>$4.99 相比起家用机 $49.9 的价格真是便宜，buybuybuy。</p>
+<p>进入游戏后发现是体感游戏（嗯……），然后…… 我就沉浸在游戏中了，那种感觉真是无法言喻，只有体验后才知道。</p>
+<p>游戏中截了两张图，各位酌情体会。</p>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348650-b1134a52-14af-11e8-9500-7da8035df847.jpg" alt="img_8372 1"></div>
+<div class="image-wrap"><img src="https://user-images.githubusercontent.com/661587/36348651-b14146e6-14af-11e8-9717-db8174016eac.jpg" alt="img_8383 1"></div>
+<p>如果真要说有什么不足，那就是 iPhone7 跑这游戏，外壳可以煮鸡蛋了（再次笑）。</p>
+<p><a href="created_at:2017-09-29T23:03:11Z"></a></p>
+]]></description>
+            <link>http://solidzoro.com/flower-ios.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/flower-ios.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:31:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[project]]></title>
+            <description><![CDATA[<ul>
+<li><a href="https://github.com/SolidZORO/zpix-pixel-font"><strong>Zpix</strong></a> - Zpix (最像素) is a pixel font. supports ENG / TCN / SCN / JPN</li>
+<li><a href="https://github.com/SolidZORO/nighte"><strong>nighte</strong></a> - markdown to static HTML @ Node.js / webpack / gulp</li>
+<li><a href="https://github.com/SolidZORO/nighte-koa"><strong>nighte-koa</strong></a> - <a href="https://github.com/SolidZORO/nighte">nighte</a>'s koa version</li>
+<li><a href="https://github.com/SolidZORO/vodka"><strong>vodka</strong></a> - markdown to static HTML @ PHP</li>
+<li><a href="https://github.com/SolidZORO/hadouken"><strong>hadouken</strong></a> - dayone classic (macOS) to static HTML @ Node.js</li>
+<li><a href="http://solidzoro.com/mgsx/"><strong>MGSX</strong></a> - Metal Gear Solid (PSX) English to Chinese Translate</li>
+</ul>
+]]></description>
+            <link>http://solidzoro.com/project.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/project.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Tue, 20 Feb 2018 20:05:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[about]]></title>
+            <description><![CDATA[<p><strong>Jason Fung</strong> (封)，ID: <em>SolidZORO</em>，1988，巨蟹，Web 全栈工程师。</p>
+<p><strong>#skills</strong><br>
+Web Development  (Frontend + Backend) / Web Design / UI (UX) Design / Pixel Font Design</p>
+<p><strong>#tags</strong><br>
+Arduino / Raspberry Pi / Font / 排印 / pixel / vim / Intellij / 4spaces / SEGA / Crazy Taxi / 莎木 / macOS / zsh / git / javascript / fuckingMySelf.js / nginx /  PHP / Java / CSS / HTML6 : &gt; / vue.js / famicom / FC / TRON / SQL / Photoshop / Kindle / Daytona USA / MGS / Alfred / AI / FILCO minila AIR / 完美主义 / Downwell / 杨德昌  / GAP / Havaianas / 网络中立 / fucking BUG / IO / 01 / 8bit / mechanical / 积极悲观主义 / <a href="/here-is-cancer.html">more...</a></p>
+]]></description>
+            <link>http://solidzoro.com/about.html</link>
+            <guid isPermaLink="false">http://solidzoro.com/about.html</guid>
+            <dc:creator><![CDATA[SolidZORO]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 21:40:39 GMT</pubDate>
         </item>
     </channel>
 </rss>
