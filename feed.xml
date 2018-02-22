@@ -4,24 +4,22 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Feb 2018 12:40:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Feb 2018 07:43:05 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Github Page Travis-CI]]></title>
             <description><![CDATA[<p>这是一篇用于测试 Travis-CI 自动编译的检测页。</p>
-<p>经过 #30 次的案例，终于成功达成 Travis-CI 自动编译和部署。</p>
 <p>不出意外会一天一部署。明天等结果，看看是否有效果。</p>
 <ul>
-<li>#01 OK</li>
-<li>#02 ERR</li>
-<li>#03 OK</li>
+<li>#01 2018-02 18:07</li>
+<li>#02 2018-02 22:07</li>
+<li>#03 on iOS</li>
 <li>#04</li>
-<li>#05</li>
 </ul>
 ]]></description>
             <link>http://solidzoro.com/github-page-travis-ci-test.html</link>
             <guid isPermaLink="false">http://solidzoro.com/github-page-travis-ci-test.html</guid>
             <dc:creator><![CDATA[SolidZORO]]></dc:creator>
-            <pubDate>Wed, 21 Feb 2018 04:36:52 GMT</pubDate>
+            <pubDate>Wed, 21 Feb 2018 06:43:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[历史遗留问题:手机辐射]]></title>
