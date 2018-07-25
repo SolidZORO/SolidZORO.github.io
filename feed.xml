@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Jul 2018 09:01:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Jul 2018 09:00:04 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Github Page Travis-CI]]></title>
             <description><![CDATA[<p>这是一篇用于测试 Travis-CI 自动编译的检测页。</p>
