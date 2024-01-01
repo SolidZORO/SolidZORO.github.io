@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？ - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta
+      name="keyword"
+      content="在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？ - hot to webpack multi page - @SolidZORO"
+    />
+    <meta
+      name="description"
+      content="### 需求描述```先看文件目录.├── entry.js // webpack 的 entry 入口文件├── article // 文章模块│   ├── article.js│   └── article.html└── product // 产品模块    ├── product.js    └── product.html```&gt; Tips: **这个项目没有用到 `react` 或 `vue` 等前端框架。 - SolidZORO"
+    />
+    <meta name="renderer" content="webkit" />
+
+    <link rel="shortcut icon" href="./_statics/favicon.ico" />
+    <link
+      href="./_statics/styles/simple_89cbcf212373a4585211.css?5ad796ec2dfb49db4421"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body layout-body layout-body--item">
+    <div class="layout-header">
+      <div class="container">
+        <div class="header-bar clearfix">
+          <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+              <a href="/">
+                <i class="fi fi-logo"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+              <a href="/about/">about</a>
+            </div>
+            <div class="item">
+              <a href="/projects/">projects</a>
+            </div>
+            <div class="item item--block item--book">
+              <a href="/books/" alt="books" title="book"><i class="fi fi-book"></i></a>
+            </div>
+            <div class="item item--block item--movie">
+              <a href="/movies/" alt="movies" title="movie"><i class="fi fi-movie"></i></a>
+            </div>
+            <div class="item item--block item--code">
+              <a href="/blog/category/code.html" alt="tech" title="tech"
+                ><i class="fi fi-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-container">
+      <div class="container">
+        <div class="entry-item entry-item--hot-to-webpack-multi-page">
+          <div class="entry-item__header">
+            <h1>在使用 ES6 + webpack 的情况下，怎么组织多页面应用（非 SPA）？</h1>
+
+            <div class="date">
+              <sup data-hash="2017-02-08 23:03:11">2017-02-08 23:03:11</sup>
+            </div>
+          </div>
+
+          <div class="entry-item__container">
+            <div class="typo">
+              <h3>需求描述</h3>
+              <pre><code>先看文件目录
+.
+├── entry.js // webpack 的 entry 入口文件
+├── article // 文章模块
+│   ├── article.js
+│   └── article.html
+└── product // 产品模块
+    ├── product.js
+    └── product.html
+</code></pre>
+              <blockquote>
+                <p>
+                  Tips:
+                  <strong
+                    >这个项目没有用到 <code>react</code> 或 <code>vue</code> 等前端框架。</strong
+                  >
+                </p>
+              </blockquote>
+              <p>
+                一共两个模块，文章 <code>article</code> 和 产品 <code>product</code>，对应的文件是：
+              </p>
+              <p>
+                <code>article.js</code> 文章 里面有很多函数，如 <code>aFn()</code>，最后都会
+                <code>export default</code> 出去。
+              </p>
+              <p>
+                <code>product.js</code> 产品 里面也有很多函数，如 <code>pFn()</code>，最后都会
+                <code>export default</code> 出去。
+              </p>
+              <p>
+                预期访问 URL <code>/article</code> 执行 <code>article.js</code>
+                中的代码。 访问
+                <code>/product</code> 时执行 <code>product.js</code> 的代码。
+              </p>
+              <hr />
+              <h3>一些我能想到的方案和问题</h3>
+              <ul>
+                <li>
+                  在 <code>entry.js</code> 中 import <code>p.js</code> 和
+                  <code>a.js</code>，然后分别调用，业务代码都写在
+                  <code>entry.js</code> 中。这个方法的缺点是
+                  <code>entry.js</code> 会变很大，很面条。
+                </li>
+                <li>
+                  让 webpack 编译多个 js，在 <code>article.html</code> 中加载
+                  <code>article.js</code>，在 <code>product.html</code> 中加载
+                  <code>product.js</code>，这样最好，但是需要手动控制，而且 js
+                  文件太多，请求次数太多，拖慢速度。
+                </li>
+                <li>
+                  用 if 判断 URL（或 DOM 中的 <code>className</code>），然后决定执行哪些 js 代码。
+                </li>
+              </ul>
+              <p>
+                想了很多方案，但没有明确答案到底那个好。其实想问的是 在使用 <code>ES6</code>
+                +
+                <code>webpack</code> 的情况下，怎么组织多页面应用（非 SPA）？
+              </p>
+              <p>文章发布于：https://segmentfault.com/q/1010000008284105</p>
+              <p><a href="created_at:2017-02-08T23:03:11Z"></a></p>
+            </div>
+            <div class="eof">- EOF -</div>
+
+            <div class="category">
+              <a class="c" href="/blog/category/code.html"> #code </a>
+            </div>
+          </div>
+
+          <div class="entry-item__comment">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-footer">
+      <div class="container">
+        <div class="footer-bar clearfix">
+          <div class="footer-bar__copyright">&copy; 2005-2018 <a href="/">SolidZORO</a></div>
+          <div class="footer-bar__logo">
+            <a href="/">
+              <i class="fi fi-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      if (!window.jQuery) {
+        const script = document.createElement('script');
+        script.src = '//cdn.bootcss.com/jquery/3.2.1/jquery.min.js';
+        document.body.appendChild(script);
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="./_statics/scripts/simple_89cbcf212373a4585211.js?5ad796ec2dfb49db4421"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>写了一段原生 js，发现真是难哭了 - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta
+      name="keyword"
+      content="写了一段原生 js，发现真是难哭了 - write javascript - @SolidZORO"
+    />
+    <meta
+      name="description"
+      content="81b9300c68](https://user-images.githubusercontent.com/661587/36348881-59f45c3e-14b4-11e8-9164-e783530075e8.jpeg)起因是为了完成 [优达学城](https://classroom.udacity.com/courses/ud989/lessons/3417188540/concepts/33916789250923) 的这个习题。 - SolidZORO"
+    />
+    <meta name="renderer" content="webkit" />
+
+    <link rel="shortcut icon" href="./_statics/favicon.ico" />
+    <link
+      href="./_statics/styles/simple_89cbcf212373a4585211.css?5ad796ec2dfb49db4421"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body layout-body layout-body--item">
+    <div class="layout-header">
+      <div class="container">
+        <div class="header-bar clearfix">
+          <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+              <a href="/">
+                <i class="fi fi-logo"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+              <a href="/about/">about</a>
+            </div>
+            <div class="item">
+              <a href="/projects/">projects</a>
+            </div>
+            <div class="item item--block item--book">
+              <a href="/books/" alt="books" title="book"><i class="fi fi-book"></i></a>
+            </div>
+            <div class="item item--block item--movie">
+              <a href="/movies/" alt="movies" title="movie"><i class="fi fi-movie"></i></a>
+            </div>
+            <div class="item item--block item--code">
+              <a href="/blog/category/code.html" alt="tech" title="tech"
+                ><i class="fi fi-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-container">
+      <div class="container">
+        <div class="entry-item entry-item--write-javascript">
+          <div class="entry-item__header">
+            <h1>写了一段原生 js，发现真是难哭了</h1>
+
+            <div class="date">
+              <sup data-hash="2017-04-04 23:03:11">2017-04-04 23:03:11</sup>
+            </div>
+          </div>
+
+          <div class="entry-item__container">
+            <div class="typo">
+              <div class="image-wrap">
+                <img
+                  src="https://user-images.githubusercontent.com/661587/36348881-59f45c3e-14b4-11e8-9164-e783530075e8.jpeg"
+                  alt="1a8631f28f6642ac17181381b9300c68"
+                />
+              </div>
+              <p>
+                起因是为了完成
+                <a
+                  href="https://classroom.udacity.com/courses/ud989/lessons/3417188540/concepts/33916789250923"
+                  >优达学城</a
+                >
+                的这个习题。要求是点击一个猫的图片，计数器+1。
+              </p>
+              <p>DOM 代码:</p>
+              <pre class="language-html"><code class="language-html"><span
+                  class="token tag"><span class="token tag"><span
+                  class="token punctuation">&lt;</span>img</span> <span
+                  class="token attr-name">id</span><span
+                  class="token attr-value"><span
+                  class="token punctuation">=</span><span
+                  class="token punctuation">"</span>cat<span
+                  class="token punctuation">"</span></span> <span
+                  class="token attr-name">src</span><span
+                  class="token attr-value"><span
+                  class="token punctuation">=</span><span
+                  class="token punctuation">"</span>cat.jpg<span
+                  class="token punctuation">"</span></span><span
+                  class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span
+    class="token attr-name">id</span><span class="token attr-value"><span
+    class="token punctuation">=</span><span class="token punctuation">"</span>times<span
+    class="token punctuation">"</span></span><span
+    class="token punctuation">></span></span>0<span class="token tag"><span
+                    class="token tag"><span
+                    class="token punctuation">&lt;/</span>div</span><span
+                    class="token punctuation">></span></span>
+</code></pre>
+              <p>jQuery 代码：</p>
+              <pre class="language-javascript"><code
+                  class="language-javascript"><span
+                  class="token keyword">const</span> $catEl <span
+                  class="token operator">=</span> <span
+                  class="token function">$</span><span
+                  class="token punctuation">(</span><span class="token string">'#cat'</span><span
+                  class="token punctuation">)</span><span
+                  class="token punctuation">;</span>
+<span class="token keyword">const</span> $timesEl <span
+                    class="token operator">=</span> <span
+                    class="token function">$</span><span
+                    class="token punctuation">(</span><span
+                    class="token string">'#times'</span><span
+                    class="token punctuation">)</span><span
+                    class="token punctuation">;</span>
+<span class="token keyword">const</span> $timesCounter <span
+                    class="token operator">=</span> $timesEl<span
+                    class="token punctuation">.</span><span
+                    class="token function">val</span><span
+                    class="token punctuation">(</span><span
+                    class="token punctuation">)</span><span
+                    class="token punctuation">;</span>
+
+<span class="token function">$</span><span
+                    class="token punctuation">(</span><span
+                    class="token string">'body'</span><span
+                    class="token punctuation">)</span><span
+                    class="token punctuation">.</span><span
+                    class="token function">on</span><span
+                    class="token punctuation">(</span><span
+                    class="token string">'click'</span><span
+                    class="token punctuation">,</span> $catEl<span
+                    class="token punctuation">,</span> <span
+                    class="token punctuation">(</span><span
+                    class="token punctuation">)</span><span
+                    class="token operator">=></span> <span
+                    class="token punctuation">{</span>
+    timesEl<span class="token punctuation">.</span><span class="token function">html</span><span
+                    class="token punctuation">(</span><span
+                    class="token operator">++</span>$timesCounter<span
+                    class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span
+                    class="token punctuation">;</span>
+</code></pre>
+              <p>不过习题要求的是用原生 javascript 编写，完整写出来大概是这样的：</p>
+              <p>原生 javascript 代码：</p>
+              <pre class="language-javascript"><code
+                  class="language-javascript"><span
+                  class="token keyword">var</span> catEl <span
+                  class="token operator">=</span> document<span
+                  class="token punctuation">.</span><span
+                  class="token function">querySelector</span><span
+                  class="token punctuation">(</span><span class="token string">'#cat'</span><span
+                  class="token punctuation">)</span><span
+                  class="token punctuation">;</span>
+<span class="token keyword">var</span> timesEl <span
+                    class="token operator">=</span> document<span
+                    class="token punctuation">.</span><span
+                    class="token function">querySelector</span><span
+                    class="token punctuation">(</span><span
+                    class="token string">'#times'</span><span
+                    class="token punctuation">)</span><span
+                    class="token punctuation">;</span>
+<span class="token keyword">var</span> timesCounter <span
+                    class="token operator">=</span> timesEl<span
+                    class="token punctuation">.</span>innerHTML<span
+                    class="token punctuation">;</span>
+
+catEl<span class="token punctuation">.</span><span class="token function">addEventListener</span><span
+                    class="token punctuation">(</span><span
+                    class="token string">'click'</span><span
+                    class="token punctuation">,</span> <span
+                    class="token keyword">function</span><span
+                    class="token punctuation">(</span><span
+                    class="token punctuation">)</span> <span
+                    class="token punctuation">{</span>
+    timesEl<span class="token punctuation">.</span>innerHTML <span
+                    class="token operator">=</span> <span
+                    class="token operator">++</span>timesCounter<span
+                    class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span
+                    class="token punctuation">;</span>
+</code></pre>
+              <p>
+                和 jQuery 一样，都很简单，但是我却花了很多时间在 Google 上找语法，我一开始以为可以像
+                jQuery 一样 <code>timesEl.val()</code> 得到 0，但是我错了，并不行，又试了
+                <code>timesEl.value</code>，居然也不行，明明去 SO 上说可以的（后来查了下
+                MDN，才知道这只能用于 input），然后东找西找，最后问了 @dongyu 才知道是用
+                <code>innerText</code>，有种累觉不爱的感觉。
+              </p>
+              <p>
+                然后我又试了下 <code>innerHtml</code>，发现居然也不行，我就奇怪了！！郁闷之下使用
+                <code>innerHTML</code>（注意大小写）就又可以了。马上感觉自己这几年写 jQuery
+                多了，原生 javascript 真是连一些基础代码都不会了，然而未来的方向又得面向 vue、react
+                编程，可能真的没有机会写原生 javascript 了😭。
+              </p>
+              <p><a href="created_at:2017-04-04T23:03:11Z"></a></p>
+            </div>
+            <div class="eof">- EOF -</div>
+
+            <div class="category">
+              <a class="c" href="/blog/category/code.html"> #code </a>
+            </div>
+          </div>
+
+          <div class="entry-item__comment">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-footer">
+      <div class="container">
+        <div class="footer-bar clearfix">
+          <div class="footer-bar__copyright">&copy; 2005-2018 <a href="/">SolidZORO</a></div>
+          <div class="footer-bar__logo">
+            <a href="/">
+              <i class="fi fi-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      if (!window.jQuery) {
+        const script = document.createElement('script');
+        script.src = '//cdn.bootcss.com/jquery/3.2.1/jquery.min.js';
+        document.body.appendChild(script);
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="./_statics/scripts/simple_89cbcf212373a4585211.js?5ad796ec2dfb49db4421"
+    ></script>
+  </body>
+</html>

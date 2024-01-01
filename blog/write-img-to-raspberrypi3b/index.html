@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>记录一下 img 写入到树莓派 3B - SolidZORO</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta
+      name="keyword"
+      content="记录一下 img 写入到树莓派 3B - write img to raspberrypi3b - @SolidZORO"
+    />
+    <meta
+      name="description"
+      content="               TYPE NAME                    SIZE       IDENTIFIER   0:     FDisk_partition_scheme                        *31.9 GB    disk2   1:                 DOS_FAT_32                         31.9 GB    disk2s1```可以看到， - SolidZORO"
+    />
+    <meta name="renderer" content="webkit" />
+
+    <link rel="shortcut icon" href="./_statics/favicon.ico" />
+    <link
+      href="./_statics/styles/simple_89cbcf212373a4585211.css?5ad796ec2dfb49db4421"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body layout-body layout-body--item">
+    <div class="layout-header">
+      <div class="container">
+        <div class="header-bar clearfix">
+          <div class="header-bar__list header-bar__list--menu">
+            <div class="item item--logo">
+              <a href="/">
+                <i class="fi fi-logo"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="header-bar__list header-bar__list--link">
+            <div class="item">
+              <a href="/about/">about</a>
+            </div>
+            <div class="item">
+              <a href="/projects/">projects</a>
+            </div>
+            <div class="item item--block item--book">
+              <a href="/books/" alt="books" title="book"><i class="fi fi-book"></i></a>
+            </div>
+            <div class="item item--block item--movie">
+              <a href="/movies/" alt="movies" title="movie"><i class="fi fi-movie"></i></a>
+            </div>
+            <div class="item item--block item--code">
+              <a href="/blog/category/code.html" alt="tech" title="tech"
+                ><i class="fi fi-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-container">
+      <div class="container">
+        <div class="entry-item entry-item--write-img-to-raspberrypi3b">
+          <div class="entry-item__header">
+            <h1>记录一下 img 写入到树莓派 3B</h1>
+
+            <div class="date">
+              <sup data-hash="2017-08-22 23:03:11">2017-08-22 23:03:11</sup>
+            </div>
+          </div>
+
+          <div class="entry-item__container">
+            <div class="typo">
+              <p>
+                首先 过去下载 img 镜像 <code>RASPBIAN</code>
+                https://www.raspberrypi.org/downloads/
+              </p>
+              <p>然后用 <code>diskutil list</code> 看看 TF 卡情况</p>
+              <pre><code>/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *31.9 GB    disk2
+   1:                 DOS_FAT_32                         31.9 GB    disk2s1
+</code></pre>
+              <p>
+                可以看到，我的 TF(DOS_FAT_32 ) 是 <code>/dev/disk2</code>，所以要先移除他，以免 dd
+                的时候提示 busy，在我自己电脑上，移除命令为
+                <code>sudo diskutil unmount /dev/disk2s1</code>。
+              </p>
+              <p>
+                输入密码稍等一会如果看到
+                <code>Volume NO NAME on disk2s1 unmounted</code> 就代表卸载成功啦。
+              </p>
+              <p>
+                最后用 dd 写入 img（bs=1m 代表每块 1MB），我自己电脑上的命令是
+                <code>sudo dd bs=4m if=./2017-08-16-raspbian-stretch-lite.img of=/dev/rdisk2</code
+                >，其中 <code>bs</code> 是块大小，<code>if</code> 是 img 镜像的位置，<code>of</code>
+                是 tf 卡的位置。
+              </p>
+              <p>⚠️注意：这里要说明两点：</p>
+              <ul>
+                <li>
+                  为什么卸载的是 <code>/dev/disk2s1</code>，但写入的是 <code>/dev/disk2</code>
+                  呢？因为 img 写的是整个盘，而不是盘下的某个盘符。
+                </li>
+                <li>
+                  为什么是 rdisk2 而不是 disk2 呢？因为 rdisk 是
+                  raw模式存取，接近kernel原生檔案系統效能，比原生 disk 要快 20 倍。
+                </li>
+              </ul>
+              <p>经过耐心的等待（视设备速度，3 - 10 分钟），屏幕上会出现</p>
+              <pre><code>442+1 records in
+442+1 records out
+1854418944 bytes transferred in 81.266996 secs (22818845 bytes/sec)
+</code></pre>
+              <p>证明写入完成，这个时候可以把卡拔下来插入树莓派上启动了。</p>
+              <p><a href="created_at:2017-08-22T23:03:11Z"></a></p>
+            </div>
+            <div class="eof">- EOF -</div>
+
+            <div class="category">
+              <a class="c" href="/blog/category/code.html"> #code </a>
+            </div>
+          </div>
+
+          <div class="entry-item__comment">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-footer">
+      <div class="container">
+        <div class="footer-bar clearfix">
+          <div class="footer-bar__copyright">&copy; 2005-2018 <a href="/">SolidZORO</a></div>
+          <div class="footer-bar__logo">
+            <a href="/">
+              <i class="fi fi-logo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      if (!window.jQuery) {
+        const script = document.createElement('script');
+        script.src = '//cdn.bootcss.com/jquery/3.2.1/jquery.min.js';
+        document.body.appendChild(script);
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="./_statics/scripts/simple_89cbcf212373a4585211.js?5ad796ec2dfb49db4421"
+    ></script>
+  </body>
+</html>
