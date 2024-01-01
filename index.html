@@ -2,7 +2,7 @@
 <html lang="zh" class="no-js">
   <head>
     <meta charset="utf-8" />
-    <title>SolidZORO</title>
+    <title>Jason Feng (SolidZORO)</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="format-detection" content="telephone=no" />
     <meta
@@ -11,17 +11,37 @@
     />
     <meta name="keyword" content="SolidZORO" />
     <meta name="renderer" content="webkit" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="description" content="Jason Feng (SolidZORO) personal website" />
+    <link rel="icon" href="https://solidzoro.com/favicon.svg" sizes="any" type="image/svg+xml" />
     <style>
       body {
         padding: 30px;
         margin: 0;
         font-family: 'Avenir Next', sans-serif;
         font-size: 12px;
+        max-width: 360px;
+      }
+
+      .page-title-wrapper {
+        display: flex;
+        place-items: center;
+      }
+
+      .page-logo {
+        --page-logo-size: 26px;
+        width: var(--page-logo-size);
+        height: var(--page-logo-size);
+        display: block;
+        margin-top: -0.3em;
+      }
+
+      .page-title {
+        line-height: 1;
+        margin-left: 8px;
+        font-size: 22px;
       }
 
       .isme {
-        line-height: 1.8;
       }
 
       .isme strong {
@@ -40,12 +60,12 @@
         opacity: 0.4;
         font-size: 12px;
         transform-origin: left;
-        margin-top: 5px;
+        margin-top: 10px;
         transform: scale(0.8);
       }
 
       .link-list {
-        margin-top: 20px;
+        margin-top: 30px;
       }
 
       .link-item {
@@ -76,7 +96,10 @@
 
   <body>
     <div class="isme">
-      <div class="isme-1"><strong>Jason Feng</strong>,</div>
+      <div class="isme-1 page-title-wrapper">
+        <img class="page-logo" src="favicon.svg" alt="" />
+        <h1 class="page-title">Jason Feng</h1>
+      </div>
       <div class="isme-2">
         a freelancer for Web, code <code>SolidZORO</code>
         as my ID.
@@ -85,15 +108,15 @@
 
     <div class="link-list">
       <code class="link-item">
-        <a href="/about/" target="_blank">about</a>
+        <a href="/about/">about</a>
       </code>
 
       <code class="link-item">
-        <a href="/projects/" target="_blank">projects</a>
+        <a href="/projects/">projects</a>
       </code>
 
       <code class="link-item">
-        <a href="/blog/" target="_blank">blog</a>
+        <a href="/blog/">blog</a>
       </code>
     </div>
 

@@ -12,16 +12,48 @@
     <meta name="keyword" content="my movie list - SolidZORO" />
     <meta name="description" content="my movie list - SolidZORO" />
     <meta name="renderer" content="webkit" />
+    <style>
+      body {
+        padding: 30px;
+        margin: 0;
+        font-family: 'Avenir Next', sans-serif;
+        font-size: 12px;
+        line-height: 1.8;
+        max-width: 360px;
+      }
+
+      .copyright {
+        font-size: 12px;
+        margin-top: 40px;
+        transform: scale(0.8);
+        transform-origin: left;
+      }
+
+      .copyright a {
+        color: #111;
+        text-decoration: none;
+      }
+
+      .copyright a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body class="body layout-body layout-body--movie">
-    <iframe
-      id="ifm"
-      name="ifm"
-      src="https://m.douban.com/people/3502956/movie/done"
-      marginheight="0"
-      marginwidth="0"
-      frameborder="0"
-    ></iframe>
+    <div class="entry-item__header">
+      <h1>movies</h1>
+    </div>
+
+    <div>
+      has moved to:
+      <a href="https://m.douban.com/people/3502956/">https://m.douban.com/people/3502956/</a>
+    </div>
+
+    <div class="copyright">
+      <a href="https://solidzoro.com" target="_blank">
+        © 2024 by Jason Feng &lt;solidzoro#live.com&gt;
+      </a>
+    </div>
   </body>
 </html>
