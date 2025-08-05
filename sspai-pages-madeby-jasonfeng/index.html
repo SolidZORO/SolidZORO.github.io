@@ -48,7 +48,9 @@
       width: var(--page-item-width);
     }
 
+
     .page-item img {
+      transition: all 0.2s;
       width: var(--page-item-width);
       height: var(--page-item-width);
       border-radius: 12px;
@@ -56,6 +58,9 @@
       background-color: #fafafa;
     }
 
+    .page-item:hover img {
+      transform: scale(1.01);
+    }
 
     .page-item a.page-link {
       display: inline-block;
@@ -66,14 +71,17 @@
       font-size: 18px;
       font-weight: bold;
       margin: 10px 0 0 0;
-      padding: 0;
+      padding: 0 0 10px 0;
       color: #000;
-      transition: all 0.3s;
       text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s;
     }
 
     .page-item:hover h2 {
-      text-decoration: underline;
+      border-color: #777;
+      text-decoration: none;
+      /*text-decoration: underline;*/
     }
 
     .page-item .page-info {
@@ -153,6 +161,21 @@
 
   <div class="page-year page-year--current">2025</div>
   <div class="page-list">
+
+    <div class="page-item">
+      <a href="https://sspai.com/page/powermilk" class="page-link"
+         target="_blank">
+        <img class="page-thumb-img"
+             src="./images/thumbs/powermilk.png" s
+             alt="powermilk"
+        />
+        <div class="page-info">
+          <h3>2025-06-30</h3>
+          <h4>powermilk</h4>
+        </div>
+        <h2 class="page-title">powermilk 不完美但美好</h2>
+      </a>
+    </div>
 
     <div class="page-item">
       <a href="https://sspai.com/page/2024" class="page-link"
